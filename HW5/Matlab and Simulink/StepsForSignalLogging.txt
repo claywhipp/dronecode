@@ -1,0 +1,16 @@
+1.) Install Matlab 2019b and all tool boxes
+2.) Install Matlab Support for MinGW-w64 C/C++ Compiler
+3.) Install Parrot Support Package 
+4.) Follow instructions for installations
+5.) Join Parrot's Personal Area Network over bluetooth
+6.) Add a to workspace block with structure with time as a setting
+7.) Go to hardware tab in Simulink, hardware settings, hardware implementation, look for ...
+8.) Click on very sneaky ...'s
+9.) Enable simulink coder features
+10.) Go to Code Generation, Interface, look for ...
+11.) Click on very sneaky ...'s
+12.) Check Mat-file logging
+13.) Apply your settings
+14.) Click build, deploy, and start under the Hardware Tab in simulink
+15.) Run the model
+16.) Click the download matfile option.
