@@ -1,10 +1,10 @@
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
-# 20 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 1
-# 22 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h"
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+# 20 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 1
+# 22 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h"
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h" 1 3 4
 # 149 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h" 3 4
 typedef int ptrdiff_t;
@@ -12,7 +12,7 @@ typedef int ptrdiff_t;
 typedef unsigned int size_t;
 # 323 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h" 3 4
 typedef unsigned int wchar_t;
-# 23 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 23 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 1 3 4
 # 28 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/features.h" 1 3 4
@@ -707,7 +707,7 @@ struct exception
 extern int matherr (struct exception *__exc);
 # 465 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
 
-# 24 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 24 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/string.h" 1 3 4
 # 28 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/string.h" 3 4
 
@@ -963,9 +963,9 @@ extern char *stpncpy (char *__restrict __dest,
      __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
 # 644 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/string.h" 3 4
 
-# 25 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 25 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/float.h" 1 3 4
-# 26 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 26 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 
 
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/stdlib.h" 1 3 4
@@ -1992,9 +1992,9 @@ extern int getloadavg (double __loadavg[], int __nelem)
      __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1)));
 # 912 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/stdlib.h" 3 4
 
-# 29 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h" 1
-# 51 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h"
+# 29 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h" 1
+# 51 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h"
 typedef signed char int8_T;
 typedef unsigned char uint8_T;
 typedef short int16_T;
@@ -2079,12 +2079,12 @@ typedef struct {
   uint32_T re;
   uint32_T im;
 } cuint32_T;
-# 152 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h"
+# 152 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h"
 typedef void * pointer_T;
-# 30 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 30 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_continuous.h" 1
 # 17 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_continuous.h"
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h" 1
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h" 1
 # 18 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_continuous.h" 2
 
 
@@ -2139,7 +2139,7 @@ typedef struct _RTWRTModelMethodsInfo_tag {
 
 
 } RTWRTModelMethodsInfo;
-# 31 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 31 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_solver.h" 1
 # 14 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_solver.h"
 # 1 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_continuous.h" 1
@@ -2246,7 +2246,7 @@ typedef struct _ssSolverInfo_tag {
 
 
 typedef ssSolverInfo RTWSolverInfo;
-# 32 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 32 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "C:/PROGRA~1/MATLAB/R2019b/rtw/c/src/rt_logging.h" 1
 # 10 "C:/PROGRA~1/MATLAB/R2019b/rtw/c/src/rt_logging.h"
         
@@ -2257,8 +2257,8 @@ typedef ssSolverInfo RTWSolverInfo;
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h" 1 3 4
 # 16 "C:/PROGRA~1/MATLAB/R2019b/rtw/c/src/rt_logging.h" 2
 
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/builtin_typeid_types.h" 1
-# 27 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/builtin_typeid_types.h"
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/builtin_typeid_types.h" 1
+# 27 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/builtin_typeid_types.h"
 typedef enum {
   SS_DOUBLE = 0,
   SS_SINGLE = 1,
@@ -2276,8 +2276,8 @@ typedef enum {
 
 typedef int_T DTypeId;
 # 18 "C:/PROGRA~1/MATLAB/R2019b/rtw/c/src/rt_logging.h" 2
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/multiword_types.h" 1
-# 27 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/multiword_types.h"
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/multiword_types.h" 1
+# 27 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/multiword_types.h"
 typedef int32_T chunk_T;
 typedef uint32_T uchunk_T;
 # 19 "C:/PROGRA~1/MATLAB/R2019b/rtw/c/src/rt_logging.h" 2
@@ -2647,15 +2647,15 @@ extern const char_T *rt_UpdateTXXFYLogVars(RTWLogInfo *li, time_T *tPtr, boolean
 extern void rt_StopDataLoggingImpl(const char_T *file, RTWLogInfo *li, boolean_T isRaccel);
 
 extern void rt_StopDataLogging(const char_T *file, RTWLogInfo *li);
-# 33 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 33 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 
 
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_types.h" 1
-# 23 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_types.h"
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/builtin_typeid_types.h" 1
-# 24 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_types.h" 2
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/multiword_types.h" 1
-# 25 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_types.h" 2
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_types.h" 1
+# 23 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_types.h"
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/builtin_typeid_types.h" 1
+# 24 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_types.h" 2
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/multiword_types.h" 1
+# 25 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_types.h" 2
 # 1 "C:/PROGRA~3/MATLAB/SUPPOR~1/R2019b/toolbox/target/SUPPOR~1/parrot/include/HAL.h" 1
 
 
@@ -3745,7 +3745,7 @@ typedef struct _HAL_command_t
 
 
 } HAL_command_t;
-# 26 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_types.h" 2
+# 26 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_types.h" 2
 
 
 
@@ -3792,16 +3792,16 @@ typedef struct P_HW6_v1_T_ P_HW6_v1_T;
 
 
 typedef struct tag_RTM_HW6_v1_T RT_MODEL_HW6_v1_T;
-# 36 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 36 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 
 
 
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/MW_target_hardware_resources.h" 1
-# 40 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h" 1
-# 22 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h"
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/MW_target_hardware_resources.h" 1
+# 40 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h" 1
+# 22 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h"
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h" 1 3 4
-# 23 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h" 2
+# 23 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h" 2
 
 
 extern real_T rtInf;
@@ -3835,8 +3835,8 @@ typedef struct {
     uint32_T wordLuint;
   } wordL;
 } IEEESingle;
-# 41 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
-# 172 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h"
+# 41 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 172 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h"
 typedef struct {
   real_T Product3;
 } B_MeasurementUpdate_HW6_v1_T;
@@ -3867,19 +3867,23 @@ typedef struct {
   real_T DataTypeConversion3;
   real_T DataTypeConversion4;
   real_T DataTypeConversion5;
+  real_T Checksignofinput;
+  real_T a_z;
+  real_T a_z_m;
   real_T Integrator;
   real_T Integrator2;
   real_T Integrator4;
   real_T Product2[2];
   real_T Product3[2];
   real_T Reshapey;
+  real_T SquareRoot;
   real_T Sum;
-  real_T theta_m;
   real_T rtb_MemoryX_idx_0;
   real_T rtb_MemoryX_idx_1;
   real_T Reshapey_e;
   real_T MemoryX_o;
   real_T Dkuk;
+  boolean_T AND;
   B_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f0;
   B_MeasurementUpdate_HW6_v1_T MeasurementUpdate_f;
   B_EnabledSubsystem_HW6_v1_T EnabledSubsystem_d;
@@ -3924,6 +3928,26 @@ typedef struct {
   struct {
     void *LoggedData;
   } ToWorkspace7_PWORK;
+
+  struct {
+    void *LoggedData;
+  } ToWorkspace8_PWORK;
+
+  struct {
+    void *LoggedData;
+  } ToWorkspace1_PWORK_j;
+
+  struct {
+    void *LoggedData;
+  } ToWorkspace2_PWORK_n;
+
+  struct {
+    void *LoggedData;
+  } ToWorkspace8_PWORK_a;
+
+  struct {
+    void *LoggedData;
+  } ToWorkspace_PWORK;
 
   uint8_T icLoad;
   uint8_T icLoad_m;
@@ -4017,6 +4041,21 @@ struct P_EnabledSubsystem_HW6_v1_T_ {
 
 
 struct P_HW6_v1_T_ {
+  real_T IntervalTest_lowlimit;
+
+
+  real_T IntervalTest_lowlimit_n;
+
+
+  real_T IntervalTest_uplimit;
+
+
+  real_T IntervalTest_uplimit_c;
+
+
+  real_T Checksignofinput_Threshold;
+
+
   real_T Lykyhatkk1_Y0;
 
 
@@ -4083,6 +4122,15 @@ struct P_HW6_v1_T_ {
   real_T C_Value_h;
 
 
+  real_T Constant3_Value;
+
+
+  real_T Constant4_Value;
+
+
+  real_T Checksignofinput_Threshold_b;
+
+
   real_T X0_Value_g;
 
 
@@ -4093,6 +4141,12 @@ struct P_HW6_v1_T_ {
 
 
   real_T Gain_Gain;
+
+
+  real_T Constant3_Value_f;
+
+
+  real_T Constant4_Value_n;
 
 
   real_T X0_Value_p;
@@ -4268,7 +4322,7 @@ extern DW_HW6_v1_T HW6_v1_DW;
 
 
 extern ExtY_HW6_v1_T HW6_v1_Y;
-# 612 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h"
+# 666 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h"
 extern CommandBus cmd_inport;
 extern SensorsBus sensor_inport;
 extern real32_T motors_outport[4];
@@ -4281,9 +4335,9 @@ extern void HW6_v1_terminate(void);
 
 
 extern RT_MODEL_HW6_v1_T *const HW6_v1_M;
-# 21 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c" 2
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_private.h" 1
-# 44 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_private.h"
+# 21 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c" 2
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_private.h" 1
+# 44 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_private.h"
 extern void HW6_v1_MeasurementUpdate_Init(B_MeasurementUpdate_HW6_v1_T *localB,
   P_MeasurementUpdate_HW6_v1_T *localP);
 extern void HW6_v_MeasurementUpdate_Disable(B_MeasurementUpdate_HW6_v1_T *localB,
@@ -4304,7 +4358,7 @@ extern void HW6_v1_EnabledSubsystem(RT_MODEL_HW6_v1_T * const HW6_v1_M,
 
 
 extern void HW6_v1_derivatives(void);
-# 22 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c" 2
+# 22 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c" 2
 
 
 CommandBus cmd_inport;
@@ -4408,14 +4462,14 @@ static void rt_ertODEUpdateContinuousStates(RTWSolverInfo *si )
   ((*((si)->tPtr))[0] = (tnew));
   (*((si)->simTimeStepPtr) = (MAJOR_TIME_STEP));
 }
-# 133 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+# 133 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
 void HW6_v1_MeasurementUpdate_Init(B_MeasurementUpdate_HW6_v1_T *localB,
   P_MeasurementUpdate_HW6_v1_T *localP)
 {
 
   localB->Product3 = localP->Lykyhatkk1_Y0;
 }
-# 147 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+# 147 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
 void HW6_v_MeasurementUpdate_Disable(B_MeasurementUpdate_HW6_v1_T *localB,
   DW_MeasurementUpdate_HW6_v1_T *localDW, P_MeasurementUpdate_HW6_v1_T *localP)
 {
@@ -4423,7 +4477,7 @@ void HW6_v_MeasurementUpdate_Disable(B_MeasurementUpdate_HW6_v1_T *localB,
   localB->Product3 = localP->Lykyhatkk1_Y0;
   localDW->MeasurementUpdate_MODE = (0U);
 }
-# 162 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+# 162 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
 void HW6_v1_MeasurementUpdate(RT_MODEL_HW6_v1_T * const HW6_v1_M, boolean_T
   rtu_Enable, real_T rtu_Lk, real_T rtu_yk, real_T rtu_Ck, real_T rtu_xhatkk1,
   real_T rtu_Dk, real_T rtu_uk, B_MeasurementUpdate_HW6_v1_T *localB,
@@ -4455,14 +4509,14 @@ void HW6_v1_MeasurementUpdate(RT_MODEL_HW6_v1_T * const HW6_v1_M, boolean_T
 
 
 }
-# 201 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+# 201 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
 void HW6_v1_EnabledSubsystem_Init(B_EnabledSubsystem_HW6_v1_T *localB,
   P_EnabledSubsystem_HW6_v1_T *localP)
 {
 
   localB->Product2 = localP->deltax_Y0;
 }
-# 215 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+# 215 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
 void HW6_v1_EnabledSubsystem_Disable(B_EnabledSubsystem_HW6_v1_T *localB,
   DW_EnabledSubsystem_HW6_v1_T *localDW, P_EnabledSubsystem_HW6_v1_T *localP)
 {
@@ -4470,7 +4524,7 @@ void HW6_v1_EnabledSubsystem_Disable(B_EnabledSubsystem_HW6_v1_T *localB,
   localB->Product2 = localP->deltax_Y0;
   localDW->EnabledSubsystem_MODE = (0U);
 }
-# 230 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+# 230 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
 void HW6_v1_EnabledSubsystem(RT_MODEL_HW6_v1_T * const HW6_v1_M, boolean_T
   rtu_Enable, real_T rtu_Mk, real_T rtu_Ck, real_T rtu_yk, real_T rtu_xhatkk1,
   B_EnabledSubsystem_HW6_v1_T *localB, DW_EnabledSubsystem_HW6_v1_T *localDW,
@@ -4626,7 +4680,7 @@ void HW6_v1_step(void)
 
 
     HW6_v1_Y.Flag = flag_outport;
-# 400 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+# 400 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
     HW6_v1_B.TmpSignalConversionAtToWork[0] =
       sensor_inport.HALSensors.HAL_ultrasound_SI.altitude;
     HW6_v1_B.TmpSignalConversionAtToWork[1] = HW6_v1_X.Integrator11_CSTATE;
@@ -4757,7 +4811,7 @@ void HW6_v1_step(void)
     }
 
     HW6_v1_B.MemoryX_o = HW6_v1_DW.MemoryX_DSTATE_l;
-# 538 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+# 538 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
     HW6_v1_EnabledSubsystem(HW6_v1_M, HW6_v1_P.Enable_Value_g,
       HW6_v1_P.KalmanGainM_Value_c, HW6_v1_P.C_Value_a, HW6_v1_B.Reshapey_e,
       HW6_v1_B.MemoryX_o, &HW6_v1_B.EnabledSubsystem_d,
@@ -4793,7 +4847,7 @@ void HW6_v1_step(void)
     }
 
     rtb_MemoryX_j = HW6_v1_DW.MemoryX_DSTATE_f;
-# 581 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+# 581 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
     HW6_v1_EnabledSubsystem(HW6_v1_M, HW6_v1_P.Enable_Value_m,
       HW6_v1_P.KalmanGainM_Value_i, HW6_v1_P.C_Value_d, rtb_Reshapey_o,
       rtb_MemoryX_j, &HW6_v1_B.EnabledSubsystem_f0,
@@ -4820,8 +4874,34 @@ void HW6_v1_step(void)
 
 
 
-  HW6_v1_B.Sum = HW6_v1_B.DataTypeConversion2 /
-    sensor_inport.HALSensors.HAL_acc_SI.z;
+
+
+  if (sensor_inport.HALSensors.HAL_acc_SI.z >
+      HW6_v1_P.Checksignofinput_Threshold_b) {
+    HW6_v1_B.Checksignofinput = HW6_v1_P.Constant3_Value;
+  } else {
+    HW6_v1_B.Checksignofinput = HW6_v1_P.Constant4_Value;
+  }
+# 626 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+  HW6_v1_B.AND = ((HW6_v1_P.IntervalTest_lowlimit <=
+                   sensor_inport.HALSensors.HAL_acc_SI.z) &&
+                  (sensor_inport.HALSensors.HAL_acc_SI.z <=
+                   HW6_v1_P.IntervalTest_uplimit));
+
+
+
+
+
+  if (HW6_v1_B.AND) {
+    HW6_v1_B.a_z = HW6_v1_B.Checksignofinput;
+  } else {
+    HW6_v1_B.a_z = sensor_inport.HALSensors.HAL_acc_SI.z;
+  }
+
+
+
+
+  HW6_v1_B.Sum = HW6_v1_B.DataTypeConversion2 / HW6_v1_B.a_z;
   if ((((HW6_v1_M)->Timing.simTimeStep) == MAJOR_TIME_STEP)) {
 
 
@@ -4831,7 +4911,7 @@ void HW6_v1_step(void)
     }
 
     rtb_MemoryX_m = HW6_v1_DW.MemoryX_DSTATE_g;
-# 626 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+# 662 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
     HW6_v1_EnabledSubsystem(HW6_v1_M, HW6_v1_P.Enable_Value_i,
       HW6_v1_P.KalmanGainM_Value_l, HW6_v1_P.C_Value_h, HW6_v1_B.Sum,
       rtb_MemoryX_m, &HW6_v1_B.EnabledSubsystem, &HW6_v1_DW.EnabledSubsystem,
@@ -4853,11 +4933,35 @@ void HW6_v1_step(void)
       }
     }
   }
-# 657 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
-  HW6_v1_B.theta_m = HW6_v1_P.Gain_Gain * HW6_v1_B.DataTypeConversion1 / sqrt
-    (HW6_v1_B.DataTypeConversion2 * HW6_v1_B.DataTypeConversion2 + (real_T)
-     sensor_inport.HALSensors.HAL_acc_SI.z *
-     sensor_inport.HALSensors.HAL_acc_SI.z);
+# 691 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+  HW6_v1_B.SquareRoot = sqrt(HW6_v1_B.DataTypeConversion2 *
+    HW6_v1_B.DataTypeConversion2 + (real_T)sensor_inport.HALSensors.HAL_acc_SI.z
+    * sensor_inport.HALSensors.HAL_acc_SI.z);
+# 702 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+  if ((HW6_v1_P.IntervalTest_lowlimit_n <= HW6_v1_B.SquareRoot) &&
+      (HW6_v1_B.SquareRoot <= HW6_v1_P.IntervalTest_uplimit_c)) {
+
+
+
+
+    if (HW6_v1_B.SquareRoot > HW6_v1_P.Checksignofinput_Threshold) {
+      HW6_v1_B.a_z_m = HW6_v1_P.Constant3_Value_f;
+    } else {
+      HW6_v1_B.a_z_m = HW6_v1_P.Constant4_Value_n;
+    }
+
+
+  } else {
+    HW6_v1_B.a_z_m = HW6_v1_B.SquareRoot;
+  }
+
+
+
+
+
+
+  HW6_v1_B.SquareRoot = HW6_v1_P.Gain_Gain * HW6_v1_B.DataTypeConversion1 /
+    HW6_v1_B.a_z_m;
   if ((((HW6_v1_M)->Timing.simTimeStep) == MAJOR_TIME_STEP)) {
 
 
@@ -4867,9 +4971,9 @@ void HW6_v1_step(void)
     }
 
     rtb_MemoryX_i = HW6_v1_DW.MemoryX_DSTATE_b;
-# 678 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+# 743 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
     HW6_v1_EnabledSubsystem(HW6_v1_M, HW6_v1_P.Enable_Value_gd,
-      HW6_v1_P.KalmanGainM_Value_n, HW6_v1_P.C_Value_b, HW6_v1_B.theta_m,
+      HW6_v1_P.KalmanGainM_Value_n, HW6_v1_P.C_Value_b, HW6_v1_B.SquareRoot,
       rtb_MemoryX_i, &HW6_v1_B.EnabledSubsystem_f, &HW6_v1_DW.EnabledSubsystem_f,
       &HW6_v1_P.EnabledSubsystem_f);
 
@@ -4886,6 +4990,61 @@ void HW6_v1_step(void)
         rt_UpdateStructLogVar((StructLogVar *)
                               HW6_v1_DW.ToWorkspace7_PWORK.LoggedData, &locTime,
                               &HW6_v1_B.Dkuk);
+      }
+    }
+
+
+    {
+      double locTime = ((HW6_v1_M->Timing.clockTick1) * 0.005);
+      ;
+      if ((((HW6_v1_M)->Timing.simTimeStep) == MAJOR_TIME_STEP)) {
+        rt_UpdateStructLogVar((StructLogVar *)
+                              HW6_v1_DW.ToWorkspace8_PWORK.LoggedData, &locTime,
+                              &HW6_v1_B.a_z);
+      }
+    }
+
+
+    {
+      double locTime = ((HW6_v1_M->Timing.clockTick1) * 0.005);
+      ;
+      if ((((HW6_v1_M)->Timing.simTimeStep) == MAJOR_TIME_STEP)) {
+        rt_UpdateStructLogVar((StructLogVar *)
+                              HW6_v1_DW.ToWorkspace1_PWORK_j.LoggedData,
+                              &locTime, &HW6_v1_B.Checksignofinput);
+      }
+    }
+
+
+    {
+      double locTime = ((HW6_v1_M->Timing.clockTick1) * 0.005);
+      ;
+      if ((((HW6_v1_M)->Timing.simTimeStep) == MAJOR_TIME_STEP)) {
+        rt_UpdateStructLogVar((StructLogVar *)
+                              HW6_v1_DW.ToWorkspace2_PWORK_n.LoggedData,
+                              &locTime, &HW6_v1_B.a_z);
+      }
+    }
+
+
+    {
+      double locTime = ((HW6_v1_M->Timing.clockTick1) * 0.005);
+      ;
+      if ((((HW6_v1_M)->Timing.simTimeStep) == MAJOR_TIME_STEP)) {
+        rt_UpdateStructLogVar((StructLogVar *)
+                              HW6_v1_DW.ToWorkspace8_PWORK_a.LoggedData,
+                              &locTime, &HW6_v1_B.AND);
+      }
+    }
+
+
+    {
+      double locTime = ((HW6_v1_M->Timing.clockTick1) * 0.005);
+      ;
+      if ((((HW6_v1_M)->Timing.simTimeStep) == MAJOR_TIME_STEP)) {
+        rt_UpdateStructLogVar((StructLogVar *)
+                              HW6_v1_DW.ToWorkspace_PWORK.LoggedData, &locTime,
+                              &HW6_v1_B.a_z_m);
       }
     }
   }
@@ -4937,7 +5096,7 @@ void HW6_v1_step(void)
 
 
     HW6_v1_MeasurementUpdate(HW6_v1_M, HW6_v1_P.Enable_Value_gd,
-      HW6_v1_P.KalmanGainL_Value_o, HW6_v1_B.theta_m, HW6_v1_P.C_Value_b,
+      HW6_v1_P.KalmanGainL_Value_o, HW6_v1_B.SquareRoot, HW6_v1_P.C_Value_b,
       rtb_MemoryX_i, HW6_v1_P.D_Value_i, HW6_v1_B.DataTypeConversion4,
       &HW6_v1_B.MeasurementUpdate_c, &HW6_v1_DW.MeasurementUpdate_c,
       &HW6_v1_P.MeasurementUpdate_c);
@@ -4956,7 +5115,7 @@ void HW6_v1_step(void)
 
 
     HW6_v1_B.Dkuk = HW6_v1_P.B_Value_g * HW6_v1_B.DataTypeConversion1;
-# 774 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+# 894 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
     HW6_v1_MeasurementUpdate(HW6_v1_M, HW6_v1_P.Enable_Value_g,
       HW6_v1_P.KalmanGainL_Value_j, HW6_v1_B.Reshapey_e, HW6_v1_P.C_Value_a,
       HW6_v1_B.MemoryX_o, HW6_v1_P.D_Value_h, HW6_v1_B.DataTypeConversion1,
@@ -4977,7 +5136,7 @@ void HW6_v1_step(void)
 
 
     HW6_v1_B.Dkuk = HW6_v1_P.B_Value_p * HW6_v1_B.DataTypeConversion2;
-# 802 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+# 922 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
     HW6_v1_MeasurementUpdate(HW6_v1_M, HW6_v1_P.Enable_Value_m,
       HW6_v1_P.KalmanGainL_Value_g, rtb_Reshapey_o, HW6_v1_P.C_Value_d,
       rtb_MemoryX_j, HW6_v1_P.D_Value_e, HW6_v1_B.DataTypeConversion2,
@@ -5042,7 +5201,7 @@ void HW6_v1_step(void)
       HW6_v1_B.Product3[0] = HW6_v1_P.KalmanGainL_Value_n[0] * HW6_v1_B.Sum;
       HW6_v1_B.Product3[1] = HW6_v1_P.KalmanGainL_Value_n[1] * HW6_v1_B.Sum;
     }
-# 874 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+# 994 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
     HW6_v1_B.Add_m[0] = (HW6_v1_P.B_Value_n[0] * HW6_v1_B.Sum1 +
                          HW6_v1_B.Akxhatkk1[0]) + HW6_v1_B.Product3[0];
     HW6_v1_B.Add_m[1] = (HW6_v1_P.B_Value_n[1] * HW6_v1_B.Sum1 +
@@ -5736,6 +5895,356 @@ void HW6_v1_initialize(void)
       &rt_ToWksSignalInfo,
       rt_ToWksBlockName);
     if (HW6_v1_DW.ToWorkspace7_PWORK.LoggedData == (((void *)0)))
+      return;
+  }
+
+
+  {
+    static int_T rt_ToWksWidths[] = { 1 };
+
+    static int_T rt_ToWksNumDimensions[] = { 1 };
+
+    static int_T rt_ToWksDimensions[] = { 1 };
+
+    static boolean_T rt_ToWksIsVarDims[] = { 0 };
+
+    static void *rt_ToWksCurrSigDims[] = { (((void *)0)) };
+
+    static int_T rt_ToWksCurrSigDimsSize[] = { 4 };
+
+    static BuiltInDTypeId rt_ToWksDataTypeIds[] = { SS_DOUBLE };
+
+    static int_T rt_ToWksComplexSignals[] = { 0 };
+
+    static int_T rt_ToWksFrameData[] = { 0 };
+
+    static RTWPreprocessingFcnPtr rt_ToWksLoggingPreprocessingFcnPtrs[] = {
+      (((void *)0))
+    };
+
+    static const char_T *rt_ToWksLabels[] = { "" };
+
+    static RTWLogSignalInfo rt_ToWksSignalInfo = {
+      1,
+      rt_ToWksWidths,
+      rt_ToWksNumDimensions,
+      rt_ToWksDimensions,
+      rt_ToWksIsVarDims,
+      rt_ToWksCurrSigDims,
+      rt_ToWksCurrSigDimsSize,
+      rt_ToWksDataTypeIds,
+      rt_ToWksComplexSignals,
+      rt_ToWksFrameData,
+      rt_ToWksLoggingPreprocessingFcnPtrs,
+
+      { rt_ToWksLabels },
+      (((void *)0)),
+      (((void *)0)),
+      (((void *)0)),
+
+      { (((void *)0)) },
+
+      { (((void *)0)) },
+      (((void *)0)),
+      (((void *)0))
+    };
+
+    static const char_T rt_ToWksBlockName[] =
+      "HW6_v1/Flight_Control_System/To Workspace8";
+    HW6_v1_DW.ToWorkspace8_PWORK.LoggedData = rt_CreateStructLogVar(
+      HW6_v1_M->rtwLogInfo,
+      0.0,
+      ((HW6_v1_M)->Timing.tFinal),
+      HW6_v1_M->Timing.stepSize0,
+      (&((HW6_v1_M)->errorStatus)),
+      "possiblezero1",
+      1,
+      0,
+      1,
+      0.005,
+      &rt_ToWksSignalInfo,
+      rt_ToWksBlockName);
+    if (HW6_v1_DW.ToWorkspace8_PWORK.LoggedData == (((void *)0)))
+      return;
+  }
+
+
+  {
+    static int_T rt_ToWksWidths[] = { 1 };
+
+    static int_T rt_ToWksNumDimensions[] = { 1 };
+
+    static int_T rt_ToWksDimensions[] = { 1 };
+
+    static boolean_T rt_ToWksIsVarDims[] = { 0 };
+
+    static void *rt_ToWksCurrSigDims[] = { (((void *)0)) };
+
+    static int_T rt_ToWksCurrSigDimsSize[] = { 4 };
+
+    static BuiltInDTypeId rt_ToWksDataTypeIds[] = { SS_DOUBLE };
+
+    static int_T rt_ToWksComplexSignals[] = { 0 };
+
+    static int_T rt_ToWksFrameData[] = { 0 };
+
+    static RTWPreprocessingFcnPtr rt_ToWksLoggingPreprocessingFcnPtrs[] = {
+      (((void *)0))
+    };
+
+    static const char_T *rt_ToWksLabels[] = { "" };
+
+    static RTWLogSignalInfo rt_ToWksSignalInfo = {
+      1,
+      rt_ToWksWidths,
+      rt_ToWksNumDimensions,
+      rt_ToWksDimensions,
+      rt_ToWksIsVarDims,
+      rt_ToWksCurrSigDims,
+      rt_ToWksCurrSigDimsSize,
+      rt_ToWksDataTypeIds,
+      rt_ToWksComplexSignals,
+      rt_ToWksFrameData,
+      rt_ToWksLoggingPreprocessingFcnPtrs,
+
+      { rt_ToWksLabels },
+      (((void *)0)),
+      (((void *)0)),
+      (((void *)0)),
+
+      { (((void *)0)) },
+
+      { (((void *)0)) },
+      (((void *)0)),
+      (((void *)0))
+    };
+
+    static const char_T rt_ToWksBlockName[] =
+      "HW6_v1/Flight_Control_System/Check if near zero/To Workspace1";
+    HW6_v1_DW.ToWorkspace1_PWORK_j.LoggedData = rt_CreateStructLogVar(
+      HW6_v1_M->rtwLogInfo,
+      0.0,
+      ((HW6_v1_M)->Timing.tFinal),
+      HW6_v1_M->Timing.stepSize0,
+      (&((HW6_v1_M)->errorStatus)),
+      "checksign",
+      1,
+      0,
+      1,
+      0.005,
+      &rt_ToWksSignalInfo,
+      rt_ToWksBlockName);
+    if (HW6_v1_DW.ToWorkspace1_PWORK_j.LoggedData == (((void *)0)))
+      return;
+  }
+
+
+  {
+    static int_T rt_ToWksWidths[] = { 1 };
+
+    static int_T rt_ToWksNumDimensions[] = { 1 };
+
+    static int_T rt_ToWksDimensions[] = { 1 };
+
+    static boolean_T rt_ToWksIsVarDims[] = { 0 };
+
+    static void *rt_ToWksCurrSigDims[] = { (((void *)0)) };
+
+    static int_T rt_ToWksCurrSigDimsSize[] = { 4 };
+
+    static BuiltInDTypeId rt_ToWksDataTypeIds[] = { SS_DOUBLE };
+
+    static int_T rt_ToWksComplexSignals[] = { 0 };
+
+    static int_T rt_ToWksFrameData[] = { 0 };
+
+    static RTWPreprocessingFcnPtr rt_ToWksLoggingPreprocessingFcnPtrs[] = {
+      (((void *)0))
+    };
+
+    static const char_T *rt_ToWksLabels[] = { "a_z" };
+
+    static RTWLogSignalInfo rt_ToWksSignalInfo = {
+      1,
+      rt_ToWksWidths,
+      rt_ToWksNumDimensions,
+      rt_ToWksDimensions,
+      rt_ToWksIsVarDims,
+      rt_ToWksCurrSigDims,
+      rt_ToWksCurrSigDimsSize,
+      rt_ToWksDataTypeIds,
+      rt_ToWksComplexSignals,
+      rt_ToWksFrameData,
+      rt_ToWksLoggingPreprocessingFcnPtrs,
+
+      { rt_ToWksLabels },
+      (((void *)0)),
+      (((void *)0)),
+      (((void *)0)),
+
+      { (((void *)0)) },
+
+      { (((void *)0)) },
+      (((void *)0)),
+      (((void *)0))
+    };
+
+    static const char_T rt_ToWksBlockName[] =
+      "HW6_v1/Flight_Control_System/Check if near zero/To Workspace2";
+    HW6_v1_DW.ToWorkspace2_PWORK_n.LoggedData = rt_CreateStructLogVar(
+      HW6_v1_M->rtwLogInfo,
+      0.0,
+      ((HW6_v1_M)->Timing.tFinal),
+      HW6_v1_M->Timing.stepSize0,
+      (&((HW6_v1_M)->errorStatus)),
+      "booleanoutput1",
+      1,
+      0,
+      1,
+      0.005,
+      &rt_ToWksSignalInfo,
+      rt_ToWksBlockName);
+    if (HW6_v1_DW.ToWorkspace2_PWORK_n.LoggedData == (((void *)0)))
+      return;
+  }
+
+
+  {
+    static int_T rt_ToWksWidths[] = { 1 };
+
+    static int_T rt_ToWksNumDimensions[] = { 1 };
+
+    static int_T rt_ToWksDimensions[] = { 1 };
+
+    static boolean_T rt_ToWksIsVarDims[] = { 0 };
+
+    static void *rt_ToWksCurrSigDims[] = { (((void *)0)) };
+
+    static int_T rt_ToWksCurrSigDimsSize[] = { 4 };
+
+    static BuiltInDTypeId rt_ToWksDataTypeIds[] = { SS_BOOLEAN };
+
+    static int_T rt_ToWksComplexSignals[] = { 0 };
+
+    static int_T rt_ToWksFrameData[] = { 0 };
+
+    static RTWPreprocessingFcnPtr rt_ToWksLoggingPreprocessingFcnPtrs[] = {
+      (((void *)0))
+    };
+
+    static const char_T *rt_ToWksLabels[] = { "" };
+
+    static RTWLogSignalInfo rt_ToWksSignalInfo = {
+      1,
+      rt_ToWksWidths,
+      rt_ToWksNumDimensions,
+      rt_ToWksDimensions,
+      rt_ToWksIsVarDims,
+      rt_ToWksCurrSigDims,
+      rt_ToWksCurrSigDimsSize,
+      rt_ToWksDataTypeIds,
+      rt_ToWksComplexSignals,
+      rt_ToWksFrameData,
+      rt_ToWksLoggingPreprocessingFcnPtrs,
+
+      { rt_ToWksLabels },
+      (((void *)0)),
+      (((void *)0)),
+      (((void *)0)),
+
+      { (((void *)0)) },
+
+      { (((void *)0)) },
+      (((void *)0)),
+      (((void *)0))
+    };
+
+    static const char_T rt_ToWksBlockName[] =
+      "HW6_v1/Flight_Control_System/Check if near zero/To Workspace8";
+    HW6_v1_DW.ToWorkspace8_PWORK_a.LoggedData = rt_CreateStructLogVar(
+      HW6_v1_M->rtwLogInfo,
+      0.0,
+      ((HW6_v1_M)->Timing.tFinal),
+      HW6_v1_M->Timing.stepSize0,
+      (&((HW6_v1_M)->errorStatus)),
+      "booleanoutput",
+      1,
+      0,
+      1,
+      0.005,
+      &rt_ToWksSignalInfo,
+      rt_ToWksBlockName);
+    if (HW6_v1_DW.ToWorkspace8_PWORK_a.LoggedData == (((void *)0)))
+      return;
+  }
+
+
+  {
+    static int_T rt_ToWksWidths[] = { 1 };
+
+    static int_T rt_ToWksNumDimensions[] = { 1 };
+
+    static int_T rt_ToWksDimensions[] = { 1 };
+
+    static boolean_T rt_ToWksIsVarDims[] = { 0 };
+
+    static void *rt_ToWksCurrSigDims[] = { (((void *)0)) };
+
+    static int_T rt_ToWksCurrSigDimsSize[] = { 4 };
+
+    static BuiltInDTypeId rt_ToWksDataTypeIds[] = { SS_DOUBLE };
+
+    static int_T rt_ToWksComplexSignals[] = { 0 };
+
+    static int_T rt_ToWksFrameData[] = { 0 };
+
+    static RTWPreprocessingFcnPtr rt_ToWksLoggingPreprocessingFcnPtrs[] = {
+      (((void *)0))
+    };
+
+    static const char_T *rt_ToWksLabels[] = { "a_z" };
+
+    static RTWLogSignalInfo rt_ToWksSignalInfo = {
+      1,
+      rt_ToWksWidths,
+      rt_ToWksNumDimensions,
+      rt_ToWksDimensions,
+      rt_ToWksIsVarDims,
+      rt_ToWksCurrSigDims,
+      rt_ToWksCurrSigDimsSize,
+      rt_ToWksDataTypeIds,
+      rt_ToWksComplexSignals,
+      rt_ToWksFrameData,
+      rt_ToWksLoggingPreprocessingFcnPtrs,
+
+      { rt_ToWksLabels },
+      (((void *)0)),
+      (((void *)0)),
+      (((void *)0)),
+
+      { (((void *)0)) },
+
+      { (((void *)0)) },
+      (((void *)0)),
+      (((void *)0))
+    };
+
+    static const char_T rt_ToWksBlockName[] =
+      "HW6_v1/Flight_Control_System/Check if near zero1/To Workspace";
+    HW6_v1_DW.ToWorkspace_PWORK.LoggedData = rt_CreateStructLogVar(
+      HW6_v1_M->rtwLogInfo,
+      0.0,
+      ((HW6_v1_M)->Timing.tFinal),
+      HW6_v1_M->Timing.stepSize0,
+      (&((HW6_v1_M)->errorStatus)),
+      "possiblezero2",
+      1,
+      0,
+      1,
+      0.005,
+      &rt_ToWksSignalInfo,
+      rt_ToWksBlockName);
+    if (HW6_v1_DW.ToWorkspace_PWORK.LoggedData == (((void *)0)))
       return;
   }
 

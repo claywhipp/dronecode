@@ -1,10 +1,10 @@
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtGetInf.c"
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtGetInf.c"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtGetInf.c"
-# 24 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtGetInf.c"
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtGetInf.h" 1
-# 22 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtGetInf.h"
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtGetInf.c"
+# 24 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtGetInf.c"
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtGetInf.h" 1
+# 22 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtGetInf.h"
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h" 1 3 4
 # 149 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h" 3 4
 typedef int ptrdiff_t;
@@ -12,9 +12,9 @@ typedef int ptrdiff_t;
 typedef unsigned int size_t;
 # 323 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h" 3 4
 typedef unsigned int wchar_t;
-# 23 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtGetInf.h" 2
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h" 1
-# 51 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h"
+# 23 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtGetInf.h" 2
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h" 1
+# 51 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h"
 typedef signed char int8_T;
 typedef unsigned char uint8_T;
 typedef short int16_T;
@@ -99,13 +99,13 @@ typedef struct {
   uint32_T re;
   uint32_T im;
 } cuint32_T;
-# 152 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h"
+# 152 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h"
 typedef void * pointer_T;
-# 24 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtGetInf.h" 2
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h" 1
-# 22 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h"
+# 24 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtGetInf.h" 2
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h" 1
+# 22 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h"
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h" 1 3 4
-# 23 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h" 2
+# 23 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h" 2
 
 
 extern real_T rtInf;
@@ -139,13 +139,13 @@ typedef struct {
     uint32_T wordLuint;
   } wordL;
 } IEEESingle;
-# 25 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtGetInf.h" 2
+# 25 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtGetInf.h" 2
 
 extern real_T rtGetInf(void);
 extern real32_T rtGetInfF(void);
 extern real_T rtGetMinusInf(void);
 extern real32_T rtGetMinusInfF(void);
-# 25 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtGetInf.c" 2
+# 25 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtGetInf.c" 2
 
 
 

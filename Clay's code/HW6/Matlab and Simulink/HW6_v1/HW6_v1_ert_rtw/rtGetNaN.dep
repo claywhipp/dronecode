@@ -1,11 +1,11 @@
 rtGetNaN.o rtGetNaN.o: \
- C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtGetNaN.c \
- C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtGetNaN.h \
- C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h \
- C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h
+ C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtGetNaN.c \
+ C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtGetNaN.h \
+ C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h \
+ C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h
 
-C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtGetNaN.h:
+C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtGetNaN.h:
 
-C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h:
+C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h:
 
-C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h:
+C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h:

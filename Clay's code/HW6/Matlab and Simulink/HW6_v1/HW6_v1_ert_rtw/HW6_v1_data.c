@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'HW6_v1'.
  *
- * Model version                  : 1.126
+ * Model version                  : 1.134
  * Simulink Coder version         : 9.2 (R2019b) 18-Jul-2019
- * C/C++ source code generated on : Fri Apr  3 12:59:16 2020
+ * C/C++ source code generated on : Sun Apr  5 22:41:58 2020
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM 9
@@ -22,13 +22,38 @@
 
 /* Block parameters (default storage) */
 P_HW6_v1_T HW6_v1_P = {
+  /* Mask Parameter: IntervalTest_lowlimit
+   * Referenced by: '<S10>/Lower Limit'
+   */
+  -0.5,
+
+  /* Mask Parameter: IntervalTest_lowlimit_n
+   * Referenced by: '<S11>/Lower Limit'
+   */
+  -0.5,
+
+  /* Mask Parameter: IntervalTest_uplimit
+   * Referenced by: '<S10>/Upper Limit'
+   */
+  0.5,
+
+  /* Mask Parameter: IntervalTest_uplimit_c
+   * Referenced by: '<S11>/Upper Limit'
+   */
+  0.5,
+
   /* Expression: 0
-   * Referenced by: '<S265>/L*(y[k]-yhat[k|k-1])'
+   * Referenced by: '<S3>/Check sign of input'
    */
   0.0,
 
   /* Expression: 0
-   * Referenced by: '<S267>/deltax'
+   * Referenced by: '<S269>/L*(y[k]-yhat[k|k-1])'
+   */
+  0.0,
+
+  /* Expression: 0
+   * Referenced by: '<S271>/deltax'
    */
   0.0,
 
@@ -78,72 +103,87 @@ P_HW6_v1_T HW6_v1_P = {
   0.0,
 
   /* Expression: pInitialization.M
-   * Referenced by: '<S216>/KalmanGainM'
+   * Referenced by: '<S220>/KalmanGainM'
    */
   { 0.084544184579942824, 0.74632044119690788 },
 
   /* Expression: pInitialization.C
-   * Referenced by: '<S7>/C'
+   * Referenced by: '<S9>/C'
    */
   { 1.0, 0.0 },
 
   /* Expression: pInitialization.X0
-   * Referenced by: '<S7>/X0'
+   * Referenced by: '<S9>/X0'
    */
   { 0.0, 0.0 },
 
   /* Expression: pInitialization.M
-   * Referenced by: '<S112>/KalmanGainM'
+   * Referenced by: '<S116>/KalmanGainM'
    */
-  0.70962096703595157,
+  0.095124921972504051,
 
   /* Expression: pInitialization.C
-   * Referenced by: '<S5>/C'
+   * Referenced by: '<S7>/C'
    */
   1.0,
 
   /* Expression: pInitialization.X0
-   * Referenced by: '<S5>/X0'
+   * Referenced by: '<S7>/X0'
    */
   0.0,
 
   /* Expression: pInitialization.M
-   * Referenced by: '<S164>/KalmanGainM'
+   * Referenced by: '<S168>/KalmanGainM'
    */
-  0.99019513592784836,
+  0.095124921972504051,
 
   /* Expression: pInitialization.C
-   * Referenced by: '<S6>/C'
+   * Referenced by: '<S8>/C'
    */
   1.0,
 
   /* Expression: pInitialization.X0
-   * Referenced by: '<S6>/X0'
+   * Referenced by: '<S8>/X0'
    */
   0.0,
 
   /* Expression: pInitialization.M
-   * Referenced by: '<S8>/KalmanGainM'
+   * Referenced by: '<S12>/KalmanGainM'
    */
   0.09512492197250369,
 
   /* Expression: pInitialization.C
-   * Referenced by: '<S2>/C'
+   * Referenced by: '<S4>/C'
    */
   1.0,
 
+  /* Expression: 0.5
+   * Referenced by: '<S2>/Constant3'
+   */
+  0.5,
+
+  /* Expression: -0.5
+   * Referenced by: '<S2>/Constant4'
+   */
+  -0.5,
+
+  /* Expression: 0
+   * Referenced by: '<S2>/Check sign of input'
+   */
+  0.0,
+
   /* Expression: pInitialization.X0
-   * Referenced by: '<S2>/X0'
+   * Referenced by: '<S4>/X0'
    */
   0.0,
 
   /* Expression: pInitialization.M
-   * Referenced by: '<S60>/KalmanGainM'
+   * Referenced by: '<S64>/KalmanGainM'
    */
   0.916079783099616,
 
   /* Expression: pInitialization.C
-   * Referenced by: '<S3>/C'
+   * Referenced by: '<S5>/C'
    */
   1.0,
 
@@ -152,8 +192,18 @@ P_HW6_v1_T HW6_v1_P = {
    */
   -1.0,
 
+  /* Expression: 0.5
+   * Referenced by: '<S3>/Constant3'
+   */
+  0.5,
+
+  /* Expression: -0.5
+   * Referenced by: '<S3>/Constant4'
+   */
+  -0.5,
+
   /* Expression: pInitialization.X0
-   * Referenced by: '<S3>/X0'
+   * Referenced by: '<S5>/X0'
    */
   0.0,
 
@@ -173,42 +223,22 @@ P_HW6_v1_T HW6_v1_P = {
   0.0,
 
   /* Expression: pInitialization.A
-   * Referenced by: '<S2>/A'
+   * Referenced by: '<S4>/A'
    */
   1.0,
 
   /* Expression: pInitialization.B
-   * Referenced by: '<S2>/B'
+   * Referenced by: '<S4>/B'
    */
   0.005,
 
   /* Expression: pInitialization.L
-   * Referenced by: '<S8>/KalmanGainL'
+   * Referenced by: '<S12>/KalmanGainL'
    */
   0.095124921972503718,
 
   /* Expression: pInitialization.D
-   * Referenced by: '<S2>/D'
-   */
-  0.0,
-
-  /* Expression: pInitialization.A
-   * Referenced by: '<S3>/A'
-   */
-  1.0,
-
-  /* Expression: pInitialization.B
-   * Referenced by: '<S3>/B'
-   */
-  0.005,
-
-  /* Expression: pInitialization.L
-   * Referenced by: '<S60>/KalmanGainL'
-   */
-  0.9160797830996158,
-
-  /* Expression: pInitialization.D
-   * Referenced by: '<S3>/D'
+   * Referenced by: '<S4>/D'
    */
   0.0,
 
@@ -223,9 +253,9 @@ P_HW6_v1_T HW6_v1_P = {
   0.005,
 
   /* Expression: pInitialization.L
-   * Referenced by: '<S112>/KalmanGainL'
+   * Referenced by: '<S64>/KalmanGainL'
    */
-  0.709620967035952,
+  0.9160797830996158,
 
   /* Expression: pInitialization.D
    * Referenced by: '<S5>/D'
@@ -233,42 +263,62 @@ P_HW6_v1_T HW6_v1_P = {
   0.0,
 
   /* Expression: pInitialization.A
-   * Referenced by: '<S6>/A'
+   * Referenced by: '<S7>/A'
    */
   1.0,
 
   /* Expression: pInitialization.B
-   * Referenced by: '<S6>/B'
+   * Referenced by: '<S7>/B'
    */
   0.005,
 
   /* Expression: pInitialization.L
-   * Referenced by: '<S164>/KalmanGainL'
+   * Referenced by: '<S116>/KalmanGainL'
    */
-  0.99019513592784891,
+  0.095124921972504009,
 
   /* Expression: pInitialization.D
-   * Referenced by: '<S6>/D'
+   * Referenced by: '<S7>/D'
    */
   0.0,
 
   /* Expression: pInitialization.A
-   * Referenced by: '<S7>/A'
+   * Referenced by: '<S8>/A'
+   */
+  1.0,
+
+  /* Expression: pInitialization.B
+   * Referenced by: '<S8>/B'
+   */
+  0.005,
+
+  /* Expression: pInitialization.L
+   * Referenced by: '<S168>/KalmanGainL'
+   */
+  0.095124921972504009,
+
+  /* Expression: pInitialization.D
+   * Referenced by: '<S8>/D'
+   */
+  0.0,
+
+  /* Expression: pInitialization.A
+   * Referenced by: '<S9>/A'
    */
   { 1.0, 0.0, 0.005, 1.0 },
 
   /* Expression: pInitialization.B
-   * Referenced by: '<S7>/B'
+   * Referenced by: '<S9>/B'
    */
   { 1.25E-5, 0.005 },
 
   /* Expression: pInitialization.L
-   * Referenced by: '<S216>/KalmanGainL'
+   * Referenced by: '<S220>/KalmanGainL'
    */
   { 0.08827578678592736, 0.74632044119691054 },
 
   /* Expression: pInitialization.D
-   * Referenced by: '<S7>/D'
+   * Referenced by: '<S9>/D'
    */
   0.0,
 
@@ -283,27 +333,27 @@ P_HW6_v1_T HW6_v1_P = {
   0.0F,
 
   /* Expression: true()
+   * Referenced by: '<S9>/Enable'
+   */
+  1,
+
+  /* Expression: true()
    * Referenced by: '<S7>/Enable'
    */
   1,
 
   /* Expression: true()
+   * Referenced by: '<S8>/Enable'
+   */
+  1,
+
+  /* Expression: true()
+   * Referenced by: '<S4>/Enable'
+   */
+  1,
+
+  /* Expression: true()
    * Referenced by: '<S5>/Enable'
-   */
-  1,
-
-  /* Expression: true()
-   * Referenced by: '<S6>/Enable'
-   */
-  1,
-
-  /* Expression: true()
-   * Referenced by: '<S2>/Enable'
-   */
-  1,
-
-  /* Expression: true()
-   * Referenced by: '<S3>/Enable'
    */
   1,
 
@@ -322,91 +372,91 @@ P_HW6_v1_T HW6_v1_P = {
    */
   1U,
 
-  /* Start of '<S191>/Enabled Subsystem' */
+  /* Start of '<S195>/Enabled Subsystem' */
   {
     /* Expression: 0
-     * Referenced by: '<S215>/deltax'
+     * Referenced by: '<S219>/deltax'
      */
     0.0
   }
   ,
 
-  /* End of '<S191>/Enabled Subsystem' */
+  /* End of '<S195>/Enabled Subsystem' */
 
-  /* Start of '<S184>/MeasurementUpdate' */
+  /* Start of '<S188>/MeasurementUpdate' */
   {
     /* Expression: 0
-     * Referenced by: '<S213>/L*(y[k]-yhat[k|k-1])'
+     * Referenced by: '<S217>/L*(y[k]-yhat[k|k-1])'
      */
     0.0
   }
   ,
 
-  /* End of '<S184>/MeasurementUpdate' */
+  /* End of '<S188>/MeasurementUpdate' */
 
-  /* Start of '<S139>/Enabled Subsystem' */
+  /* Start of '<S143>/Enabled Subsystem' */
   {
     /* Expression: 0
-     * Referenced by: '<S163>/deltax'
+     * Referenced by: '<S167>/deltax'
      */
     0.0
   }
   ,
 
-  /* End of '<S139>/Enabled Subsystem' */
+  /* End of '<S143>/Enabled Subsystem' */
 
-  /* Start of '<S132>/MeasurementUpdate' */
+  /* Start of '<S136>/MeasurementUpdate' */
   {
     /* Expression: 0
-     * Referenced by: '<S161>/L*(y[k]-yhat[k|k-1])'
+     * Referenced by: '<S165>/L*(y[k]-yhat[k|k-1])'
      */
     0.0
   }
   ,
 
-  /* End of '<S132>/MeasurementUpdate' */
+  /* End of '<S136>/MeasurementUpdate' */
 
-  /* Start of '<S87>/Enabled Subsystem' */
+  /* Start of '<S91>/Enabled Subsystem' */
   {
     /* Expression: 0
-     * Referenced by: '<S111>/deltax'
+     * Referenced by: '<S115>/deltax'
      */
     0.0
   }
   ,
 
-  /* End of '<S87>/Enabled Subsystem' */
+  /* End of '<S91>/Enabled Subsystem' */
 
-  /* Start of '<S80>/MeasurementUpdate' */
+  /* Start of '<S84>/MeasurementUpdate' */
   {
     /* Expression: 0
-     * Referenced by: '<S109>/L*(y[k]-yhat[k|k-1])'
+     * Referenced by: '<S113>/L*(y[k]-yhat[k|k-1])'
      */
     0.0
   }
   ,
 
-  /* End of '<S80>/MeasurementUpdate' */
+  /* End of '<S84>/MeasurementUpdate' */
 
-  /* Start of '<S35>/Enabled Subsystem' */
+  /* Start of '<S39>/Enabled Subsystem' */
   {
     /* Expression: 0
-     * Referenced by: '<S59>/deltax'
+     * Referenced by: '<S63>/deltax'
      */
     0.0
   }
   ,
 
-  /* End of '<S35>/Enabled Subsystem' */
+  /* End of '<S39>/Enabled Subsystem' */
 
-  /* Start of '<S28>/MeasurementUpdate' */
+  /* Start of '<S32>/MeasurementUpdate' */
   {
     /* Expression: 0
-     * Referenced by: '<S57>/L*(y[k]-yhat[k|k-1])'
+     * Referenced by: '<S61>/L*(y[k]-yhat[k|k-1])'
      */
     0.0
   }
-  /* End of '<S28>/MeasurementUpdate' */
+  /* End of '<S32>/MeasurementUpdate' */
 };
 
 /*

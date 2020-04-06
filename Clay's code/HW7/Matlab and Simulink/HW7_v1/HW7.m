@@ -1,4 +1,4 @@
-
+    
 % HW3 Code
 
 % Equations of Motion
@@ -309,19 +309,17 @@ R1 = 1;
 
 K1 = lqr(A1, B1, Q1, R1);
 
+% Actuator dynamics
+V = 5; % measured battery voltage
+V0 = 5; % actual battery voltage
 
-tout = rt_statesout.time;
-u = rt_statesout.signals.values(:,1);
-v = rt_statesout.signals.values(:,2);
-
-
-figure
-plot(tout, u, tout, v);
-title('u, v')
-xlabel('Time (s)')
-legend('u', 'v');
+tau1 = 30e-3; % delay time of actuator 
+tau2 = 0.04; % time constant so that bandwidth is 10 Hz. Make sure I calculated this correctly 
 
 
-% delete files a, b, c, d
+
+
+
+
 
 

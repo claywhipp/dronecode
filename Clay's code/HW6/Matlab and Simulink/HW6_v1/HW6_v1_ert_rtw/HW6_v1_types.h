@@ -7,9 +7,9 @@
  *
  * Code generation for model "HW6_v1".
  *
- * Model version              : 1.126
+ * Model version              : 1.134
  * Simulink Coder version : 9.2 (R2019b) 18-Jul-2019
- * C source code generated on : Fri Apr  3 12:59:16 2020
+ * C source code generated on : Sun Apr  5 22:41:58 2020
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM 9
@@ -58,10 +58,10 @@ typedef struct {
 
 #endif
 
-/* Parameters for system: '<S28>/MeasurementUpdate' */
+/* Parameters for system: '<S32>/MeasurementUpdate' */
 typedef struct P_MeasurementUpdate_HW6_v1_T_ P_MeasurementUpdate_HW6_v1_T;
 
-/* Parameters for system: '<S35>/Enabled Subsystem' */
+/* Parameters for system: '<S39>/Enabled Subsystem' */
 typedef struct P_EnabledSubsystem_HW6_v1_T_ P_EnabledSubsystem_HW6_v1_T;
 
 /* Parameters (default storage) */

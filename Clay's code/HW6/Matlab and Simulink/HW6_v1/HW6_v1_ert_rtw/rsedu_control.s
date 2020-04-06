@@ -1082,22 +1082,22 @@ RSEDU_control:
 	.word	.LC10(GOTOFF)
 	.word	.LC11(GOTOFF)
 	.word	clientConnect(GOT)
-	.word	waitForTCPCounter.6140(GOTOFF)
+	.word	waitForTCPCounter.6169(GOTOFF)
 	.word	.LC12(GOTOFF)
 	.word	.LC13(GOTOFF)
 	.word	isMotorOn(GOT)
-	.word	waitForStartCounter.6141(GOTOFF)
+	.word	waitForStartCounter.6170(GOTOFF)
 	.word	.LC18(GOTOFF)
 	.word	flightDuration(GOT)
 	.word	throttle(GOT)
 	.word	.LC19(GOTOFF)
 	.word	.LC20(GOTOFF)
 	.word	.LC21(GOTOFF)
-	.word	calibrationData.6151(GOTOFF)
-	.word	battLevelAvg.6146(GOTOFF)
+	.word	calibrationData.6180(GOTOFF)
+	.word	battLevelAvg.6175(GOTOFF)
 	.word	.LC22(GOTOFF)
 	.word	.LC23(GOTOFF)
-	.word	pressureSensorOk.6147(GOTOFF)
+	.word	pressureSensorOk.6176(GOTOFF)
 	.word	.LC24(GOTOFF)
 	.word	.LC25(GOTOFF)
 	.word	.LC26(GOTOFF)
@@ -1111,7 +1111,7 @@ RSEDU_control:
 	.word	.LC16(GOTOFF)
 	.word	.LC17(GOTOFF)
 	.word	.LC32(GOTOFF)
-	.word	MIN_BATTTAKEOFF.6142(GOTOFF)
+	.word	MIN_BATTTAKEOFF.6171(GOTOFF)
 	.word	calibCycles(GOT)
 	.word	takeoffCycles(GOT)
 	.word	-1081291571
@@ -1120,20 +1120,20 @@ RSEDU_control:
 	.word	isLanding(GOT)
 	.word	.LC35(GOTOFF)
 	.word	1114636288
-	.word	MIN_BATT.6143(GOTOFF)
+	.word	MIN_BATT.6172(GOTOFF)
 	.word	.LC36(GOTOFF)
 	.word	.LC34(GOTOFF)
 	.word	.LC37(GOTOFF)
 	.word	.LC33(GOTOFF)
 	.word	1065353216
-	.word	ofQuality.6148(GOTOFF)
+	.word	ofQuality.6177(GOTOFF)
 	.word	0
-	.word	counter_noOF.6139(GOTOFF)
+	.word	counter_noOF.6168(GOTOFF)
 	.word	.LC38(GOTOFF)
 	.word	of_data(GOT)
 	.word	-1082130432
-	.word	keyboardServerCommands.6152(GOTOFF)
-	.word	SensorData.6153(GOTOFF)
+	.word	keyboardServerCommands.6181(GOTOFF)
+	.word	SensorData.6182(GOTOFF)
 	.word	runModel(GOT)
 	.word	.LC39(GOTOFF)
 	.word	.LC40(GOTOFF)
@@ -1144,7 +1144,7 @@ RSEDU_control:
 	.word	1374389535
 	.word	.LC43(GOTOFF)
 	.word	motors_outport(GOT)
-	.word	powerGain.6145(GOTOFF)
+	.word	powerGain.6174(GOTOFF)
 	.word	run_flag(GOT)
 	.word	.LC44(GOTOFF)
 	.word	HW6_v1_M(GOT)
@@ -1152,7 +1152,7 @@ RSEDU_control:
 	.word	.LC2(GOTOFF)
 	.word	of_fifo(GOT)
 	.word	.LC3(GOTOFF)
-	.word	counter.6138(GOTOFF)
+	.word	counter.6167(GOTOFF)
 	.word	.LC5(GOTOFF)
 	.word	connfd_GUI(GOT)
 	.word	.LC4(GOTOFF)
@@ -2910,50 +2910,50 @@ open_optical_flow_comm:
 .LFE5:
 	.fnend
 	.size	open_optical_flow_comm, .-open_optical_flow_comm
-	.local	counter.6138
-	.comm	counter.6138,4,4
-	.local	waitForTCPCounter.6140
-	.comm	waitForTCPCounter.6140,4,4
-	.local	waitForStartCounter.6141
-	.comm	waitForStartCounter.6141,4,4
+	.local	counter.6167
+	.comm	counter.6167,4,4
+	.local	waitForTCPCounter.6169
+	.comm	waitForTCPCounter.6169,4,4
+	.local	waitForStartCounter.6170
+	.comm	waitForStartCounter.6170,4,4
 	.section	.data.rel,"aw",%progbits
 	.align	2
-	.type	keyboardServerCommands.6152, %object
-	.size	keyboardServerCommands.6152, 4
-keyboardServerCommands.6152:
+	.type	keyboardServerCommands.6181, %object
+	.size	keyboardServerCommands.6181, 4
+keyboardServerCommands.6181:
 	.word	cmd_inport
-	.local	powerGain.6145
-	.comm	powerGain.6145,8,8
-	.local	calibrationData.6151
-	.comm	calibrationData.6151,32,4
-	.local	battLevelAvg.6146
-	.comm	battLevelAvg.6146,8,8
-	.local	pressureSensorOk.6147
-	.comm	pressureSensorOk.6147,1,1
+	.local	powerGain.6174
+	.comm	powerGain.6174,8,8
+	.local	calibrationData.6180
+	.comm	calibrationData.6180,32,4
+	.local	battLevelAvg.6175
+	.comm	battLevelAvg.6175,8,8
+	.local	pressureSensorOk.6176
+	.comm	pressureSensorOk.6176,1,1
 	.align	2
-	.type	SensorData.6153, %object
-	.size	SensorData.6153, 4
-SensorData.6153:
+	.type	SensorData.6182, %object
+	.size	SensorData.6182, 4
+SensorData.6182:
 	.word	sensor_inport
 	.data
 	.align	2
-	.type	MIN_BATTTAKEOFF.6142, %object
-	.size	MIN_BATTTAKEOFF.6142, 4
-MIN_BATTTAKEOFF.6142:
+	.type	MIN_BATTTAKEOFF.6171, %object
+	.size	MIN_BATTTAKEOFF.6171, 4
+MIN_BATTTAKEOFF.6171:
 	.word	1112014848
 	.align	2
-	.type	MIN_BATT.6143, %object
-	.size	MIN_BATT.6143, 4
-MIN_BATT.6143:
+	.type	MIN_BATT.6172, %object
+	.size	MIN_BATT.6172, 4
+MIN_BATT.6172:
 	.word	1106247680
-	.local	ofQuality.6148
-	.comm	ofQuality.6148,4,4
-	.local	counter_noOF.6139
-	.comm	counter_noOF.6139,4,4
+	.local	ofQuality.6177
+	.comm	ofQuality.6177,4,4
+	.local	counter_noOF.6168
+	.comm	counter_noOF.6168,4,4
 	.align	2
-	.type	MAX_noOF.6144, %object
-	.size	MAX_noOF.6144, 4
-MAX_noOF.6144:
+	.type	MAX_noOF.6173, %object
+	.size	MAX_noOF.6173, 4
+MAX_noOF.6173:
 	.word	50
 	.ident	"GCC: (Sourcery G++ Lite 2009q3-67) 4.4.1"
 	.section	.note.GNU-stack,"",%progbits

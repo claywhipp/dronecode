@@ -45,11 +45,11 @@ D2_eval = D2_sampled;
 q1_noise = 0.0101; %cov(wdot);
 r1_noise = 0.0166; %cov(z);
 
-q2_noise = 100; %cov(udot) = 0.5636;
-r2_noise = 1; %cov(u) = 0.3250;
+q2_noise = 1; %cov(udot) = 0.5636;
+r2_noise = 100; %cov(u) = 0.3250;
 
-q3_noise = 100; %cov(vdot);
-r3_noise = 1; %cov(v);
+q3_noise = 1; %cov(vdot);
+r3_noise = 100; %cov(v);
 
 q4_noise = 0.0001; %cov(p);
 r4_noise = 0.01; %cov(phi);
@@ -124,6 +124,36 @@ title('theta kalman')
 xlabel('Time (s)')
 ylabel('theta')
 legend('raw sensor', 'kalman');
+
+possiblezero1 = rt_possiblezero1.signals.values;
+
+figure
+plot(t_out, possiblezero1);
+title('possible zero 1')
+xlabel('Time (s)')
+
+possiblezero2 = rt_possiblezero2.signals.values;
+
+figure
+plot(t_out, possiblezero2);
+title('possible zero 2')
+xlabel('Time (s)')
+
+booleanoutput = rt_booleanoutput.signals.values;
+
+figure
+plot(t_out, booleanoutput);
+title('boolean output')
+xlabel('Time (s)')
+
+checksign = rt_checksign.signals.values;
+
+figure
+plot(t_out, checksign);
+title('check sign')
+xlabel('Time (s)')
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

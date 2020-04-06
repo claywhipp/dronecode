@@ -13,8 +13,18 @@
 	.data
 	.align	3
 	.type	HW6_v1_P, %object
-	.size	HW6_v1_P, 544
+	.size	HW6_v1_P, 624
 HW6_v1_P:
+	.word	0
+	.word	-1075838976
+	.word	0
+	.word	-1075838976
+	.word	0
+	.word	1071644672
+	.word	0
+	.word	1071644672
+	.word	0
+	.word	0
 	.word	0
 	.word	0
 	.word	0
@@ -49,14 +59,14 @@ HW6_v1_P:
 	.word	0
 	.word	0
 	.word	0
-	.word	129971637
-	.word	1072084279
+	.word	1558711692
+	.word	1069046299
 	.word	0
 	.word	1072693248
 	.word	0
 	.word	0
-	.word	-1246823169
-	.word	1072672685
+	.word	1558711692
+	.word	1069046299
 	.word	0
 	.word	1072693248
 	.word	0
@@ -66,6 +76,12 @@ HW6_v1_P:
 	.word	0
 	.word	1072693248
 	.word	0
+	.word	1071644672
+	.word	0
+	.word	-1075838976
+	.word	0
+	.word	0
+	.word	0
 	.word	0
 	.word	-1935797913
 	.word	1072517254
@@ -73,6 +89,10 @@ HW6_v1_P:
 	.word	1072693248
 	.word	0
 	.word	-1074790400
+	.word	0
+	.word	1071644672
+	.word	0
+	.word	-1075838976
 	.word	0
 	.word	0
 	.word	0
@@ -101,16 +121,16 @@ HW6_v1_P:
 	.word	1072693248
 	.word	1202590843
 	.word	1064598241
-	.word	129971641
-	.word	1072084279
+	.word	1558711689
+	.word	1069046299
 	.word	0
 	.word	0
 	.word	0
 	.word	1072693248
 	.word	1202590843
 	.word	1064598241
-	.word	-1246823164
-	.word	1072672685
+	.word	1558711689
+	.word	1069046299
 	.word	0
 	.word	0
 	.word	0

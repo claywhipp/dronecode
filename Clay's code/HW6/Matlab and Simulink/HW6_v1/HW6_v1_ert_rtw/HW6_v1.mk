@@ -2,7 +2,7 @@
 ## Makefile generated for Simulink model 'HW6_v1'. 
 ## 
 ## Makefile     : HW6_v1.mk
-## Generated on : Fri Apr 03 12:58:13 2020
+## Generated on : Sun Apr 05 21:37:30 2020
 ## MATLAB Coder version: 4.3 (R2019b)
 ## 
 ## Build Info:
@@ -27,7 +27,7 @@ MATLAB_ROOT               = C:/PROGRA~1/MATLAB/R2019b
 MATLAB_BIN                = C:/PROGRA~1/MATLAB/R2019b/bin
 MATLAB_ARCH_BIN           = $(MATLAB_BIN)/win64
 MASTER_ANCHOR_DIR         = 
-START_DIR                 = C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1
+START_DIR                 = C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1
 SOLVER                    = 
 SOLVER_OBJ                = 
 CLASSIC_INTERFACE         = 0

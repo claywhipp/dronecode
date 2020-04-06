@@ -1,10 +1,10 @@
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_data.c"
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_data.c"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_data.c"
-# 20 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_data.c"
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 1
-# 22 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h"
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_data.c"
+# 20 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_data.c"
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 1
+# 22 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h"
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h" 1 3 4
 # 149 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h" 3 4
 typedef int ptrdiff_t;
@@ -12,7 +12,7 @@ typedef int ptrdiff_t;
 typedef unsigned int size_t;
 # 323 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h" 3 4
 typedef unsigned int wchar_t;
-# 23 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 23 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 1 3 4
 # 28 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/features.h" 1 3 4
@@ -707,7 +707,7 @@ struct exception
 extern int matherr (struct exception *__exc);
 # 465 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
 
-# 24 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 24 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/string.h" 1 3 4
 # 28 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/string.h" 3 4
 
@@ -963,9 +963,9 @@ extern char *stpncpy (char *__restrict __dest,
      __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
 # 644 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/string.h" 3 4
 
-# 25 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 25 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/float.h" 1 3 4
-# 26 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 26 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 
 
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/stdlib.h" 1 3 4
@@ -1992,9 +1992,9 @@ extern int getloadavg (double __loadavg[], int __nelem)
      __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1)));
 # 912 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/stdlib.h" 3 4
 
-# 29 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h" 1
-# 51 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h"
+# 29 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h" 1
+# 51 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h"
 typedef signed char int8_T;
 typedef unsigned char uint8_T;
 typedef short int16_T;
@@ -2079,12 +2079,12 @@ typedef struct {
   uint32_T re;
   uint32_T im;
 } cuint32_T;
-# 152 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h"
+# 152 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h"
 typedef void * pointer_T;
-# 30 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 30 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_continuous.h" 1
 # 17 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_continuous.h"
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h" 1
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h" 1
 # 18 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_continuous.h" 2
 
 
@@ -2139,7 +2139,7 @@ typedef struct _RTWRTModelMethodsInfo_tag {
 
 
 } RTWRTModelMethodsInfo;
-# 31 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 31 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_solver.h" 1
 # 14 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_solver.h"
 # 1 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_continuous.h" 1
@@ -2246,7 +2246,7 @@ typedef struct _ssSolverInfo_tag {
 
 
 typedef ssSolverInfo RTWSolverInfo;
-# 32 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 32 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "C:/PROGRA~1/MATLAB/R2019b/rtw/c/src/rt_logging.h" 1
 # 10 "C:/PROGRA~1/MATLAB/R2019b/rtw/c/src/rt_logging.h"
         
@@ -2257,8 +2257,8 @@ typedef ssSolverInfo RTWSolverInfo;
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h" 1 3 4
 # 16 "C:/PROGRA~1/MATLAB/R2019b/rtw/c/src/rt_logging.h" 2
 
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/builtin_typeid_types.h" 1
-# 27 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/builtin_typeid_types.h"
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/builtin_typeid_types.h" 1
+# 27 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/builtin_typeid_types.h"
 typedef enum {
   SS_DOUBLE = 0,
   SS_SINGLE = 1,
@@ -2276,8 +2276,8 @@ typedef enum {
 
 typedef int_T DTypeId;
 # 18 "C:/PROGRA~1/MATLAB/R2019b/rtw/c/src/rt_logging.h" 2
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/multiword_types.h" 1
-# 27 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/multiword_types.h"
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/multiword_types.h" 1
+# 27 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/multiword_types.h"
 typedef int32_T chunk_T;
 typedef uint32_T uchunk_T;
 # 19 "C:/PROGRA~1/MATLAB/R2019b/rtw/c/src/rt_logging.h" 2
@@ -2647,15 +2647,15 @@ extern const char_T *rt_UpdateTXXFYLogVars(RTWLogInfo *li, time_T *tPtr, boolean
 extern void rt_StopDataLoggingImpl(const char_T *file, RTWLogInfo *li, boolean_T isRaccel);
 
 extern void rt_StopDataLogging(const char_T *file, RTWLogInfo *li);
-# 33 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 33 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 
 
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_types.h" 1
-# 23 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_types.h"
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/builtin_typeid_types.h" 1
-# 24 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_types.h" 2
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/multiword_types.h" 1
-# 25 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_types.h" 2
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_types.h" 1
+# 23 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_types.h"
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/builtin_typeid_types.h" 1
+# 24 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_types.h" 2
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/multiword_types.h" 1
+# 25 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_types.h" 2
 # 1 "C:/PROGRA~3/MATLAB/SUPPOR~1/R2019b/toolbox/target/SUPPOR~1/parrot/include/HAL.h" 1
 
 
@@ -3745,7 +3745,7 @@ typedef struct _HAL_command_t
 
 
 } HAL_command_t;
-# 26 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_types.h" 2
+# 26 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_types.h" 2
 
 
 
@@ -3792,16 +3792,16 @@ typedef struct P_HW6_v1_T_ P_HW6_v1_T;
 
 
 typedef struct tag_RTM_HW6_v1_T RT_MODEL_HW6_v1_T;
-# 36 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 36 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 
 
 
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/MW_target_hardware_resources.h" 1
-# 40 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h" 1
-# 22 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h"
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/MW_target_hardware_resources.h" 1
+# 40 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h" 1
+# 22 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h"
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h" 1 3 4
-# 23 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h" 2
+# 23 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h" 2
 
 
 extern real_T rtInf;
@@ -3835,8 +3835,8 @@ typedef struct {
     uint32_T wordLuint;
   } wordL;
 } IEEESingle;
-# 41 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
-# 172 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h"
+# 41 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 172 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h"
 typedef struct {
   real_T Product3;
 } B_MeasurementUpdate_HW6_v1_T;
@@ -3867,19 +3867,23 @@ typedef struct {
   real_T DataTypeConversion3;
   real_T DataTypeConversion4;
   real_T DataTypeConversion5;
+  real_T Checksignofinput;
+  real_T a_z;
+  real_T a_z_m;
   real_T Integrator;
   real_T Integrator2;
   real_T Integrator4;
   real_T Product2[2];
   real_T Product3[2];
   real_T Reshapey;
+  real_T SquareRoot;
   real_T Sum;
-  real_T theta_m;
   real_T rtb_MemoryX_idx_0;
   real_T rtb_MemoryX_idx_1;
   real_T Reshapey_e;
   real_T MemoryX_o;
   real_T Dkuk;
+  boolean_T AND;
   B_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f0;
   B_MeasurementUpdate_HW6_v1_T MeasurementUpdate_f;
   B_EnabledSubsystem_HW6_v1_T EnabledSubsystem_d;
@@ -3924,6 +3928,26 @@ typedef struct {
   struct {
     void *LoggedData;
   } ToWorkspace7_PWORK;
+
+  struct {
+    void *LoggedData;
+  } ToWorkspace8_PWORK;
+
+  struct {
+    void *LoggedData;
+  } ToWorkspace1_PWORK_j;
+
+  struct {
+    void *LoggedData;
+  } ToWorkspace2_PWORK_n;
+
+  struct {
+    void *LoggedData;
+  } ToWorkspace8_PWORK_a;
+
+  struct {
+    void *LoggedData;
+  } ToWorkspace_PWORK;
 
   uint8_T icLoad;
   uint8_T icLoad_m;
@@ -4017,6 +4041,21 @@ struct P_EnabledSubsystem_HW6_v1_T_ {
 
 
 struct P_HW6_v1_T_ {
+  real_T IntervalTest_lowlimit;
+
+
+  real_T IntervalTest_lowlimit_n;
+
+
+  real_T IntervalTest_uplimit;
+
+
+  real_T IntervalTest_uplimit_c;
+
+
+  real_T Checksignofinput_Threshold;
+
+
   real_T Lykyhatkk1_Y0;
 
 
@@ -4083,6 +4122,15 @@ struct P_HW6_v1_T_ {
   real_T C_Value_h;
 
 
+  real_T Constant3_Value;
+
+
+  real_T Constant4_Value;
+
+
+  real_T Checksignofinput_Threshold_b;
+
+
   real_T X0_Value_g;
 
 
@@ -4093,6 +4141,12 @@ struct P_HW6_v1_T_ {
 
 
   real_T Gain_Gain;
+
+
+  real_T Constant3_Value_f;
+
+
+  real_T Constant4_Value_n;
 
 
   real_T X0_Value_p;
@@ -4268,7 +4322,7 @@ extern DW_HW6_v1_T HW6_v1_DW;
 
 
 extern ExtY_HW6_v1_T HW6_v1_Y;
-# 612 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h"
+# 666 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h"
 extern CommandBus cmd_inport;
 extern SensorsBus sensor_inport;
 extern real32_T motors_outport[4];
@@ -4281,9 +4335,9 @@ extern void HW6_v1_terminate(void);
 
 
 extern RT_MODEL_HW6_v1_T *const HW6_v1_M;
-# 21 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_data.c" 2
-# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_private.h" 1
-# 44 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_private.h"
+# 21 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_data.c" 2
+# 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_private.h" 1
+# 44 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_private.h"
 extern void HW6_v1_MeasurementUpdate_Init(B_MeasurementUpdate_HW6_v1_T *localB,
   P_MeasurementUpdate_HW6_v1_T *localP);
 extern void HW6_v_MeasurementUpdate_Disable(B_MeasurementUpdate_HW6_v1_T *localB,
@@ -4304,10 +4358,35 @@ extern void HW6_v1_EnabledSubsystem(RT_MODEL_HW6_v1_T * const HW6_v1_M,
 
 
 extern void HW6_v1_derivatives(void);
-# 22 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_data.c" 2
+# 22 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_data.c" 2
 
 
 P_HW6_v1_T HW6_v1_P = {
+
+
+
+  -0.5,
+
+
+
+
+  -0.5,
+
+
+
+
+  0.5,
+
+
+
+
+  0.5,
+
+
+
+
+  0.0,
+
 
 
 
@@ -4381,7 +4460,7 @@ P_HW6_v1_T HW6_v1_P = {
 
 
 
-  0.70962096703595157,
+  0.095124921972504051,
 
 
 
@@ -4396,7 +4475,7 @@ P_HW6_v1_T HW6_v1_P = {
 
 
 
-  0.99019513592784836,
+  0.095124921972504051,
 
 
 
@@ -4421,6 +4500,21 @@ P_HW6_v1_T HW6_v1_P = {
 
 
 
+  0.5,
+
+
+
+
+  -0.5,
+
+
+
+
+  0.0,
+
+
+
+
   0.0,
 
 
@@ -4437,6 +4531,16 @@ P_HW6_v1_T HW6_v1_P = {
 
 
   -1.0,
+
+
+
+
+  0.5,
+
+
+
+
+  -0.5,
 
 
 
@@ -4511,7 +4615,7 @@ P_HW6_v1_T HW6_v1_P = {
 
 
 
-  0.709620967035952,
+  0.095124921972504009,
 
 
 
@@ -4531,7 +4635,7 @@ P_HW6_v1_T HW6_v1_P = {
 
 
 
-  0.99019513592784891,
+  0.095124921972504009,
 
 
 
