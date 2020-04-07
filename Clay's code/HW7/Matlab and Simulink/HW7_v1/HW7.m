@@ -314,7 +314,9 @@ V = 5; % measured battery voltage
 V0 = 5; % actual battery voltage
 
 tau1 = 30e-3; % delay time of actuator 
-tau2 = 0.04; % time constant so that bandwidth is 10 Hz. Make sure I calculated this correctly 
+tau2 = 0.015915; % time constant so that bandwidth is 10 Hz. 
+                 %(that is if we plug in w = 2*pi*omega), the magnitude of
+                 %the transfer function = 1/sqrt(2)
 
 
 

@@ -146,6 +146,13 @@ plot(t_out, booleanoutput);
 title('boolean output')
 xlabel('Time (s)')
 
+booleanoutput1 = rt_booleanoutput1.signals.values;
+
+figure
+plot(t_out, booleanoutput1,'o');
+title('boolean output 1')
+xlabel('Time (s)')
+
 checksign = rt_checksign.signals.values;
 
 figure
