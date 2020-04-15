@@ -7,7 +7,7 @@ measurement_noise = 0.1;
 process_noise = 0.05;
 
 % filter cutoff
-omega_c = 2*pi*20;
+omega_c = 2*pi *20;
 
 % Single Integrator state-space model
 A_single = [0];
@@ -48,7 +48,7 @@ G_double = B_double;
 % Gain for the Wiener filter
 L_single = lqe(A_single, G_single, C_single, q_single, r_single, 0);
 L_double = lqe(A_double, G_double, C_double, q_double, r_double, 0);
-
-[v,lambda] = eig(A_s_single-L_single*C_single)
-[v,lambda] = eig(A_s_double-L_double*C_double)
+% 
+% [v,lambda] = eig(A_s_single-L_single*C_single)
+% [v,lambda] = eig(A_s_double-L_double*C_double)
 
