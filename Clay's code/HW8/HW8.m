@@ -1,15 +1,25 @@
 
 
 % zw system
-% x_1 = Zned, x_2 = w, u = T
-
-% x_2 k = b*x_2 k-1 + c*u_k-1 
-% w_k = b*w_k-1 + c*T_k-1
-% w_k = [w_k-1 T_k-1]*[b; c]
-% z = [w_k-1 T_k-1]^-1 * w_k
 
 syms b c
 
-% use a_z to find throttle vector? 
 % state est data best data to use? 
-[b; c] = [state_est_data(1:800,10) T_k-1]^-1*state_est_data(2:801,10);
+
+M_motor = [1, 1, 1, -1; ...
+           1, 1, -1, 1; ...
+           1, -1, -1, -1; ...
+           1, -1, 1, 1 ]; % used to go from TEAR to n1,...,n4
+       
+M_inv = inv(M_motor); %used to go from n1,...,n4 to TEAR
+
+motor_speed_data_tran = motor_speed_data';
+
+TEAR_tran = M_inv*motor_speed_data_tran;
+
+TEAR = TEAR_tran';
+
+wmatrix = [state_est_data(1:800,10) TEAR(1:800,1)]; % could also use sensor_state_dataT
+winv = inv(wmatrix);
+
+[b c] = xuinv*state_est_data(2:801,10);
