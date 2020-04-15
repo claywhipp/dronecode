@@ -269,7 +269,7 @@ clearvars -except A B C D ...
                   g J Jinv Jprop MotorMix ...
                   Prop_H Thrust_Sum trim_input trim_state UAV_mass
 
-%% Controllability/Observability (not used
+%% Controllability/Observability (not used)
 % 
 % % Thrust: Con + Obs
 % Wthrust = [Bthrust Athrust*Bthrust];

@@ -52,3 +52,6 @@ L_double = lqe(A_double, G_double, C_double, q_double, r_double, 0);
 % [v,lambda] = eig(A_s_single-L_single*C_single)
 % [v,lambda] = eig(A_s_double-L_double*C_double)
 
+%Actuator
+tau2 = 1/(20*pi);
+
