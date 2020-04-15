@@ -20,6 +20,7 @@ Rtpsi =  [cos(psi) sin(psi) 0 ; ...
           -sin(psi) cos(psi) 0 ; ...
           0 0 1 ]; 
 
+% 4.1 Vdot
 m = 0.068; % kg
 g = 9.81 ; % m/s^2
 
@@ -37,7 +38,7 @@ thrustvector =  [0; 0; -T];
 omega_cross = [0 -r q; ...
                r  0 -p; ...
                -q p 0];
-                    
+% Vdot                    
 Vdot = 1/m * (omega_cross*m*V + Rtphi*Rttheta*Rtpsi*gvector + thrustvector);
 
 udot = Vdot(1);
@@ -78,6 +79,7 @@ Jb = Jp + m_p*b^2; % J of propeller in body frame in kg*m^2
 
 Mgyro = omega_cross*Jb*[0; 0; 2*pi*(n1-n2+n3-n4)];
 
+% Omegaodot
 Omegadot = inv(Jmatrix)*(-(omega_cross*Jmatrix*omega) + Mtvector + Mgyro);
 
 pdot = Omegadot(1);
@@ -91,7 +93,7 @@ phidot = p + tan(theta)*(q*sin(phi)+r*cos(phi));
 thetadot = q*cos(phi) - r*sin(phi);
 
 % 4.5
-psidot =  (q*sin(phi) + r*cos(phi))/cos(theta);
+psidot = (q*sin(phi) + r*cos(phi))/cos(theta);
 
 % 4.6
 XYZNEDdot = Rtpsi.'*Rttheta.'*Rtphi.'*[u; v; w];
