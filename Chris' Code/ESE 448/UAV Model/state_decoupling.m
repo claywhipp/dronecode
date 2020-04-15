@@ -221,7 +221,7 @@ D = double(round(subs(J_y_n, [states, inputs], [trim_state, trim_input])*1000)/1
 
 
 %% Transform states
-% using TEAR as input   
+% using TEAR as input instead of n1,n2,n3,n4   
 B = B*MotorMix;
 D = D*MotorMix;
 
@@ -259,7 +259,7 @@ Brudder = B(11:12,4);
 Crudder = [0 1];
 Drudder = 0;
 
-%% Clear extra variables
+%% Clear extra variables used in calculations
 clearvars -except A B C D ...
                   Athrust Bthrust Cthrust Dthrust ...
                   Aelevator Belevator Celevator Delevator ...
@@ -269,7 +269,7 @@ clearvars -except A B C D ...
                   g J Jinv Jprop MotorMix ...
                   Prop_H Thrust_Sum trim_input trim_state UAV_mass
 
-%% Controllability/Observability (not used
+%% Controllability/Observability Analysis (not used)
 % 
 % % Thrust: Con + Obs
 % Wthrust = [Bthrust Athrust*Bthrust];
