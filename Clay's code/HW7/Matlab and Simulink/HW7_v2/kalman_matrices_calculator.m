@@ -1,6 +1,6 @@
 
 %% Load in data for Covariance calculations
-load('In_out_data')
+%load('In_out_data')
 syms t
 Ts = 0.005;
 
@@ -39,12 +39,12 @@ B_s_double = eval(subs(Bd_double,Ts));
 
 %% Covariance Calculations for Kalman/Wiener Filters
 % Calculate Covariances 
-q_single = cov(out.In_Out_Data{1}.Values.Data)*10000000000000; % input data
-r_single = cov(out.In_Out_Data{2}.Values.Data); % output data
+%q_single = cov(out.In_Out_Data{1}.Values.Data)*10000000000000; % input data
+%r_single = cov(out.In_Out_Data{2}.Values.Data); % output data
 
 % don't worry about size of Q, the lqe function handle it
-q_double = q_single;
-r_double = r_single;
+%q_double = q_single;
+%r_double = r_single;
 
 % Wiener Filter code
 G_single = B_single; % noise input is same as process input
@@ -53,8 +53,8 @@ G_double = B_double;
 
 %% LQE Gain for Wiener Filter
 % Gain for the Wiener filter
-L_single = lqe(A_single, G_single, C_single, q_single, r_single, 0);
-L_double = lqe(A_double, G_double, C_double, q_double, r_double, 0);
+%L_single = lqe(A_single, G_single, C_single, q_single, r_single, 0);
+%L_double = lqe(A_double, G_double, C_double, q_double, r_double, 0);
 % 
 % [v,lambda] = eig(A_s_single-L_single*C_single)
 % [v,lambda] = eig(A_s_double-L_double*C_double)

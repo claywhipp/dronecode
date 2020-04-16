@@ -317,23 +317,23 @@ L5 = lqe(A2_cont, G2, C2_cont, Q5, R5, N5);
 
  
 %% Calculating controller gains K1,...,K4   
-Q1 = diag([1 1 1]);
-R1 = 0.0001;  
-Q2 = diag([1 1 1 1 1 1]);
-R2 = 0.0001; 
-Q3 = [1 0 0 0;...
+Qthrust = diag([1 1]);
+Rthrust = 0.0001;  
+Qelevator = diag([1 1 1 1]);
+Relevator = 0.0001; 
+Qaileron = [1 0 0 0;...
       0 1 0 0;...
       0 0 1 0;...
       0 0 0 1];
-R3 = 0.0001;  
-Q4 = [1 0;...
+Raileron = 0.0001;  
+Qrudder = [1 0;...
       0 1];
-R4 = 0.0001;  
+Rrudder = 0.0001;  
 
-% K1 = lqr(A1, B1, Q1, R1); %K1 = [-100.0000 -113.9521]
-% K2 = lqr(A2, B2, Q2, R2); %K2 = [635.7988  137.1798 -100.0000 -151.5330]
-% K3 = lqr(A3, B3, Q3, R3); %K3 = [619.2955  130.3147  100.0000  150.4188]
-% K4 = lqr(A4, B4, Q4, R4); %K4 = [100.0000  105.6286]
+Kthrust = lqr(Athrust, Bthrust, Qthrust, Rthrust);
+Kelevator = lqr(Aelevator, Belevator, Qelevator, Relevator); %K2 = [635.7988  137.1798 -100.0000 -151.5330]
+Kaileron = lqr(Aaileron, Baileron, Qaileron, Raileron); %K3 = [619.2955  130.3147  100.0000  150.4188]
+Krudder = lqr(Arudder, Brudder, Qrudder, Rrudder); %K4 = [100.0000  105.6286]
 
 % A1_bar = [0      C1; ...
 %          [0;0]   A1 ];

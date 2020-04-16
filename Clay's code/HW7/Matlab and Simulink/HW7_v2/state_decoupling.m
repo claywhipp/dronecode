@@ -259,6 +259,8 @@ Brudder = B(11:12,4);
 Crudder = [0 1];
 Drudder = 0;
 
+
+
 %% Clear extra variables used in calculations
 clearvars -except A B C D ...
                   Athrust Bthrust Cthrust Dthrust ...
