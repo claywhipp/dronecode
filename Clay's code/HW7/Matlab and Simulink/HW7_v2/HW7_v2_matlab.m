@@ -185,7 +185,6 @@ M_inv = inv(M_motor); %used to go from n1,...,n4 to TEAR
 % D_neweval = eval(subs(D_new, {u, v, w, p, q, r, phi, theta, psi, XNED, YNED, ZNED, n1, n2, n3, n4}, ...
 %              {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 299, 299, 299, 299}));
 
-
   
 %% Q and R
 q1_noise = 0.0101; %cov(wdot);
