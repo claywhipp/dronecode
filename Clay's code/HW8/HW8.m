@@ -13,7 +13,8 @@ M_motor = [1, 1, 1, -1; ...
        
 M_inv = inv(M_motor); %used to go from n1,...,n4 to TEAR
 
-motor_speed_data_tran = motor_speed_data';
+% motor_speed_data1 = motor_speed_data(1,:);
+motor_speed_data_tran = motor_speed_data(1,:)';
 
 TEAR_tran = M_inv*motor_speed_data_tran;
 
