@@ -389,19 +389,19 @@ Acont = [   0, -9.8, 0;
             0,   0,  1;
             0,   0,  0];
 Bcont = [0; 0;Belevator(4)];
-K_a = place(Acont,Bcont,[-5,-6,-7])'
+K_a = place(Acont,Bcont,[-5,-6,-7])';
 
 Acont = [   0, 9.8, 0;
             0,   0,  1;
             0,   0,  0];
 Bcont = [0; 0;Baileron(4)];
-K_e = place(Acont,Bcont,[-5,-6,-7])'
+K_e = place(Acont,Bcont,[-5,-6,-7])';
 
 Acont = [0  1;
          0  0];
 Bcont = [0;Bthrust(2)*-1];
-K_t = place(Acont,Bcont,[-3,-2])'
+K_t = place(Acont,Bcont,[-3,-2])';
 
 Acont = [0];
 Bcont = [Brudder(2)];
-K_r = place(Acont,Bcont,[-3])'
+K_r = place(Acont,Bcont,[-3])';
