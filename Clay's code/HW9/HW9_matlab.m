@@ -83,13 +83,13 @@ L5 = lqe(A2_cont, G2, C2_cont, Q5, R5, N5);
   
 %% Q and R for controller gains K1,...,K4   
 Qthrust = diag([1 1]);
-Rthrust = 0.0001;  
+Rthrust = 1;  
 Qelevator = diag([1 1 1 1]);
-Relevator = 0.0001; 
+Relevator = 1; 
 Qaileron = diag([1 1 1 1]);
-Raileron = 0.0001;  
+Raileron = 1;  
 Qrudder = diag([1 1]);
-Rrudder = 0.0001;  
+Rrudder = 1;  
 
 %% Controller gains K for TEAR
 Kthrust = lqr(Athrust, Bthrust, Qthrust, Rthrust);

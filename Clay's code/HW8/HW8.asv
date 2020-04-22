@@ -25,13 +25,22 @@ TEAR = TEAR_tran';
 
 % Correcting T using T_trim (Chris' idea) 
 T = TEAR(:,1);
-T_trim = 303; % this was tweaked until the actual w matched the w_sim found using our b and c values
+T_trim = 303; % taken from sample point 450 of throttle data. Idea came
+                 % from Chris Bonney, shouts out to him!!!!!
 T_corrected = T - T_trim;
 
 % Detrending w
 time = state_est_data(:,1);
 w = state_est_data(:,10);
 w_corrected = detrend(w);
+%figure
+%plot(time, w, time, w_corrected);
+%legend('w', 'w detrended');
+
+
+
+%figure
+%plot(T_corrected);
 
 % Correcting delay
 n = 801;
@@ -85,15 +94,6 @@ Phi_R_inv = pinv(Phi_R);
 bc_R = Phi_R_inv*(r_iplus1 - r_i)/dT;
 b_R = bc_R(1); % -0.4500
 c_R = bc_R(2); % 2.7482
-
-% figures
-
-%figure
-%plot(time, w, time, w_corrected);
-%legend('w', 'w detrended');
-
-%figure
-%plot(T_corrected);
 
 %% (2) Finding motor transfer function
 % load('log_chirp_data\log_chirp_50Hz.mat')
