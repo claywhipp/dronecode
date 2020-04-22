@@ -35,12 +35,10 @@ w  = state_est_data(:,10);
 %correct data
 bang_bang_start = 200;  %start of bang bang
 bang_bang_end = 400;    %end of bang bang
-T_trim = 290;           %trim offset
+T_trim = 303;           %trim offset
 delay = 7;              %time delay from actuator
 w = detrend(w);         %correct for w offset from pre bang bang dynamics
 
-% T = detrend(T);
-% T_trim = 0;
 
 %create system to solve using backwards euler
 % wdot = b*w + c*T
@@ -57,24 +55,34 @@ c = C(2)/dT;     %more accurate coefficient for Throttle
 % plotyy(1:length(W),phi(:,1),1:length(W),phi(:,2));
 
 
-% %% Throttle Chirp (Actuator Dynamics)
-% 
-% %load in data
-% % load('log_chirp_data/log_chirp_1Hz.mat');
-% % load('log_chirp_data/log_chirp_5Hz.mat');
-% % load('log_chirp_data/log_chirp_10Hz.mat');
-% % load('log_chirp_data/log_chirp_20Hz.mat');
-% load('log_chirp_data/log_chirp_50Hz.mat');
-% 
-% motor_speed_data = motor_speed_data*motor_correction;
-% 
-% % get Throttle
-% TEAR = motor_speed_data/MotorMix;
-% T = TEAR(:,1);
-% 
-% 
-% %% Elevator Bang-Bang
-% 
+%% Throttle Chirp (Actuator Dynamics)
+
+%load in data
+% load('log_chirp_data/log_chirp_1Hz.mat');
+% load('log_chirp_data/log_chirp_5Hz.mat');
+% load('log_chirp_data/log_chirp_10Hz.mat');
+% load('log_chirp_data/log_chirp_20Hz.mat');
+load('log_chirp_data/log_chirp_50Hz.mat');
+
+motor_speed_data = motor_speed_data*motor_correction;
+
+% get Throttle
+TEAR = motor_speed_data/MotorMix;
+T_trim = 301.5;
+T_cmd = TEAR(:,1)-T_trim;
+
+
+% T_act = (b*w-az)/c;
+
+
+
+
+
+
+
+
+%% Elevator Bang-Bang
+
 
 
 
