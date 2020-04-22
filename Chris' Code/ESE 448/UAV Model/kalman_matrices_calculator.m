@@ -9,7 +9,7 @@ measurement_noise = 0.1;
 process_noise = 0.05;
 
 %% filter cutoff for low pass filter 
-omega_c = 2*pi *20; %20 Hz (picked from experimentation, feel free to adjust)
+omega_c = 2*pi*20; %20 Hz (picked from experimentation, feel free to adjust)
 
 %% Calculating Dynamics for Kalman/Wiener Filters
 % Single Integrator state-space model
