@@ -7,6 +7,7 @@ load('systemID_data_zip/bang_bang_T/sensor_dataT.mat');
 load('systemID_data_zip/bang_bang_T/sensor_state_dataT.mat');
 load('systemID_data_zip/bang_bang_T/state_est_dataT.mat');
 
+dT = 0.005;
 MotorMix = [...%T  E  A  R
                 1  1  1 -1 ;... %n1  T+ E+ A+ R-
                 1  1 -1  1 ;... %n2  T+ E+ A- R+
