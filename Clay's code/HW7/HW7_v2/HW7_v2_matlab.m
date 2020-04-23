@@ -1,4 +1,6 @@
-    
+% Run Chris's code to create dynamics
+state_decoupling    
+
 %HW3 Code - Equations of Motion
 % syms u v w p q r phi theta psi XNED YNED ZNED n1 n2 n3 n4 
 
@@ -185,7 +187,6 @@ M_inv = inv(M_motor); %used to go from n1,...,n4 to TEAR
 % D_neweval = eval(subs(D_new, {u, v, w, p, q, r, phi, theta, psi, XNED, YNED, ZNED, n1, n2, n3, n4}, ...
 %              {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 299, 299, 299, 299}));
 
-  
 %% Q and R
 q1_noise = 0.0101; %cov(wdot);
 r1_noise = 0.0166; %cov(z);
@@ -314,25 +315,26 @@ L5 = lqe(A2_cont, G2, C2_cont, Q5, R5, N5);
 % D4 = [0;...
 %       0];
 
- 
 %% Calculating controller gains K1,...,K4   
 Qthrust = diag([1 1]);
-Rthrust = 0.0001;  
+Rthrust = 1;  
 Qelevator = diag([1 1 1 1]);
-Relevator = 0.0001; 
-Qaileron = [1 0 0 0;...
-      0 1 0 0;...
-      0 0 1 0;...
-      0 0 0 1];
-Raileron = 0.0001;  
-Qrudder = [1 0;...
-      0 1];
-Rrudder = 0.0001;  
+Relevator = 1; 
+Qaileron = diag([1 1 1 1]);
+Raileron = 1; 
+Qrudder = diag([1 1]);
+Rrudder = 1; 
 
-Kthrust = lqr(Athrust, Bthrust, Qthrust, Rthrust);
-Kelevator = lqr(Aelevator, Belevator, Qelevator, Relevator); %K2 = [635.7988  137.1798 -100.0000 -151.5330]
-Kaileron = lqr(Aaileron, Baileron, Qaileron, Raileron); %K3 = [619.2955  130.3147  100.0000  150.4188]
-Krudder = lqr(Arudder, Brudder, Qrudder, Rrudder); %K4 = [100.0000  105.6286]
+Kthrust = lqr(Athrust, Bthrust, Qthrust, Rthrust); %-1.0000   -5.3645
+Kelevator = lqr(Aelevator, Belevator, Qelevator, Relevator); % -1.0000   -1.5854    7.4240    1.8413
+Kaileron = lqr(Aaileron, Baileron, Qaileron, Raileron); % 1.0000    1.5639    7.0916    1.6901
+Krudder = lqr(Arudder, Brudder, Qrudder, Rrudder); %1.0000    3.0781
+
+Kelevator = Kelevator(2:4);
+Kaileron = Kaileron(2:4);
+Krudder = Krudder(2);
+
+%% Adding integral control
 
 % A1_bar = [0      C1; ...
 %          [0;0]   A1 ];
