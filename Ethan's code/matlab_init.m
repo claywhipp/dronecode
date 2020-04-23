@@ -327,7 +327,7 @@ syms t
 Ts = 0.005;
 
 %% Assert arbitrary power for noises
-measurement_noise = 0.1;
+measurement_noise = 0.025;
 process_noise = 0.05;
 
 %% filter cutoff for low pass filter 
