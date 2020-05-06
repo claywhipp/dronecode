@@ -13,8 +13,8 @@ typedef unsigned int size_t;
 # 323 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h" 3 4
 typedef unsigned int wchar_t;
 # 23 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
-# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 1 3 4
-# 28 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
+# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/string.h" 1 3 4
+# 26 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/string.h" 3 4
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/features.h" 1 3 4
 # 313 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/features.h" 3 4
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h" 1 3 4
@@ -28,688 +28,8 @@ typedef unsigned int wchar_t;
 # 378 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/features.h" 3 4
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h" 1 3 4
 # 379 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/features.h" 2 3 4
-# 29 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 2 3 4
+# 27 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/string.h" 2 3 4
 
-
-
-
-
-# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/huge_val.h" 1 3 4
-# 35 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 2 3 4
-
-# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/huge_valf.h" 1 3 4
-# 37 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 2 3 4
-# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/huge_vall.h" 1 3 4
-# 38 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 2 3 4
-
-
-# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/inf.h" 1 3 4
-# 41 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 2 3 4
-
-
-# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/nan.h" 1 3 4
-# 44 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 2 3 4
-
-
-
-# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathdef.h" 1 3 4
-# 28 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathdef.h" 3 4
-typedef float float_t;
-
-typedef double double_t;
-# 48 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 2 3 4
-# 71 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
-# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h" 1 3 4
-# 53 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h" 3 4
-
-
-extern double acos (double __x) __attribute__ ((__nothrow__)); extern double __acos (double __x) __attribute__ ((__nothrow__));
-
-extern double asin (double __x) __attribute__ ((__nothrow__)); extern double __asin (double __x) __attribute__ ((__nothrow__));
-
-extern double atan (double __x) __attribute__ ((__nothrow__)); extern double __atan (double __x) __attribute__ ((__nothrow__));
-
-extern double atan2 (double __y, double __x) __attribute__ ((__nothrow__)); extern double __atan2 (double __y, double __x) __attribute__ ((__nothrow__));
-
-
-extern double cos (double __x) __attribute__ ((__nothrow__)); extern double __cos (double __x) __attribute__ ((__nothrow__));
-
-extern double sin (double __x) __attribute__ ((__nothrow__)); extern double __sin (double __x) __attribute__ ((__nothrow__));
-
-extern double tan (double __x) __attribute__ ((__nothrow__)); extern double __tan (double __x) __attribute__ ((__nothrow__));
-
-
-
-
-extern double cosh (double __x) __attribute__ ((__nothrow__)); extern double __cosh (double __x) __attribute__ ((__nothrow__));
-
-extern double sinh (double __x) __attribute__ ((__nothrow__)); extern double __sinh (double __x) __attribute__ ((__nothrow__));
-
-extern double tanh (double __x) __attribute__ ((__nothrow__)); extern double __tanh (double __x) __attribute__ ((__nothrow__));
-
-# 87 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h" 3 4
-
-
-extern double acosh (double __x) __attribute__ ((__nothrow__)); extern double __acosh (double __x) __attribute__ ((__nothrow__));
-
-extern double asinh (double __x) __attribute__ ((__nothrow__)); extern double __asinh (double __x) __attribute__ ((__nothrow__));
-
-extern double atanh (double __x) __attribute__ ((__nothrow__)); extern double __atanh (double __x) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-
-extern double exp (double __x) __attribute__ ((__nothrow__)); extern double __exp (double __x) __attribute__ ((__nothrow__));
-
-
-extern double frexp (double __x, int *__exponent) __attribute__ ((__nothrow__)); extern double __frexp (double __x, int *__exponent) __attribute__ ((__nothrow__));
-
-
-extern double ldexp (double __x, int __exponent) __attribute__ ((__nothrow__)); extern double __ldexp (double __x, int __exponent) __attribute__ ((__nothrow__));
-
-
-extern double log (double __x) __attribute__ ((__nothrow__)); extern double __log (double __x) __attribute__ ((__nothrow__));
-
-
-extern double log10 (double __x) __attribute__ ((__nothrow__)); extern double __log10 (double __x) __attribute__ ((__nothrow__));
-
-
-extern double modf (double __x, double *__iptr) __attribute__ ((__nothrow__)); extern double __modf (double __x, double *__iptr) __attribute__ ((__nothrow__));
-
-# 127 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h" 3 4
-
-
-extern double expm1 (double __x) __attribute__ ((__nothrow__)); extern double __expm1 (double __x) __attribute__ ((__nothrow__));
-
-
-extern double log1p (double __x) __attribute__ ((__nothrow__)); extern double __log1p (double __x) __attribute__ ((__nothrow__));
-
-
-extern double logb (double __x) __attribute__ ((__nothrow__)); extern double __logb (double __x) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-extern double exp2 (double __x) __attribute__ ((__nothrow__)); extern double __exp2 (double __x) __attribute__ ((__nothrow__));
-
-
-extern double log2 (double __x) __attribute__ ((__nothrow__)); extern double __log2 (double __x) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-
-
-extern double pow (double __x, double __y) __attribute__ ((__nothrow__)); extern double __pow (double __x, double __y) __attribute__ ((__nothrow__));
-
-
-extern double sqrt (double __x) __attribute__ ((__nothrow__)); extern double __sqrt (double __x) __attribute__ ((__nothrow__));
-
-
-
-
-
-extern double hypot (double __x, double __y) __attribute__ ((__nothrow__)); extern double __hypot (double __x, double __y) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-extern double cbrt (double __x) __attribute__ ((__nothrow__)); extern double __cbrt (double __x) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-
-
-extern double ceil (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __ceil (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern double fabs (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __fabs (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern double floor (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __floor (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern double fmod (double __x, double __y) __attribute__ ((__nothrow__)); extern double __fmod (double __x, double __y) __attribute__ ((__nothrow__));
-
-
-
-
-extern int __isinf (double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern int __finite (double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-
-
-extern int isinf (double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern int finite (double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern double drem (double __x, double __y) __attribute__ ((__nothrow__)); extern double __drem (double __x, double __y) __attribute__ ((__nothrow__));
-
-
-
-extern double significand (double __x) __attribute__ ((__nothrow__)); extern double __significand (double __x) __attribute__ ((__nothrow__));
-
-
-
-
-
-extern double copysign (double __x, double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __copysign (double __x, double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-
-
-
-extern double nan (__const char *__tagb) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __nan (__const char *__tagb) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-
-
-extern int __isnan (double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-extern int isnan (double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern double j0 (double) __attribute__ ((__nothrow__)); extern double __j0 (double) __attribute__ ((__nothrow__));
-extern double j1 (double) __attribute__ ((__nothrow__)); extern double __j1 (double) __attribute__ ((__nothrow__));
-extern double jn (int, double) __attribute__ ((__nothrow__)); extern double __jn (int, double) __attribute__ ((__nothrow__));
-extern double y0 (double) __attribute__ ((__nothrow__)); extern double __y0 (double) __attribute__ ((__nothrow__));
-extern double y1 (double) __attribute__ ((__nothrow__)); extern double __y1 (double) __attribute__ ((__nothrow__));
-extern double yn (int, double) __attribute__ ((__nothrow__)); extern double __yn (int, double) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-extern double erf (double) __attribute__ ((__nothrow__)); extern double __erf (double) __attribute__ ((__nothrow__));
-extern double erfc (double) __attribute__ ((__nothrow__)); extern double __erfc (double) __attribute__ ((__nothrow__));
-extern double lgamma (double) __attribute__ ((__nothrow__)); extern double __lgamma (double) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-extern double tgamma (double) __attribute__ ((__nothrow__)); extern double __tgamma (double) __attribute__ ((__nothrow__));
-
-
-
-
-
-extern double gamma (double) __attribute__ ((__nothrow__)); extern double __gamma (double) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-extern double lgamma_r (double, int *__signgamp) __attribute__ ((__nothrow__)); extern double __lgamma_r (double, int *__signgamp) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-
-extern double rint (double __x) __attribute__ ((__nothrow__)); extern double __rint (double __x) __attribute__ ((__nothrow__));
-
-
-extern double nextafter (double __x, double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __nextafter (double __x, double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-extern double nexttoward (double __x, long double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __nexttoward (double __x, long double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-extern double remainder (double __x, double __y) __attribute__ ((__nothrow__)); extern double __remainder (double __x, double __y) __attribute__ ((__nothrow__));
-
-
-
-extern double scalbn (double __x, int __n) __attribute__ ((__nothrow__)); extern double __scalbn (double __x, int __n) __attribute__ ((__nothrow__));
-
-
-
-extern int ilogb (double __x) __attribute__ ((__nothrow__)); extern int __ilogb (double __x) __attribute__ ((__nothrow__));
-
-
-
-
-extern double scalbln (double __x, long int __n) __attribute__ ((__nothrow__)); extern double __scalbln (double __x, long int __n) __attribute__ ((__nothrow__));
-
-
-
-extern double nearbyint (double __x) __attribute__ ((__nothrow__)); extern double __nearbyint (double __x) __attribute__ ((__nothrow__));
-
-
-
-extern double round (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __round (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-extern double trunc (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __trunc (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-
-extern double remquo (double __x, double __y, int *__quo) __attribute__ ((__nothrow__)); extern double __remquo (double __x, double __y, int *__quo) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-extern long int lrint (double __x) __attribute__ ((__nothrow__)); extern long int __lrint (double __x) __attribute__ ((__nothrow__));
-extern long long int llrint (double __x) __attribute__ ((__nothrow__)); extern long long int __llrint (double __x) __attribute__ ((__nothrow__));
-
-
-
-extern long int lround (double __x) __attribute__ ((__nothrow__)); extern long int __lround (double __x) __attribute__ ((__nothrow__));
-extern long long int llround (double __x) __attribute__ ((__nothrow__)); extern long long int __llround (double __x) __attribute__ ((__nothrow__));
-
-
-
-extern double fdim (double __x, double __y) __attribute__ ((__nothrow__)); extern double __fdim (double __x, double __y) __attribute__ ((__nothrow__));
-
-
-extern double fmax (double __x, double __y) __attribute__ ((__nothrow__)); extern double __fmax (double __x, double __y) __attribute__ ((__nothrow__));
-
-
-extern double fmin (double __x, double __y) __attribute__ ((__nothrow__)); extern double __fmin (double __x, double __y) __attribute__ ((__nothrow__));
-
-
-
-extern int __fpclassify (double __value) __attribute__ ((__nothrow__))
-     __attribute__ ((__const__));
-
-
-extern int __signbit (double __value) __attribute__ ((__nothrow__))
-     __attribute__ ((__const__));
-
-
-
-extern double fma (double __x, double __y, double __z) __attribute__ ((__nothrow__)); extern double __fma (double __x, double __y, double __z) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-
-
-extern double scalb (double __x, double __n) __attribute__ ((__nothrow__)); extern double __scalb (double __x, double __n) __attribute__ ((__nothrow__));
-# 72 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 2 3 4
-# 94 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
-# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h" 1 3 4
-# 53 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h" 3 4
-
-
-extern float acosf (float __x) __attribute__ ((__nothrow__)); extern float __acosf (float __x) __attribute__ ((__nothrow__));
-
-extern float asinf (float __x) __attribute__ ((__nothrow__)); extern float __asinf (float __x) __attribute__ ((__nothrow__));
-
-extern float atanf (float __x) __attribute__ ((__nothrow__)); extern float __atanf (float __x) __attribute__ ((__nothrow__));
-
-extern float atan2f (float __y, float __x) __attribute__ ((__nothrow__)); extern float __atan2f (float __y, float __x) __attribute__ ((__nothrow__));
-
-
-extern float cosf (float __x) __attribute__ ((__nothrow__)); extern float __cosf (float __x) __attribute__ ((__nothrow__));
-
-extern float sinf (float __x) __attribute__ ((__nothrow__)); extern float __sinf (float __x) __attribute__ ((__nothrow__));
-
-extern float tanf (float __x) __attribute__ ((__nothrow__)); extern float __tanf (float __x) __attribute__ ((__nothrow__));
-
-
-
-
-extern float coshf (float __x) __attribute__ ((__nothrow__)); extern float __coshf (float __x) __attribute__ ((__nothrow__));
-
-extern float sinhf (float __x) __attribute__ ((__nothrow__)); extern float __sinhf (float __x) __attribute__ ((__nothrow__));
-
-extern float tanhf (float __x) __attribute__ ((__nothrow__)); extern float __tanhf (float __x) __attribute__ ((__nothrow__));
-
-# 87 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h" 3 4
-
-
-extern float acoshf (float __x) __attribute__ ((__nothrow__)); extern float __acoshf (float __x) __attribute__ ((__nothrow__));
-
-extern float asinhf (float __x) __attribute__ ((__nothrow__)); extern float __asinhf (float __x) __attribute__ ((__nothrow__));
-
-extern float atanhf (float __x) __attribute__ ((__nothrow__)); extern float __atanhf (float __x) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-
-extern float expf (float __x) __attribute__ ((__nothrow__)); extern float __expf (float __x) __attribute__ ((__nothrow__));
-
-
-extern float frexpf (float __x, int *__exponent) __attribute__ ((__nothrow__)); extern float __frexpf (float __x, int *__exponent) __attribute__ ((__nothrow__));
-
-
-extern float ldexpf (float __x, int __exponent) __attribute__ ((__nothrow__)); extern float __ldexpf (float __x, int __exponent) __attribute__ ((__nothrow__));
-
-
-extern float logf (float __x) __attribute__ ((__nothrow__)); extern float __logf (float __x) __attribute__ ((__nothrow__));
-
-
-extern float log10f (float __x) __attribute__ ((__nothrow__)); extern float __log10f (float __x) __attribute__ ((__nothrow__));
-
-
-extern float modff (float __x, float *__iptr) __attribute__ ((__nothrow__)); extern float __modff (float __x, float *__iptr) __attribute__ ((__nothrow__));
-
-# 127 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h" 3 4
-
-
-extern float expm1f (float __x) __attribute__ ((__nothrow__)); extern float __expm1f (float __x) __attribute__ ((__nothrow__));
-
-
-extern float log1pf (float __x) __attribute__ ((__nothrow__)); extern float __log1pf (float __x) __attribute__ ((__nothrow__));
-
-
-extern float logbf (float __x) __attribute__ ((__nothrow__)); extern float __logbf (float __x) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-extern float exp2f (float __x) __attribute__ ((__nothrow__)); extern float __exp2f (float __x) __attribute__ ((__nothrow__));
-
-
-extern float log2f (float __x) __attribute__ ((__nothrow__)); extern float __log2f (float __x) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-
-
-extern float powf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __powf (float __x, float __y) __attribute__ ((__nothrow__));
-
-
-extern float sqrtf (float __x) __attribute__ ((__nothrow__)); extern float __sqrtf (float __x) __attribute__ ((__nothrow__));
-
-
-
-
-
-extern float hypotf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __hypotf (float __x, float __y) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-extern float cbrtf (float __x) __attribute__ ((__nothrow__)); extern float __cbrtf (float __x) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-
-
-extern float ceilf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __ceilf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern float fabsf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __fabsf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern float floorf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __floorf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern float fmodf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __fmodf (float __x, float __y) __attribute__ ((__nothrow__));
-
-
-
-
-extern int __isinff (float __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern int __finitef (float __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-
-
-extern int isinff (float __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern int finitef (float __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern float dremf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __dremf (float __x, float __y) __attribute__ ((__nothrow__));
-
-
-
-extern float significandf (float __x) __attribute__ ((__nothrow__)); extern float __significandf (float __x) __attribute__ ((__nothrow__));
-
-
-
-
-
-extern float copysignf (float __x, float __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __copysignf (float __x, float __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-
-
-
-extern float nanf (__const char *__tagb) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __nanf (__const char *__tagb) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-
-
-extern int __isnanf (float __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-extern int isnanf (float __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern float j0f (float) __attribute__ ((__nothrow__)); extern float __j0f (float) __attribute__ ((__nothrow__));
-extern float j1f (float) __attribute__ ((__nothrow__)); extern float __j1f (float) __attribute__ ((__nothrow__));
-extern float jnf (int, float) __attribute__ ((__nothrow__)); extern float __jnf (int, float) __attribute__ ((__nothrow__));
-extern float y0f (float) __attribute__ ((__nothrow__)); extern float __y0f (float) __attribute__ ((__nothrow__));
-extern float y1f (float) __attribute__ ((__nothrow__)); extern float __y1f (float) __attribute__ ((__nothrow__));
-extern float ynf (int, float) __attribute__ ((__nothrow__)); extern float __ynf (int, float) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-extern float erff (float) __attribute__ ((__nothrow__)); extern float __erff (float) __attribute__ ((__nothrow__));
-extern float erfcf (float) __attribute__ ((__nothrow__)); extern float __erfcf (float) __attribute__ ((__nothrow__));
-extern float lgammaf (float) __attribute__ ((__nothrow__)); extern float __lgammaf (float) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-extern float tgammaf (float) __attribute__ ((__nothrow__)); extern float __tgammaf (float) __attribute__ ((__nothrow__));
-
-
-
-
-
-extern float gammaf (float) __attribute__ ((__nothrow__)); extern float __gammaf (float) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-extern float lgammaf_r (float, int *__signgamp) __attribute__ ((__nothrow__)); extern float __lgammaf_r (float, int *__signgamp) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-
-extern float rintf (float __x) __attribute__ ((__nothrow__)); extern float __rintf (float __x) __attribute__ ((__nothrow__));
-
-
-extern float nextafterf (float __x, float __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __nextafterf (float __x, float __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-extern float nexttowardf (float __x, long double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __nexttowardf (float __x, long double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-extern float remainderf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __remainderf (float __x, float __y) __attribute__ ((__nothrow__));
-
-
-
-extern float scalbnf (float __x, int __n) __attribute__ ((__nothrow__)); extern float __scalbnf (float __x, int __n) __attribute__ ((__nothrow__));
-
-
-
-extern int ilogbf (float __x) __attribute__ ((__nothrow__)); extern int __ilogbf (float __x) __attribute__ ((__nothrow__));
-
-
-
-
-extern float scalblnf (float __x, long int __n) __attribute__ ((__nothrow__)); extern float __scalblnf (float __x, long int __n) __attribute__ ((__nothrow__));
-
-
-
-extern float nearbyintf (float __x) __attribute__ ((__nothrow__)); extern float __nearbyintf (float __x) __attribute__ ((__nothrow__));
-
-
-
-extern float roundf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __roundf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-extern float truncf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __truncf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-
-extern float remquof (float __x, float __y, int *__quo) __attribute__ ((__nothrow__)); extern float __remquof (float __x, float __y, int *__quo) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-extern long int lrintf (float __x) __attribute__ ((__nothrow__)); extern long int __lrintf (float __x) __attribute__ ((__nothrow__));
-extern long long int llrintf (float __x) __attribute__ ((__nothrow__)); extern long long int __llrintf (float __x) __attribute__ ((__nothrow__));
-
-
-
-extern long int lroundf (float __x) __attribute__ ((__nothrow__)); extern long int __lroundf (float __x) __attribute__ ((__nothrow__));
-extern long long int llroundf (float __x) __attribute__ ((__nothrow__)); extern long long int __llroundf (float __x) __attribute__ ((__nothrow__));
-
-
-
-extern float fdimf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __fdimf (float __x, float __y) __attribute__ ((__nothrow__));
-
-
-extern float fmaxf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __fmaxf (float __x, float __y) __attribute__ ((__nothrow__));
-
-
-extern float fminf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __fminf (float __x, float __y) __attribute__ ((__nothrow__));
-
-
-
-extern int __fpclassifyf (float __value) __attribute__ ((__nothrow__))
-     __attribute__ ((__const__));
-
-
-extern int __signbitf (float __value) __attribute__ ((__nothrow__))
-     __attribute__ ((__const__));
-
-
-
-extern float fmaf (float __x, float __y, float __z) __attribute__ ((__nothrow__)); extern float __fmaf (float __x, float __y, float __z) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-
-
-extern float scalbf (float __x, float __n) __attribute__ ((__nothrow__)); extern float __scalbf (float __x, float __n) __attribute__ ((__nothrow__));
-# 95 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 2 3 4
-# 157 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
-extern int signgam;
-# 198 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
-enum
-  {
-    FP_NAN,
-
-    FP_INFINITE,
-
-    FP_ZERO,
-
-    FP_SUBNORMAL,
-
-    FP_NORMAL
-
-  };
-# 284 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
-typedef enum
-{
-  _IEEE_ = -1,
-  _SVID_,
-  _XOPEN_,
-  _POSIX_,
-  _ISOC_
-} _LIB_VERSION_TYPE;
-
-
-
-
-extern _LIB_VERSION_TYPE _LIB_VERSION;
-# 309 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
-struct exception
-
-  {
-    int type;
-    char *name;
-    double arg1;
-    double arg2;
-    double retval;
-  };
-
-
-
-
-extern int matherr (struct exception *__exc);
-# 465 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
-
-# 24 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
-# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/string.h" 1 3 4
-# 28 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/string.h" 3 4
 
 
 
@@ -963,9 +283,9 @@ extern char *stpncpy (char *__restrict __dest,
      __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
 # 644 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/string.h" 3 4
 
-# 25 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 24 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/float.h" 1 3 4
-# 26 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 25 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 
 
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/stdlib.h" 1 3 4
@@ -1992,7 +1312,7 @@ extern int getloadavg (double __loadavg[], int __nelem)
      __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1)));
 # 912 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/stdlib.h" 3 4
 
-# 29 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 28 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h" 1
 # 51 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h"
 typedef signed char int8_T;
@@ -2081,7 +1401,7 @@ typedef struct {
 } cuint32_T;
 # 152 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h"
 typedef void * pointer_T;
-# 30 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 29 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_continuous.h" 1
 # 17 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_continuous.h"
 # 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h" 1
@@ -2139,7 +1459,7 @@ typedef struct _RTWRTModelMethodsInfo_tag {
 
 
 } RTWRTModelMethodsInfo;
-# 31 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 30 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_solver.h" 1
 # 14 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_solver.h"
 # 1 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_continuous.h" 1
@@ -2246,7 +1566,7 @@ typedef struct _ssSolverInfo_tag {
 
 
 typedef ssSolverInfo RTWSolverInfo;
-# 32 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 31 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "C:/PROGRA~1/MATLAB/R2019b/rtw/c/src/rt_logging.h" 1
 # 10 "C:/PROGRA~1/MATLAB/R2019b/rtw/c/src/rt_logging.h"
         
@@ -2647,7 +1967,7 @@ extern const char_T *rt_UpdateTXXFYLogVars(RTWLogInfo *li, time_T *tPtr, boolean
 extern void rt_StopDataLoggingImpl(const char_T *file, RTWLogInfo *li, boolean_T isRaccel);
 
 extern void rt_StopDataLogging(const char_T *file, RTWLogInfo *li);
-# 33 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 32 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 
 
 # 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_types.h" 1
@@ -3792,12 +3112,12 @@ typedef struct P_HW6_v1_T_ P_HW6_v1_T;
 
 
 typedef struct tag_RTM_HW6_v1_T RT_MODEL_HW6_v1_T;
-# 36 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 35 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 
 
 
 # 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/MW_target_hardware_resources.h" 1
-# 40 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 39 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h" 1
 # 22 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h"
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h" 1 3 4
@@ -3835,8 +3155,8 @@ typedef struct {
     uint32_T wordLuint;
   } wordL;
 } IEEESingle;
-# 41 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
-# 172 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h"
+# 40 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 171 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h"
 typedef struct {
   real_T Product3;
 } B_MeasurementUpdate_HW6_v1_T;
@@ -3860,36 +3180,34 @@ typedef struct {
 typedef struct {
   real_T TmpSignalConversionAtToWork[17];
   real_T Akxhatkk1[2];
-  real_T Add_m[2];
+  real_T Add[2];
   real_T DataTypeConversion1;
   real_T DataTypeConversion2;
   real_T Sum1;
   real_T DataTypeConversion3;
   real_T DataTypeConversion4;
   real_T DataTypeConversion5;
-  real_T Checksignofinput;
-  real_T a_z;
-  real_T a_z_m;
   real_T Integrator;
   real_T Integrator2;
   real_T Integrator4;
   real_T Product2[2];
   real_T Product3[2];
   real_T Reshapey;
-  real_T SquareRoot;
-  real_T Sum;
+  real_T Gain1;
+  real_T Sum1_m;
   real_T rtb_MemoryX_idx_0;
   real_T rtb_MemoryX_idx_1;
   real_T Reshapey_e;
   real_T MemoryX_o;
-  real_T Dkuk;
-  boolean_T AND;
-  B_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f0;
+  real_T Bkuk_e;
+  real_T Reshapey_o;
+  real_T MemoryX_j;
+  B_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f;
   B_MeasurementUpdate_HW6_v1_T MeasurementUpdate_f;
   B_EnabledSubsystem_HW6_v1_T EnabledSubsystem_d;
   B_MeasurementUpdate_HW6_v1_T MeasurementUpdate_h;
-  B_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f;
-  B_MeasurementUpdate_HW6_v1_T MeasurementUpdate_c;
+  B_EnabledSubsystem_HW6_v1_T EnabledSubsystem_e;
+  B_MeasurementUpdate_HW6_v1_T MeasurementUpdate_o;
   B_EnabledSubsystem_HW6_v1_T EnabledSubsystem;
   B_MeasurementUpdate_HW6_v1_T MeasurementUpdate;
 } B_HW6_v1_T;
@@ -3899,8 +3217,8 @@ typedef struct {
   real_T MemoryX_DSTATE[2];
   real_T MemoryX_DSTATE_l;
   real_T MemoryX_DSTATE_f;
-  real_T MemoryX_DSTATE_g;
-  real_T MemoryX_DSTATE_b;
+  real_T MemoryX_DSTATE_j;
+  real_T MemoryX_DSTATE_m;
   struct {
     void *LoggedData;
   } ToWorkspace1_PWORK;
@@ -3929,39 +3247,19 @@ typedef struct {
     void *LoggedData;
   } ToWorkspace7_PWORK;
 
-  struct {
-    void *LoggedData;
-  } ToWorkspace8_PWORK;
-
-  struct {
-    void *LoggedData;
-  } ToWorkspace1_PWORK_j;
-
-  struct {
-    void *LoggedData;
-  } ToWorkspace2_PWORK_n;
-
-  struct {
-    void *LoggedData;
-  } ToWorkspace8_PWORK_a;
-
-  struct {
-    void *LoggedData;
-  } ToWorkspace_PWORK;
-
   uint8_T icLoad;
   uint8_T icLoad_m;
   uint8_T icLoad_l;
-  uint8_T icLoad_d;
-  uint8_T icLoad_e;
+  uint8_T icLoad_h;
+  uint8_T icLoad_l4;
   boolean_T EnabledSubsystem_MODE;
   boolean_T MeasurementUpdate_MODE;
-  DW_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f0;
+  DW_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f;
   DW_MeasurementUpdate_HW6_v1_T MeasurementUpdate_f;
   DW_EnabledSubsystem_HW6_v1_T EnabledSubsystem_d;
   DW_MeasurementUpdate_HW6_v1_T MeasurementUpdate_h;
-  DW_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f;
-  DW_MeasurementUpdate_HW6_v1_T MeasurementUpdate_c;
+  DW_EnabledSubsystem_HW6_v1_T EnabledSubsystem_e;
+  DW_MeasurementUpdate_HW6_v1_T MeasurementUpdate_o;
   DW_EnabledSubsystem_HW6_v1_T EnabledSubsystem;
   DW_MeasurementUpdate_HW6_v1_T MeasurementUpdate;
 } DW_HW6_v1_T;
@@ -4041,21 +3339,6 @@ struct P_EnabledSubsystem_HW6_v1_T_ {
 
 
 struct P_HW6_v1_T_ {
-  real_T IntervalTest_lowlimit;
-
-
-  real_T IntervalTest_lowlimit_n;
-
-
-  real_T IntervalTest_uplimit;
-
-
-  real_T IntervalTest_uplimit_c;
-
-
-  real_T Checksignofinput_Threshold;
-
-
   real_T Lykyhatkk1_Y0;
 
 
@@ -4063,6 +3346,9 @@ struct P_HW6_v1_T_ {
 
 
   real_T Constant_Value;
+
+
+  real_T Gain1_Gain;
 
 
   real_T Integrator11_IC;
@@ -4116,70 +3402,52 @@ struct P_HW6_v1_T_ {
   real_T X0_Value_l;
 
 
-  real_T KalmanGainM_Value_l;
+  real_T KalmanGainM_Value_a;
 
 
-  real_T C_Value_h;
+  real_T C_Value_ag;
 
 
-  real_T Constant3_Value;
-
-
-  real_T Constant4_Value;
-
-
-  real_T Checksignofinput_Threshold_b;
+  real_T Constant1_Value;
 
 
   real_T X0_Value_g;
 
 
-  real_T KalmanGainM_Value_n;
+  real_T KalmanGainM_Value_j;
 
 
-  real_T C_Value_b;
+  real_T C_Value_h;
 
 
-  real_T Gain_Gain;
-
-
-  real_T Constant3_Value_f;
-
-
-  real_T Constant4_Value_n;
+  real_T Constant_Value_n;
 
 
   real_T X0_Value_p;
 
 
-  real_T Integrator_IC;
+  real_T Constant6_Value_e;
 
 
-  real_T Integrator2_IC;
+  real_T A_Value[4];
 
 
-  real_T Integrator4_IC;
+  real_T B_Value[2];
 
 
-  real_T A_Value;
-
-
-  real_T B_Value;
-
-
-  real_T KalmanGainL_Value;
+  real_T KalmanGainL_Value[2];
 
 
   real_T D_Value;
 
 
-  real_T A_Value_c;
+  real_T A_Value_k;
 
 
-  real_T B_Value_l;
+  real_T B_Value_h;
 
 
-  real_T KalmanGainL_Value_o;
+  real_T KalmanGainL_Value_b;
 
 
   real_T D_Value_i;
@@ -4197,6 +3465,18 @@ struct P_HW6_v1_T_ {
   real_T D_Value_h;
 
 
+  real_T A_Value_e;
+
+
+  real_T B_Value_o;
+
+
+  real_T KalmanGainL_Value_m;
+
+
+  real_T D_Value_a;
+
+
   real_T A_Value_mn;
 
 
@@ -4209,16 +3489,13 @@ struct P_HW6_v1_T_ {
   real_T D_Value_e;
 
 
-  real_T A_Value_b[4];
+  real_T Integrator_IC;
 
 
-  real_T B_Value_n[2];
+  real_T Integrator2_IC;
 
 
-  real_T KalmanGainL_Value_n[2];
-
-
-  real_T D_Value_d;
+  real_T Integrator4_IC;
 
 
   real32_T Saturation1_UpperSat;
@@ -4239,10 +3516,10 @@ struct P_HW6_v1_T_ {
   boolean_T Enable_Value_i;
 
 
-  boolean_T Enable_Value_gd;
+  boolean_T Enable_Value_ir;
 
 
-  uint8_T Constant1_Value;
+  uint8_T Constant1_Value_d;
 
 
   uint8_T Constant2_Value;
@@ -4252,12 +3529,12 @@ struct P_HW6_v1_T_ {
 
 
 
-  P_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f0;
+  P_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f;
   P_MeasurementUpdate_HW6_v1_T MeasurementUpdate_f;
   P_EnabledSubsystem_HW6_v1_T EnabledSubsystem_d;
   P_MeasurementUpdate_HW6_v1_T MeasurementUpdate_h;
-  P_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f;
-  P_MeasurementUpdate_HW6_v1_T MeasurementUpdate_c;
+  P_EnabledSubsystem_HW6_v1_T EnabledSubsystem_e;
+  P_MeasurementUpdate_HW6_v1_T MeasurementUpdate_o;
   P_EnabledSubsystem_HW6_v1_T EnabledSubsystem;
   P_MeasurementUpdate_HW6_v1_T MeasurementUpdate;
 };
@@ -4322,7 +3599,7 @@ extern DW_HW6_v1_T HW6_v1_DW;
 
 
 extern ExtY_HW6_v1_T HW6_v1_Y;
-# 666 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h"
+# 622 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h"
 extern CommandBus cmd_inport;
 extern SensorsBus sensor_inport;
 extern real32_T motors_outport[4];
@@ -4558,14 +3835,14 @@ void HW6_v1_EnabledSubsystem(RT_MODEL_HW6_v1_T * const HW6_v1_M, boolean_T
 void HW6_v1_step(void)
 {
 
-  real_T rtb_Reshapey_o;
-  real_T rtb_MemoryX_j;
-  real_T rtb_MemoryX_m;
-  real_T rtb_MemoryX_i;
-  real_T rtb_Add;
-  real_T rtb_Add_l;
-  real_T rtb_Add_h;
+  real_T rtb_Reshapey_p;
+  real_T rtb_MemoryX_c;
+  real_T rtb_Reshapey_c;
+  real_T rtb_MemoryX_k;
   real_T rtb_Add_c;
+  real_T rtb_Add_h;
+  real_T rtb_Add_cc;
+  real_T rtb_Add_ck;
   if ((((HW6_v1_M)->Timing.simTimeStep) == MAJOR_TIME_STEP)) {
 
     ((&HW6_v1_M->solverInfo)->solverStopTime = (((HW6_v1_M->Timing.clockTick0+1)* HW6_v1_M->Timing.stepSize0)));
@@ -4576,6 +3853,13 @@ void HW6_v1_step(void)
   if ((((HW6_v1_M)->Timing.simTimeStep) == MINOR_TIME_STEP)) {
     HW6_v1_M->Timing.t[0] = (*((&HW6_v1_M->solverInfo)->tPtr))[0];
   }
+
+
+
+
+
+  HW6_v1_B.Gain1 = HW6_v1_P.Gain1_Gain *
+    sensor_inport.HALSensors.HAL_ultrasound_SI.altitude;
 
 
 
@@ -4673,16 +3957,15 @@ void HW6_v1_step(void)
     if (HW6_v1_P.ManualSwitch_CurrentSetting == 1) {
       flag_outport = HW6_v1_P.Constant2_Value;
     } else {
-      flag_outport = HW6_v1_P.Constant1_Value;
+      flag_outport = HW6_v1_P.Constant1_Value_d;
     }
 
 
 
 
     HW6_v1_Y.Flag = flag_outport;
-# 400 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
-    HW6_v1_B.TmpSignalConversionAtToWork[0] =
-      sensor_inport.HALSensors.HAL_ultrasound_SI.altitude;
+# 406 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+    HW6_v1_B.TmpSignalConversionAtToWork[0] = HW6_v1_B.Gain1;
     HW6_v1_B.TmpSignalConversionAtToWork[1] = HW6_v1_X.Integrator11_CSTATE;
     HW6_v1_B.TmpSignalConversionAtToWork[2] = HW6_v1_X.Integrator5_CSTATE;
     HW6_v1_B.TmpSignalConversionAtToWork[3] =
@@ -4715,10 +3998,7 @@ void HW6_v1_step(void)
     }
 
 
-
-
-
-    HW6_v1_B.Reshapey = sensor_inport.HALSensors.HAL_ultrasound_SI.altitude;
+    HW6_v1_B.Reshapey = HW6_v1_B.Gain1;
 
 
 
@@ -4755,16 +4035,14 @@ void HW6_v1_step(void)
 
 
 
-
-      HW6_v1_B.Sum = sensor_inport.HALSensors.HAL_ultrasound_SI.altitude -
-        (HW6_v1_P.C_Value[0] * HW6_v1_DW.MemoryX_DSTATE[0] + HW6_v1_P.C_Value[1]
-         * HW6_v1_DW.MemoryX_DSTATE[1]);
+      HW6_v1_B.Gain1 -= HW6_v1_P.C_Value[0] * HW6_v1_DW.MemoryX_DSTATE[0] +
+        HW6_v1_P.C_Value[1] * HW6_v1_DW.MemoryX_DSTATE[1];
 
 
 
 
-      HW6_v1_B.Product2[0] = HW6_v1_P.KalmanGainM_Value[0] * HW6_v1_B.Sum;
-      HW6_v1_B.Product2[1] = HW6_v1_P.KalmanGainM_Value[1] * HW6_v1_B.Sum;
+      HW6_v1_B.Product2[0] = HW6_v1_P.KalmanGainM_Value[0] * HW6_v1_B.Gain1;
+      HW6_v1_B.Product2[1] = HW6_v1_P.KalmanGainM_Value[1] * HW6_v1_B.Gain1;
     }
 
 
@@ -4820,7 +4098,7 @@ void HW6_v1_step(void)
 
 
 
-    HW6_v1_B.Dkuk = HW6_v1_B.EnabledSubsystem_d.Product2 + HW6_v1_B.MemoryX_o;
+    HW6_v1_B.Bkuk_e = HW6_v1_B.EnabledSubsystem_d.Product2 + HW6_v1_B.MemoryX_o;
 
 
     {
@@ -4829,7 +4107,7 @@ void HW6_v1_step(void)
       if ((((HW6_v1_M)->Timing.simTimeStep) == MAJOR_TIME_STEP)) {
         rt_UpdateStructLogVar((StructLogVar *)
                               HW6_v1_DW.ToWorkspace4_PWORK.LoggedData, &locTime,
-                              &HW6_v1_B.Dkuk);
+                              &HW6_v1_B.Bkuk_e);
       }
     }
 
@@ -4837,7 +4115,7 @@ void HW6_v1_step(void)
 
 
 
-    rtb_Reshapey_o = sensor_inport.VisionSensors.opticalFlow_data[1];
+    HW6_v1_B.Reshapey_o = sensor_inport.VisionSensors.opticalFlow_data[1];
 
 
 
@@ -4846,17 +4124,17 @@ void HW6_v1_step(void)
       HW6_v1_DW.MemoryX_DSTATE_f = HW6_v1_P.X0_Value_l;
     }
 
-    rtb_MemoryX_j = HW6_v1_DW.MemoryX_DSTATE_f;
+    HW6_v1_B.MemoryX_j = HW6_v1_DW.MemoryX_DSTATE_f;
 # 581 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
     HW6_v1_EnabledSubsystem(HW6_v1_M, HW6_v1_P.Enable_Value_m,
-      HW6_v1_P.KalmanGainM_Value_i, HW6_v1_P.C_Value_d, rtb_Reshapey_o,
-      rtb_MemoryX_j, &HW6_v1_B.EnabledSubsystem_f0,
-      &HW6_v1_DW.EnabledSubsystem_f0, &HW6_v1_P.EnabledSubsystem_f0);
+      HW6_v1_P.KalmanGainM_Value_i, HW6_v1_P.C_Value_d, HW6_v1_B.Reshapey_o,
+      HW6_v1_B.MemoryX_j, &HW6_v1_B.EnabledSubsystem_f,
+      &HW6_v1_DW.EnabledSubsystem_f, &HW6_v1_P.EnabledSubsystem_f);
 
 
 
 
-    HW6_v1_B.Dkuk = HW6_v1_B.EnabledSubsystem_f0.Product2 + rtb_MemoryX_j;
+    HW6_v1_B.Bkuk_e = HW6_v1_B.EnabledSubsystem_f.Product2 + HW6_v1_B.MemoryX_j;
 
 
     {
@@ -4865,62 +4143,34 @@ void HW6_v1_step(void)
       if ((((HW6_v1_M)->Timing.simTimeStep) == MAJOR_TIME_STEP)) {
         rt_UpdateStructLogVar((StructLogVar *)
                               HW6_v1_DW.ToWorkspace5_PWORK.LoggedData, &locTime,
-                              &HW6_v1_B.Dkuk);
+                              &HW6_v1_B.Bkuk_e);
       }
     }
-  }
 
 
 
 
 
-
-
-  if (sensor_inport.HALSensors.HAL_acc_SI.z >
-      HW6_v1_P.Checksignofinput_Threshold_b) {
-    HW6_v1_B.Checksignofinput = HW6_v1_P.Constant3_Value;
-  } else {
-    HW6_v1_B.Checksignofinput = HW6_v1_P.Constant4_Value;
-  }
-# 626 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
-  HW6_v1_B.AND = ((HW6_v1_P.IntervalTest_lowlimit <=
-                   sensor_inport.HALSensors.HAL_acc_SI.z) &&
-                  (sensor_inport.HALSensors.HAL_acc_SI.z <=
-                   HW6_v1_P.IntervalTest_uplimit));
+    rtb_Reshapey_p = HW6_v1_B.DataTypeConversion2 / HW6_v1_P.Constant1_Value;
 
 
 
 
-
-  if (HW6_v1_B.AND) {
-    HW6_v1_B.a_z = HW6_v1_B.Checksignofinput;
-  } else {
-    HW6_v1_B.a_z = sensor_inport.HALSensors.HAL_acc_SI.z;
-  }
-
-
-
-
-  HW6_v1_B.Sum = HW6_v1_B.DataTypeConversion2 / HW6_v1_B.a_z;
-  if ((((HW6_v1_M)->Timing.simTimeStep) == MAJOR_TIME_STEP)) {
-
-
-
-    if (HW6_v1_DW.icLoad_d != 0) {
-      HW6_v1_DW.MemoryX_DSTATE_g = HW6_v1_P.X0_Value_g;
+    if (HW6_v1_DW.icLoad_h != 0) {
+      HW6_v1_DW.MemoryX_DSTATE_j = HW6_v1_P.X0_Value_g;
     }
 
-    rtb_MemoryX_m = HW6_v1_DW.MemoryX_DSTATE_g;
-# 662 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+    rtb_MemoryX_c = HW6_v1_DW.MemoryX_DSTATE_j;
+# 624 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
     HW6_v1_EnabledSubsystem(HW6_v1_M, HW6_v1_P.Enable_Value_i,
-      HW6_v1_P.KalmanGainM_Value_l, HW6_v1_P.C_Value_h, HW6_v1_B.Sum,
-      rtb_MemoryX_m, &HW6_v1_B.EnabledSubsystem, &HW6_v1_DW.EnabledSubsystem,
+      HW6_v1_P.KalmanGainM_Value_a, HW6_v1_P.C_Value_ag, rtb_Reshapey_p,
+      rtb_MemoryX_c, &HW6_v1_B.EnabledSubsystem, &HW6_v1_DW.EnabledSubsystem,
       &HW6_v1_P.EnabledSubsystem);
 
 
 
 
-    HW6_v1_B.Dkuk = HW6_v1_B.EnabledSubsystem.Product2 + rtb_MemoryX_m;
+    HW6_v1_B.Bkuk_e = HW6_v1_B.EnabledSubsystem.Product2 + rtb_MemoryX_c;
 
 
     {
@@ -4929,58 +4179,34 @@ void HW6_v1_step(void)
       if ((((HW6_v1_M)->Timing.simTimeStep) == MAJOR_TIME_STEP)) {
         rt_UpdateStructLogVar((StructLogVar *)
                               HW6_v1_DW.ToWorkspace6_PWORK.LoggedData, &locTime,
-                              &HW6_v1_B.Dkuk);
+                              &HW6_v1_B.Bkuk_e);
       }
     }
-  }
-# 691 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
-  HW6_v1_B.SquareRoot = sqrt(HW6_v1_B.DataTypeConversion2 *
-    HW6_v1_B.DataTypeConversion2 + (real_T)sensor_inport.HALSensors.HAL_acc_SI.z
-    * sensor_inport.HALSensors.HAL_acc_SI.z);
-# 702 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
-  if ((HW6_v1_P.IntervalTest_lowlimit_n <= HW6_v1_B.SquareRoot) &&
-      (HW6_v1_B.SquareRoot <= HW6_v1_P.IntervalTest_uplimit_c)) {
 
 
 
 
-    if (HW6_v1_B.SquareRoot > HW6_v1_P.Checksignofinput_Threshold) {
-      HW6_v1_B.a_z_m = HW6_v1_P.Constant3_Value_f;
-    } else {
-      HW6_v1_B.a_z_m = HW6_v1_P.Constant4_Value_n;
+
+    rtb_Reshapey_c = HW6_v1_B.DataTypeConversion1 / HW6_v1_P.Constant_Value_n;
+
+
+
+
+    if (HW6_v1_DW.icLoad_l4 != 0) {
+      HW6_v1_DW.MemoryX_DSTATE_m = HW6_v1_P.X0_Value_p;
     }
 
-
-  } else {
-    HW6_v1_B.a_z_m = HW6_v1_B.SquareRoot;
-  }
-
-
-
-
-
-
-  HW6_v1_B.SquareRoot = HW6_v1_P.Gain_Gain * HW6_v1_B.DataTypeConversion1 /
-    HW6_v1_B.a_z_m;
-  if ((((HW6_v1_M)->Timing.simTimeStep) == MAJOR_TIME_STEP)) {
-
-
-
-    if (HW6_v1_DW.icLoad_e != 0) {
-      HW6_v1_DW.MemoryX_DSTATE_b = HW6_v1_P.X0_Value_p;
-    }
-
-    rtb_MemoryX_i = HW6_v1_DW.MemoryX_DSTATE_b;
-# 743 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
-    HW6_v1_EnabledSubsystem(HW6_v1_M, HW6_v1_P.Enable_Value_gd,
-      HW6_v1_P.KalmanGainM_Value_n, HW6_v1_P.C_Value_b, HW6_v1_B.SquareRoot,
-      rtb_MemoryX_i, &HW6_v1_B.EnabledSubsystem_f, &HW6_v1_DW.EnabledSubsystem_f,
-      &HW6_v1_P.EnabledSubsystem_f);
+    rtb_MemoryX_k = HW6_v1_DW.MemoryX_DSTATE_m;
+# 667 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+    HW6_v1_EnabledSubsystem(HW6_v1_M, HW6_v1_P.Enable_Value_ir,
+      HW6_v1_P.KalmanGainM_Value_j, HW6_v1_P.C_Value_h, rtb_Reshapey_c,
+      rtb_MemoryX_k, &HW6_v1_B.EnabledSubsystem_e, &HW6_v1_DW.EnabledSubsystem_e,
+      &HW6_v1_P.EnabledSubsystem_e);
 
 
 
 
-    HW6_v1_B.Dkuk = HW6_v1_B.EnabledSubsystem_f.Product2 + rtb_MemoryX_i;
+    HW6_v1_B.Bkuk_e = HW6_v1_B.EnabledSubsystem_e.Product2 + rtb_MemoryX_k;
 
 
     {
@@ -4989,178 +4215,28 @@ void HW6_v1_step(void)
       if ((((HW6_v1_M)->Timing.simTimeStep) == MAJOR_TIME_STEP)) {
         rt_UpdateStructLogVar((StructLogVar *)
                               HW6_v1_DW.ToWorkspace7_PWORK.LoggedData, &locTime,
-                              &HW6_v1_B.Dkuk);
-      }
-    }
-
-
-    {
-      double locTime = ((HW6_v1_M->Timing.clockTick1) * 0.005);
-      ;
-      if ((((HW6_v1_M)->Timing.simTimeStep) == MAJOR_TIME_STEP)) {
-        rt_UpdateStructLogVar((StructLogVar *)
-                              HW6_v1_DW.ToWorkspace8_PWORK.LoggedData, &locTime,
-                              &HW6_v1_B.a_z);
-      }
-    }
-
-
-    {
-      double locTime = ((HW6_v1_M->Timing.clockTick1) * 0.005);
-      ;
-      if ((((HW6_v1_M)->Timing.simTimeStep) == MAJOR_TIME_STEP)) {
-        rt_UpdateStructLogVar((StructLogVar *)
-                              HW6_v1_DW.ToWorkspace1_PWORK_j.LoggedData,
-                              &locTime, &HW6_v1_B.Checksignofinput);
-      }
-    }
-
-
-    {
-      double locTime = ((HW6_v1_M->Timing.clockTick1) * 0.005);
-      ;
-      if ((((HW6_v1_M)->Timing.simTimeStep) == MAJOR_TIME_STEP)) {
-        rt_UpdateStructLogVar((StructLogVar *)
-                              HW6_v1_DW.ToWorkspace2_PWORK_n.LoggedData,
-                              &locTime, &HW6_v1_B.a_z);
-      }
-    }
-
-
-    {
-      double locTime = ((HW6_v1_M->Timing.clockTick1) * 0.005);
-      ;
-      if ((((HW6_v1_M)->Timing.simTimeStep) == MAJOR_TIME_STEP)) {
-        rt_UpdateStructLogVar((StructLogVar *)
-                              HW6_v1_DW.ToWorkspace8_PWORK_a.LoggedData,
-                              &locTime, &HW6_v1_B.AND);
-      }
-    }
-
-
-    {
-      double locTime = ((HW6_v1_M->Timing.clockTick1) * 0.005);
-      ;
-      if ((((HW6_v1_M)->Timing.simTimeStep) == MAJOR_TIME_STEP)) {
-        rt_UpdateStructLogVar((StructLogVar *)
-                              HW6_v1_DW.ToWorkspace_PWORK.LoggedData, &locTime,
-                              &HW6_v1_B.a_z_m);
+                              &HW6_v1_B.Bkuk_e);
       }
     }
   }
 
 
-  HW6_v1_B.Integrator = HW6_v1_X.Integrator_CSTATE;
 
 
-  HW6_v1_B.Integrator2 = HW6_v1_X.Integrator2_CSTATE;
 
 
-  HW6_v1_B.Integrator4 = HW6_v1_X.Integrator4_CSTATE;
+  HW6_v1_B.Sum1_m = sensor_inport.HALSensors.HAL_acc_SI.z -
+    HW6_v1_P.Constant6_Value_e;
   if ((((HW6_v1_M)->Timing.simTimeStep) == MAJOR_TIME_STEP)) {
 
 
 
-    HW6_v1_B.Dkuk = HW6_v1_P.A_Value * rtb_MemoryX_m;
-
-
-
-
-
-
-
-    HW6_v1_MeasurementUpdate(HW6_v1_M, HW6_v1_P.Enable_Value_i,
-      HW6_v1_P.KalmanGainL_Value, HW6_v1_B.Sum, HW6_v1_P.C_Value_h,
-      rtb_MemoryX_m, HW6_v1_P.D_Value, HW6_v1_B.DataTypeConversion3,
-      &HW6_v1_B.MeasurementUpdate, &HW6_v1_DW.MeasurementUpdate,
-      &HW6_v1_P.MeasurementUpdate);
-
-
-
-
-
-
-
-    rtb_Add = (HW6_v1_P.B_Value * HW6_v1_B.DataTypeConversion3 + HW6_v1_B.Dkuk)
-      + HW6_v1_B.MeasurementUpdate.Product3;
-
-
-
-
-    HW6_v1_B.Dkuk = HW6_v1_P.B_Value_l * HW6_v1_B.DataTypeConversion4;
-
-
-
-
-
-
-
-    HW6_v1_MeasurementUpdate(HW6_v1_M, HW6_v1_P.Enable_Value_gd,
-      HW6_v1_P.KalmanGainL_Value_o, HW6_v1_B.SquareRoot, HW6_v1_P.C_Value_b,
-      rtb_MemoryX_i, HW6_v1_P.D_Value_i, HW6_v1_B.DataTypeConversion4,
-      &HW6_v1_B.MeasurementUpdate_c, &HW6_v1_DW.MeasurementUpdate_c,
-      &HW6_v1_P.MeasurementUpdate_c);
-
-
-
-
-
-
-
-    rtb_Add_l = (HW6_v1_P.A_Value_c * rtb_MemoryX_i + HW6_v1_B.Dkuk) +
-      HW6_v1_B.MeasurementUpdate_c.Product3;
-
-
-
-
-
-    HW6_v1_B.Dkuk = HW6_v1_P.B_Value_g * HW6_v1_B.DataTypeConversion1;
-# 894 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
-    HW6_v1_MeasurementUpdate(HW6_v1_M, HW6_v1_P.Enable_Value_g,
-      HW6_v1_P.KalmanGainL_Value_j, HW6_v1_B.Reshapey_e, HW6_v1_P.C_Value_a,
-      HW6_v1_B.MemoryX_o, HW6_v1_P.D_Value_h, HW6_v1_B.DataTypeConversion1,
-      &HW6_v1_B.MeasurementUpdate_h, &HW6_v1_DW.MeasurementUpdate_h,
-      &HW6_v1_P.MeasurementUpdate_h);
-
-
-
-
-
-
-
-    rtb_Add_h = (HW6_v1_P.A_Value_m * HW6_v1_B.MemoryX_o + HW6_v1_B.Dkuk) +
-      HW6_v1_B.MeasurementUpdate_h.Product3;
-
-
-
-
-
-    HW6_v1_B.Dkuk = HW6_v1_P.B_Value_p * HW6_v1_B.DataTypeConversion2;
-# 922 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
-    HW6_v1_MeasurementUpdate(HW6_v1_M, HW6_v1_P.Enable_Value_m,
-      HW6_v1_P.KalmanGainL_Value_g, rtb_Reshapey_o, HW6_v1_P.C_Value_d,
-      rtb_MemoryX_j, HW6_v1_P.D_Value_e, HW6_v1_B.DataTypeConversion2,
-      &HW6_v1_B.MeasurementUpdate_f, &HW6_v1_DW.MeasurementUpdate_f,
-      &HW6_v1_P.MeasurementUpdate_f);
-
-
-
-
-
-
-
-    rtb_Add_c = (HW6_v1_P.A_Value_mn * rtb_MemoryX_j + HW6_v1_B.Dkuk) +
-      HW6_v1_B.MeasurementUpdate_f.Product3;
-
-
-
-
     HW6_v1_B.Akxhatkk1[0] = 0.0;
-    HW6_v1_B.Akxhatkk1[0] += HW6_v1_P.A_Value_b[0] * HW6_v1_B.rtb_MemoryX_idx_0;
-    HW6_v1_B.Akxhatkk1[0] += HW6_v1_P.A_Value_b[2] * HW6_v1_B.rtb_MemoryX_idx_1;
+    HW6_v1_B.Akxhatkk1[0] += HW6_v1_P.A_Value[0] * HW6_v1_B.rtb_MemoryX_idx_0;
+    HW6_v1_B.Akxhatkk1[0] += HW6_v1_P.A_Value[2] * HW6_v1_B.rtb_MemoryX_idx_1;
     HW6_v1_B.Akxhatkk1[1] = 0.0;
-    HW6_v1_B.Akxhatkk1[1] += HW6_v1_P.A_Value_b[1] * HW6_v1_B.rtb_MemoryX_idx_0;
-    HW6_v1_B.Akxhatkk1[1] += HW6_v1_P.A_Value_b[3] * HW6_v1_B.rtb_MemoryX_idx_1;
+    HW6_v1_B.Akxhatkk1[1] += HW6_v1_P.A_Value[1] * HW6_v1_B.rtb_MemoryX_idx_0;
+    HW6_v1_B.Akxhatkk1[1] += HW6_v1_P.A_Value[3] * HW6_v1_B.rtb_MemoryX_idx_1;
 
 
 
@@ -5184,30 +4260,115 @@ void HW6_v1_step(void)
 
 
 
-      HW6_v1_B.Dkuk = HW6_v1_P.D_Value_d * HW6_v1_B.Sum1;
+      HW6_v1_B.Bkuk_e = HW6_v1_P.D_Value * HW6_v1_B.Sum1_m;
 
 
 
 
 
 
-      HW6_v1_B.Sum = HW6_v1_B.Reshapey - ((HW6_v1_P.C_Value[0] *
+      HW6_v1_B.Gain1 = HW6_v1_B.Reshapey - ((HW6_v1_P.C_Value[0] *
         HW6_v1_B.rtb_MemoryX_idx_0 + HW6_v1_P.C_Value[1] *
-        HW6_v1_B.rtb_MemoryX_idx_1) + HW6_v1_B.Dkuk);
+        HW6_v1_B.rtb_MemoryX_idx_1) + HW6_v1_B.Bkuk_e);
 
 
 
 
-      HW6_v1_B.Product3[0] = HW6_v1_P.KalmanGainL_Value_n[0] * HW6_v1_B.Sum;
-      HW6_v1_B.Product3[1] = HW6_v1_P.KalmanGainL_Value_n[1] * HW6_v1_B.Sum;
+      HW6_v1_B.Product3[0] = HW6_v1_P.KalmanGainL_Value[0] * HW6_v1_B.Gain1;
+      HW6_v1_B.Product3[1] = HW6_v1_P.KalmanGainL_Value[1] * HW6_v1_B.Gain1;
     }
-# 994 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
-    HW6_v1_B.Add_m[0] = (HW6_v1_P.B_Value_n[0] * HW6_v1_B.Sum1 +
-                         HW6_v1_B.Akxhatkk1[0]) + HW6_v1_B.Product3[0];
-    HW6_v1_B.Add_m[1] = (HW6_v1_P.B_Value_n[1] * HW6_v1_B.Sum1 +
-                         HW6_v1_B.Akxhatkk1[1]) + HW6_v1_B.Product3[1];
+# 754 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+    HW6_v1_B.Add[0] = (HW6_v1_P.B_Value[0] * HW6_v1_B.Sum1_m +
+                       HW6_v1_B.Akxhatkk1[0]) + HW6_v1_B.Product3[0];
+    HW6_v1_B.Add[1] = (HW6_v1_P.B_Value[1] * HW6_v1_B.Sum1_m +
+                       HW6_v1_B.Akxhatkk1[1]) + HW6_v1_B.Product3[1];
+
+
+
+
+    HW6_v1_B.Bkuk_e = HW6_v1_P.A_Value_k * rtb_MemoryX_k;
+# 771 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+    HW6_v1_MeasurementUpdate(HW6_v1_M, HW6_v1_P.Enable_Value_ir,
+      HW6_v1_P.KalmanGainL_Value_b, rtb_Reshapey_c, HW6_v1_P.C_Value_h,
+      rtb_MemoryX_k, HW6_v1_P.D_Value_i, HW6_v1_B.DataTypeConversion4,
+      &HW6_v1_B.MeasurementUpdate_o, &HW6_v1_DW.MeasurementUpdate_o,
+      &HW6_v1_P.MeasurementUpdate_o);
+# 784 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+    rtb_Add_c = (HW6_v1_P.B_Value_h * HW6_v1_B.DataTypeConversion4 +
+                 HW6_v1_B.Bkuk_e) + HW6_v1_B.MeasurementUpdate_o.Product3;
+
+
+
+
+
+    HW6_v1_B.Bkuk_e = HW6_v1_P.B_Value_g * HW6_v1_B.DataTypeConversion1;
+# 800 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+    HW6_v1_MeasurementUpdate(HW6_v1_M, HW6_v1_P.Enable_Value_g,
+      HW6_v1_P.KalmanGainL_Value_j, HW6_v1_B.Reshapey_e, HW6_v1_P.C_Value_a,
+      HW6_v1_B.MemoryX_o, HW6_v1_P.D_Value_h, HW6_v1_B.DataTypeConversion1,
+      &HW6_v1_B.MeasurementUpdate_h, &HW6_v1_DW.MeasurementUpdate_h,
+      &HW6_v1_P.MeasurementUpdate_h);
+
+
+
+
+
+
+
+    rtb_Add_h = (HW6_v1_P.A_Value_m * HW6_v1_B.MemoryX_o + HW6_v1_B.Bkuk_e) +
+      HW6_v1_B.MeasurementUpdate_h.Product3;
+
+
+
+
+
+    HW6_v1_B.Bkuk_e = HW6_v1_P.B_Value_o * HW6_v1_B.DataTypeConversion3;
+# 828 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+    HW6_v1_MeasurementUpdate(HW6_v1_M, HW6_v1_P.Enable_Value_i,
+      HW6_v1_P.KalmanGainL_Value_m, rtb_Reshapey_p, HW6_v1_P.C_Value_ag,
+      rtb_MemoryX_c, HW6_v1_P.D_Value_a, HW6_v1_B.DataTypeConversion3,
+      &HW6_v1_B.MeasurementUpdate, &HW6_v1_DW.MeasurementUpdate,
+      &HW6_v1_P.MeasurementUpdate);
+
+
+
+
+
+
+
+    rtb_Add_cc = (HW6_v1_P.A_Value_e * rtb_MemoryX_c + HW6_v1_B.Bkuk_e) +
+      HW6_v1_B.MeasurementUpdate.Product3;
+
+
+
+
+
+    HW6_v1_B.Bkuk_e = HW6_v1_P.B_Value_p * HW6_v1_B.DataTypeConversion2;
+# 856 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.c"
+    HW6_v1_MeasurementUpdate(HW6_v1_M, HW6_v1_P.Enable_Value_m,
+      HW6_v1_P.KalmanGainL_Value_g, HW6_v1_B.Reshapey_o, HW6_v1_P.C_Value_d,
+      HW6_v1_B.MemoryX_j, HW6_v1_P.D_Value_e, HW6_v1_B.DataTypeConversion2,
+      &HW6_v1_B.MeasurementUpdate_f, &HW6_v1_DW.MeasurementUpdate_f,
+      &HW6_v1_P.MeasurementUpdate_f);
+
+
+
+
+
+
+
+    rtb_Add_ck = (HW6_v1_P.A_Value_mn * HW6_v1_B.MemoryX_j + HW6_v1_B.Bkuk_e) +
+      HW6_v1_B.MeasurementUpdate_f.Product3;
   }
 
+
+  HW6_v1_B.Integrator = HW6_v1_X.Integrator_CSTATE;
+
+
+  HW6_v1_B.Integrator2 = HW6_v1_X.Integrator2_CSTATE;
+
+
+  HW6_v1_B.Integrator4 = HW6_v1_X.Integrator4_CSTATE;
   if ((((HW6_v1_M)->Timing.simTimeStep) == MAJOR_TIME_STEP)) {
 
     rt_UpdateTXYLogVars(HW6_v1_M->rtwLogInfo, (HW6_v1_M->Timing.t));
@@ -5217,8 +4378,8 @@ void HW6_v1_step(void)
     if ((((HW6_v1_M)->Timing.simTimeStep) == MAJOR_TIME_STEP)) {
 
       HW6_v1_DW.icLoad = 0U;
-      HW6_v1_DW.MemoryX_DSTATE[0] = HW6_v1_B.Add_m[0];
-      HW6_v1_DW.MemoryX_DSTATE[1] = HW6_v1_B.Add_m[1];
+      HW6_v1_DW.MemoryX_DSTATE[0] = HW6_v1_B.Add[0];
+      HW6_v1_DW.MemoryX_DSTATE[1] = HW6_v1_B.Add[1];
 
 
       HW6_v1_DW.icLoad_m = 0U;
@@ -5226,15 +4387,15 @@ void HW6_v1_step(void)
 
 
       HW6_v1_DW.icLoad_l = 0U;
-      HW6_v1_DW.MemoryX_DSTATE_f = rtb_Add_c;
+      HW6_v1_DW.MemoryX_DSTATE_f = rtb_Add_ck;
 
 
-      HW6_v1_DW.icLoad_d = 0U;
-      HW6_v1_DW.MemoryX_DSTATE_g = rtb_Add;
+      HW6_v1_DW.icLoad_h = 0U;
+      HW6_v1_DW.MemoryX_DSTATE_j = rtb_Add_cc;
 
 
-      HW6_v1_DW.icLoad_e = 0U;
-      HW6_v1_DW.MemoryX_DSTATE_b = rtb_Add_l;
+      HW6_v1_DW.icLoad_l4 = 0U;
+      HW6_v1_DW.MemoryX_DSTATE_m = rtb_Add_c;
     }
   }
 
@@ -5502,7 +4663,7 @@ void HW6_v1_initialize(void)
       (((void *)0))
     };
 
-    static const char_T *rt_ToWksLabels[] = { "z" };
+    static const char_T *rt_ToWksLabels[] = { "" };
 
     static RTWLogSignalInfo rt_ToWksSignalInfo = {
       1,
@@ -5572,7 +4733,7 @@ void HW6_v1_initialize(void)
       (((void *)0))
     };
 
-    static const char_T *rt_ToWksLabels[] = { "w" };
+    static const char_T *rt_ToWksLabels[] = { "" };
 
     static RTWLogSignalInfo rt_ToWksSignalInfo = {
       1,
@@ -5642,7 +4803,7 @@ void HW6_v1_initialize(void)
       (((void *)0))
     };
 
-    static const char_T *rt_ToWksLabels[] = { "z" };
+    static const char_T *rt_ToWksLabels[] = { "" };
 
     static RTWLogSignalInfo rt_ToWksSignalInfo = {
       1,
@@ -5712,7 +4873,7 @@ void HW6_v1_initialize(void)
       (((void *)0))
     };
 
-    static const char_T *rt_ToWksLabels[] = { "z" };
+    static const char_T *rt_ToWksLabels[] = { "" };
 
     static RTWLogSignalInfo rt_ToWksSignalInfo = {
       1,
@@ -5782,7 +4943,7 @@ void HW6_v1_initialize(void)
       (((void *)0))
     };
 
-    static const char_T *rt_ToWksLabels[] = { "z" };
+    static const char_T *rt_ToWksLabels[] = { "" };
 
     static RTWLogSignalInfo rt_ToWksSignalInfo = {
       1,
@@ -5852,7 +5013,7 @@ void HW6_v1_initialize(void)
       (((void *)0))
     };
 
-    static const char_T *rt_ToWksLabels[] = { "z" };
+    static const char_T *rt_ToWksLabels[] = { "" };
 
     static RTWLogSignalInfo rt_ToWksSignalInfo = {
       1,
@@ -5899,356 +5060,6 @@ void HW6_v1_initialize(void)
   }
 
 
-  {
-    static int_T rt_ToWksWidths[] = { 1 };
-
-    static int_T rt_ToWksNumDimensions[] = { 1 };
-
-    static int_T rt_ToWksDimensions[] = { 1 };
-
-    static boolean_T rt_ToWksIsVarDims[] = { 0 };
-
-    static void *rt_ToWksCurrSigDims[] = { (((void *)0)) };
-
-    static int_T rt_ToWksCurrSigDimsSize[] = { 4 };
-
-    static BuiltInDTypeId rt_ToWksDataTypeIds[] = { SS_DOUBLE };
-
-    static int_T rt_ToWksComplexSignals[] = { 0 };
-
-    static int_T rt_ToWksFrameData[] = { 0 };
-
-    static RTWPreprocessingFcnPtr rt_ToWksLoggingPreprocessingFcnPtrs[] = {
-      (((void *)0))
-    };
-
-    static const char_T *rt_ToWksLabels[] = { "" };
-
-    static RTWLogSignalInfo rt_ToWksSignalInfo = {
-      1,
-      rt_ToWksWidths,
-      rt_ToWksNumDimensions,
-      rt_ToWksDimensions,
-      rt_ToWksIsVarDims,
-      rt_ToWksCurrSigDims,
-      rt_ToWksCurrSigDimsSize,
-      rt_ToWksDataTypeIds,
-      rt_ToWksComplexSignals,
-      rt_ToWksFrameData,
-      rt_ToWksLoggingPreprocessingFcnPtrs,
-
-      { rt_ToWksLabels },
-      (((void *)0)),
-      (((void *)0)),
-      (((void *)0)),
-
-      { (((void *)0)) },
-
-      { (((void *)0)) },
-      (((void *)0)),
-      (((void *)0))
-    };
-
-    static const char_T rt_ToWksBlockName[] =
-      "HW6_v1/Flight_Control_System/To Workspace8";
-    HW6_v1_DW.ToWorkspace8_PWORK.LoggedData = rt_CreateStructLogVar(
-      HW6_v1_M->rtwLogInfo,
-      0.0,
-      ((HW6_v1_M)->Timing.tFinal),
-      HW6_v1_M->Timing.stepSize0,
-      (&((HW6_v1_M)->errorStatus)),
-      "possiblezero1",
-      1,
-      0,
-      1,
-      0.005,
-      &rt_ToWksSignalInfo,
-      rt_ToWksBlockName);
-    if (HW6_v1_DW.ToWorkspace8_PWORK.LoggedData == (((void *)0)))
-      return;
-  }
-
-
-  {
-    static int_T rt_ToWksWidths[] = { 1 };
-
-    static int_T rt_ToWksNumDimensions[] = { 1 };
-
-    static int_T rt_ToWksDimensions[] = { 1 };
-
-    static boolean_T rt_ToWksIsVarDims[] = { 0 };
-
-    static void *rt_ToWksCurrSigDims[] = { (((void *)0)) };
-
-    static int_T rt_ToWksCurrSigDimsSize[] = { 4 };
-
-    static BuiltInDTypeId rt_ToWksDataTypeIds[] = { SS_DOUBLE };
-
-    static int_T rt_ToWksComplexSignals[] = { 0 };
-
-    static int_T rt_ToWksFrameData[] = { 0 };
-
-    static RTWPreprocessingFcnPtr rt_ToWksLoggingPreprocessingFcnPtrs[] = {
-      (((void *)0))
-    };
-
-    static const char_T *rt_ToWksLabels[] = { "" };
-
-    static RTWLogSignalInfo rt_ToWksSignalInfo = {
-      1,
-      rt_ToWksWidths,
-      rt_ToWksNumDimensions,
-      rt_ToWksDimensions,
-      rt_ToWksIsVarDims,
-      rt_ToWksCurrSigDims,
-      rt_ToWksCurrSigDimsSize,
-      rt_ToWksDataTypeIds,
-      rt_ToWksComplexSignals,
-      rt_ToWksFrameData,
-      rt_ToWksLoggingPreprocessingFcnPtrs,
-
-      { rt_ToWksLabels },
-      (((void *)0)),
-      (((void *)0)),
-      (((void *)0)),
-
-      { (((void *)0)) },
-
-      { (((void *)0)) },
-      (((void *)0)),
-      (((void *)0))
-    };
-
-    static const char_T rt_ToWksBlockName[] =
-      "HW6_v1/Flight_Control_System/Check if near zero/To Workspace1";
-    HW6_v1_DW.ToWorkspace1_PWORK_j.LoggedData = rt_CreateStructLogVar(
-      HW6_v1_M->rtwLogInfo,
-      0.0,
-      ((HW6_v1_M)->Timing.tFinal),
-      HW6_v1_M->Timing.stepSize0,
-      (&((HW6_v1_M)->errorStatus)),
-      "checksign",
-      1,
-      0,
-      1,
-      0.005,
-      &rt_ToWksSignalInfo,
-      rt_ToWksBlockName);
-    if (HW6_v1_DW.ToWorkspace1_PWORK_j.LoggedData == (((void *)0)))
-      return;
-  }
-
-
-  {
-    static int_T rt_ToWksWidths[] = { 1 };
-
-    static int_T rt_ToWksNumDimensions[] = { 1 };
-
-    static int_T rt_ToWksDimensions[] = { 1 };
-
-    static boolean_T rt_ToWksIsVarDims[] = { 0 };
-
-    static void *rt_ToWksCurrSigDims[] = { (((void *)0)) };
-
-    static int_T rt_ToWksCurrSigDimsSize[] = { 4 };
-
-    static BuiltInDTypeId rt_ToWksDataTypeIds[] = { SS_DOUBLE };
-
-    static int_T rt_ToWksComplexSignals[] = { 0 };
-
-    static int_T rt_ToWksFrameData[] = { 0 };
-
-    static RTWPreprocessingFcnPtr rt_ToWksLoggingPreprocessingFcnPtrs[] = {
-      (((void *)0))
-    };
-
-    static const char_T *rt_ToWksLabels[] = { "a_z" };
-
-    static RTWLogSignalInfo rt_ToWksSignalInfo = {
-      1,
-      rt_ToWksWidths,
-      rt_ToWksNumDimensions,
-      rt_ToWksDimensions,
-      rt_ToWksIsVarDims,
-      rt_ToWksCurrSigDims,
-      rt_ToWksCurrSigDimsSize,
-      rt_ToWksDataTypeIds,
-      rt_ToWksComplexSignals,
-      rt_ToWksFrameData,
-      rt_ToWksLoggingPreprocessingFcnPtrs,
-
-      { rt_ToWksLabels },
-      (((void *)0)),
-      (((void *)0)),
-      (((void *)0)),
-
-      { (((void *)0)) },
-
-      { (((void *)0)) },
-      (((void *)0)),
-      (((void *)0))
-    };
-
-    static const char_T rt_ToWksBlockName[] =
-      "HW6_v1/Flight_Control_System/Check if near zero/To Workspace2";
-    HW6_v1_DW.ToWorkspace2_PWORK_n.LoggedData = rt_CreateStructLogVar(
-      HW6_v1_M->rtwLogInfo,
-      0.0,
-      ((HW6_v1_M)->Timing.tFinal),
-      HW6_v1_M->Timing.stepSize0,
-      (&((HW6_v1_M)->errorStatus)),
-      "booleanoutput1",
-      1,
-      0,
-      1,
-      0.005,
-      &rt_ToWksSignalInfo,
-      rt_ToWksBlockName);
-    if (HW6_v1_DW.ToWorkspace2_PWORK_n.LoggedData == (((void *)0)))
-      return;
-  }
-
-
-  {
-    static int_T rt_ToWksWidths[] = { 1 };
-
-    static int_T rt_ToWksNumDimensions[] = { 1 };
-
-    static int_T rt_ToWksDimensions[] = { 1 };
-
-    static boolean_T rt_ToWksIsVarDims[] = { 0 };
-
-    static void *rt_ToWksCurrSigDims[] = { (((void *)0)) };
-
-    static int_T rt_ToWksCurrSigDimsSize[] = { 4 };
-
-    static BuiltInDTypeId rt_ToWksDataTypeIds[] = { SS_BOOLEAN };
-
-    static int_T rt_ToWksComplexSignals[] = { 0 };
-
-    static int_T rt_ToWksFrameData[] = { 0 };
-
-    static RTWPreprocessingFcnPtr rt_ToWksLoggingPreprocessingFcnPtrs[] = {
-      (((void *)0))
-    };
-
-    static const char_T *rt_ToWksLabels[] = { "" };
-
-    static RTWLogSignalInfo rt_ToWksSignalInfo = {
-      1,
-      rt_ToWksWidths,
-      rt_ToWksNumDimensions,
-      rt_ToWksDimensions,
-      rt_ToWksIsVarDims,
-      rt_ToWksCurrSigDims,
-      rt_ToWksCurrSigDimsSize,
-      rt_ToWksDataTypeIds,
-      rt_ToWksComplexSignals,
-      rt_ToWksFrameData,
-      rt_ToWksLoggingPreprocessingFcnPtrs,
-
-      { rt_ToWksLabels },
-      (((void *)0)),
-      (((void *)0)),
-      (((void *)0)),
-
-      { (((void *)0)) },
-
-      { (((void *)0)) },
-      (((void *)0)),
-      (((void *)0))
-    };
-
-    static const char_T rt_ToWksBlockName[] =
-      "HW6_v1/Flight_Control_System/Check if near zero/To Workspace8";
-    HW6_v1_DW.ToWorkspace8_PWORK_a.LoggedData = rt_CreateStructLogVar(
-      HW6_v1_M->rtwLogInfo,
-      0.0,
-      ((HW6_v1_M)->Timing.tFinal),
-      HW6_v1_M->Timing.stepSize0,
-      (&((HW6_v1_M)->errorStatus)),
-      "booleanoutput",
-      1,
-      0,
-      1,
-      0.005,
-      &rt_ToWksSignalInfo,
-      rt_ToWksBlockName);
-    if (HW6_v1_DW.ToWorkspace8_PWORK_a.LoggedData == (((void *)0)))
-      return;
-  }
-
-
-  {
-    static int_T rt_ToWksWidths[] = { 1 };
-
-    static int_T rt_ToWksNumDimensions[] = { 1 };
-
-    static int_T rt_ToWksDimensions[] = { 1 };
-
-    static boolean_T rt_ToWksIsVarDims[] = { 0 };
-
-    static void *rt_ToWksCurrSigDims[] = { (((void *)0)) };
-
-    static int_T rt_ToWksCurrSigDimsSize[] = { 4 };
-
-    static BuiltInDTypeId rt_ToWksDataTypeIds[] = { SS_DOUBLE };
-
-    static int_T rt_ToWksComplexSignals[] = { 0 };
-
-    static int_T rt_ToWksFrameData[] = { 0 };
-
-    static RTWPreprocessingFcnPtr rt_ToWksLoggingPreprocessingFcnPtrs[] = {
-      (((void *)0))
-    };
-
-    static const char_T *rt_ToWksLabels[] = { "a_z" };
-
-    static RTWLogSignalInfo rt_ToWksSignalInfo = {
-      1,
-      rt_ToWksWidths,
-      rt_ToWksNumDimensions,
-      rt_ToWksDimensions,
-      rt_ToWksIsVarDims,
-      rt_ToWksCurrSigDims,
-      rt_ToWksCurrSigDimsSize,
-      rt_ToWksDataTypeIds,
-      rt_ToWksComplexSignals,
-      rt_ToWksFrameData,
-      rt_ToWksLoggingPreprocessingFcnPtrs,
-
-      { rt_ToWksLabels },
-      (((void *)0)),
-      (((void *)0)),
-      (((void *)0)),
-
-      { (((void *)0)) },
-
-      { (((void *)0)) },
-      (((void *)0)),
-      (((void *)0))
-    };
-
-    static const char_T rt_ToWksBlockName[] =
-      "HW6_v1/Flight_Control_System/Check if near zero1/To Workspace";
-    HW6_v1_DW.ToWorkspace_PWORK.LoggedData = rt_CreateStructLogVar(
-      HW6_v1_M->rtwLogInfo,
-      0.0,
-      ((HW6_v1_M)->Timing.tFinal),
-      HW6_v1_M->Timing.stepSize0,
-      (&((HW6_v1_M)->errorStatus)),
-      "possiblezero2",
-      1,
-      0,
-      1,
-      0.005,
-      &rt_ToWksSignalInfo,
-      rt_ToWksBlockName);
-    if (HW6_v1_DW.ToWorkspace_PWORK.LoggedData == (((void *)0)))
-      return;
-  }
-
-
   HW6_v1_X.Integrator11_CSTATE = HW6_v1_P.Integrator11_IC;
 
 
@@ -6279,10 +5090,10 @@ void HW6_v1_initialize(void)
   HW6_v1_DW.icLoad_l = 1U;
 
 
-  HW6_v1_DW.icLoad_d = 1U;
+  HW6_v1_DW.icLoad_h = 1U;
 
 
-  HW6_v1_DW.icLoad_e = 1U;
+  HW6_v1_DW.icLoad_l4 = 1U;
 
 
   HW6_v1_X.Integrator_CSTATE = HW6_v1_P.Integrator_IC;
@@ -6307,8 +5118,8 @@ void HW6_v1_initialize(void)
 
 
 
-  HW6_v1_EnabledSubsystem_Init(&HW6_v1_B.EnabledSubsystem_f0,
-    &HW6_v1_P.EnabledSubsystem_f0);
+  HW6_v1_EnabledSubsystem_Init(&HW6_v1_B.EnabledSubsystem_f,
+    &HW6_v1_P.EnabledSubsystem_f);
 
 
 
@@ -6319,20 +5130,21 @@ void HW6_v1_initialize(void)
 
 
 
-  HW6_v1_EnabledSubsystem_Init(&HW6_v1_B.EnabledSubsystem_f,
-    &HW6_v1_P.EnabledSubsystem_f);
+  HW6_v1_EnabledSubsystem_Init(&HW6_v1_B.EnabledSubsystem_e,
+    &HW6_v1_P.EnabledSubsystem_e);
 
 
 
 
-  HW6_v1_MeasurementUpdate_Init(&HW6_v1_B.MeasurementUpdate,
-    &HW6_v1_P.MeasurementUpdate);
+
+  HW6_v1_B.Product3[0] = HW6_v1_P.Lykyhatkk1_Y0;
+  HW6_v1_B.Product3[1] = HW6_v1_P.Lykyhatkk1_Y0;
 
 
 
 
-  HW6_v1_MeasurementUpdate_Init(&HW6_v1_B.MeasurementUpdate_c,
-    &HW6_v1_P.MeasurementUpdate_c);
+  HW6_v1_MeasurementUpdate_Init(&HW6_v1_B.MeasurementUpdate_o,
+    &HW6_v1_P.MeasurementUpdate_o);
 
 
 
@@ -6343,15 +5155,14 @@ void HW6_v1_initialize(void)
 
 
 
+  HW6_v1_MeasurementUpdate_Init(&HW6_v1_B.MeasurementUpdate,
+    &HW6_v1_P.MeasurementUpdate);
+
+
+
+
   HW6_v1_MeasurementUpdate_Init(&HW6_v1_B.MeasurementUpdate_f,
     &HW6_v1_P.MeasurementUpdate_f);
-
-
-
-
-
-  HW6_v1_B.Product3[0] = HW6_v1_P.Lykyhatkk1_Y0;
-  HW6_v1_B.Product3[1] = HW6_v1_P.Lykyhatkk1_Y0;
 
 
 }

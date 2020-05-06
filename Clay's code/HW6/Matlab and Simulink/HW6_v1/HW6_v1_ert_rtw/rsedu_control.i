@@ -1240,686 +1240,6 @@ typedef int ptrdiff_t;
 # 323 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h" 3 4
 typedef unsigned int wchar_t;
 # 23 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
-# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 1 3 4
-# 30 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
-
-
-
-
-# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/huge_val.h" 1 3 4
-# 35 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 2 3 4
-
-# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/huge_valf.h" 1 3 4
-# 37 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 2 3 4
-# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/huge_vall.h" 1 3 4
-# 38 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 2 3 4
-
-
-# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/inf.h" 1 3 4
-# 41 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 2 3 4
-
-
-# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/nan.h" 1 3 4
-# 44 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 2 3 4
-
-
-
-# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathdef.h" 1 3 4
-# 28 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathdef.h" 3 4
-typedef float float_t;
-
-typedef double double_t;
-# 48 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 2 3 4
-# 71 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
-# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h" 1 3 4
-# 53 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h" 3 4
-
-
-extern double acos (double __x) __attribute__ ((__nothrow__)); extern double __acos (double __x) __attribute__ ((__nothrow__));
-
-extern double asin (double __x) __attribute__ ((__nothrow__)); extern double __asin (double __x) __attribute__ ((__nothrow__));
-
-extern double atan (double __x) __attribute__ ((__nothrow__)); extern double __atan (double __x) __attribute__ ((__nothrow__));
-
-extern double atan2 (double __y, double __x) __attribute__ ((__nothrow__)); extern double __atan2 (double __y, double __x) __attribute__ ((__nothrow__));
-
-
-extern double cos (double __x) __attribute__ ((__nothrow__)); extern double __cos (double __x) __attribute__ ((__nothrow__));
-
-extern double sin (double __x) __attribute__ ((__nothrow__)); extern double __sin (double __x) __attribute__ ((__nothrow__));
-
-extern double tan (double __x) __attribute__ ((__nothrow__)); extern double __tan (double __x) __attribute__ ((__nothrow__));
-
-
-
-
-extern double cosh (double __x) __attribute__ ((__nothrow__)); extern double __cosh (double __x) __attribute__ ((__nothrow__));
-
-extern double sinh (double __x) __attribute__ ((__nothrow__)); extern double __sinh (double __x) __attribute__ ((__nothrow__));
-
-extern double tanh (double __x) __attribute__ ((__nothrow__)); extern double __tanh (double __x) __attribute__ ((__nothrow__));
-
-# 87 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h" 3 4
-
-
-extern double acosh (double __x) __attribute__ ((__nothrow__)); extern double __acosh (double __x) __attribute__ ((__nothrow__));
-
-extern double asinh (double __x) __attribute__ ((__nothrow__)); extern double __asinh (double __x) __attribute__ ((__nothrow__));
-
-extern double atanh (double __x) __attribute__ ((__nothrow__)); extern double __atanh (double __x) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-
-extern double exp (double __x) __attribute__ ((__nothrow__)); extern double __exp (double __x) __attribute__ ((__nothrow__));
-
-
-extern double frexp (double __x, int *__exponent) __attribute__ ((__nothrow__)); extern double __frexp (double __x, int *__exponent) __attribute__ ((__nothrow__));
-
-
-extern double ldexp (double __x, int __exponent) __attribute__ ((__nothrow__)); extern double __ldexp (double __x, int __exponent) __attribute__ ((__nothrow__));
-
-
-extern double log (double __x) __attribute__ ((__nothrow__)); extern double __log (double __x) __attribute__ ((__nothrow__));
-
-
-extern double log10 (double __x) __attribute__ ((__nothrow__)); extern double __log10 (double __x) __attribute__ ((__nothrow__));
-
-
-extern double modf (double __x, double *__iptr) __attribute__ ((__nothrow__)); extern double __modf (double __x, double *__iptr) __attribute__ ((__nothrow__));
-
-# 127 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h" 3 4
-
-
-extern double expm1 (double __x) __attribute__ ((__nothrow__)); extern double __expm1 (double __x) __attribute__ ((__nothrow__));
-
-
-extern double log1p (double __x) __attribute__ ((__nothrow__)); extern double __log1p (double __x) __attribute__ ((__nothrow__));
-
-
-extern double logb (double __x) __attribute__ ((__nothrow__)); extern double __logb (double __x) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-extern double exp2 (double __x) __attribute__ ((__nothrow__)); extern double __exp2 (double __x) __attribute__ ((__nothrow__));
-
-
-extern double log2 (double __x) __attribute__ ((__nothrow__)); extern double __log2 (double __x) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-
-
-extern double pow (double __x, double __y) __attribute__ ((__nothrow__)); extern double __pow (double __x, double __y) __attribute__ ((__nothrow__));
-
-
-extern double sqrt (double __x) __attribute__ ((__nothrow__)); extern double __sqrt (double __x) __attribute__ ((__nothrow__));
-
-
-
-
-
-extern double hypot (double __x, double __y) __attribute__ ((__nothrow__)); extern double __hypot (double __x, double __y) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-extern double cbrt (double __x) __attribute__ ((__nothrow__)); extern double __cbrt (double __x) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-
-
-extern double ceil (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __ceil (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern double fabs (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __fabs (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern double floor (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __floor (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern double fmod (double __x, double __y) __attribute__ ((__nothrow__)); extern double __fmod (double __x, double __y) __attribute__ ((__nothrow__));
-
-
-
-
-extern int __isinf (double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern int __finite (double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-
-
-extern int isinf (double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern int finite (double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern double drem (double __x, double __y) __attribute__ ((__nothrow__)); extern double __drem (double __x, double __y) __attribute__ ((__nothrow__));
-
-
-
-extern double significand (double __x) __attribute__ ((__nothrow__)); extern double __significand (double __x) __attribute__ ((__nothrow__));
-
-
-
-
-
-extern double copysign (double __x, double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __copysign (double __x, double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-
-
-
-extern double nan (__const char *__tagb) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __nan (__const char *__tagb) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-
-
-extern int __isnan (double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-extern int isnan (double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern double j0 (double) __attribute__ ((__nothrow__)); extern double __j0 (double) __attribute__ ((__nothrow__));
-extern double j1 (double) __attribute__ ((__nothrow__)); extern double __j1 (double) __attribute__ ((__nothrow__));
-extern double jn (int, double) __attribute__ ((__nothrow__)); extern double __jn (int, double) __attribute__ ((__nothrow__));
-extern double y0 (double) __attribute__ ((__nothrow__)); extern double __y0 (double) __attribute__ ((__nothrow__));
-extern double y1 (double) __attribute__ ((__nothrow__)); extern double __y1 (double) __attribute__ ((__nothrow__));
-extern double yn (int, double) __attribute__ ((__nothrow__)); extern double __yn (int, double) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-extern double erf (double) __attribute__ ((__nothrow__)); extern double __erf (double) __attribute__ ((__nothrow__));
-extern double erfc (double) __attribute__ ((__nothrow__)); extern double __erfc (double) __attribute__ ((__nothrow__));
-extern double lgamma (double) __attribute__ ((__nothrow__)); extern double __lgamma (double) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-extern double tgamma (double) __attribute__ ((__nothrow__)); extern double __tgamma (double) __attribute__ ((__nothrow__));
-
-
-
-
-
-extern double gamma (double) __attribute__ ((__nothrow__)); extern double __gamma (double) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-extern double lgamma_r (double, int *__signgamp) __attribute__ ((__nothrow__)); extern double __lgamma_r (double, int *__signgamp) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-
-extern double rint (double __x) __attribute__ ((__nothrow__)); extern double __rint (double __x) __attribute__ ((__nothrow__));
-
-
-extern double nextafter (double __x, double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __nextafter (double __x, double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-extern double nexttoward (double __x, long double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __nexttoward (double __x, long double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-extern double remainder (double __x, double __y) __attribute__ ((__nothrow__)); extern double __remainder (double __x, double __y) __attribute__ ((__nothrow__));
-
-
-
-extern double scalbn (double __x, int __n) __attribute__ ((__nothrow__)); extern double __scalbn (double __x, int __n) __attribute__ ((__nothrow__));
-
-
-
-extern int ilogb (double __x) __attribute__ ((__nothrow__)); extern int __ilogb (double __x) __attribute__ ((__nothrow__));
-
-
-
-
-extern double scalbln (double __x, long int __n) __attribute__ ((__nothrow__)); extern double __scalbln (double __x, long int __n) __attribute__ ((__nothrow__));
-
-
-
-extern double nearbyint (double __x) __attribute__ ((__nothrow__)); extern double __nearbyint (double __x) __attribute__ ((__nothrow__));
-
-
-
-extern double round (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __round (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-extern double trunc (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __trunc (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-
-extern double remquo (double __x, double __y, int *__quo) __attribute__ ((__nothrow__)); extern double __remquo (double __x, double __y, int *__quo) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-extern long int lrint (double __x) __attribute__ ((__nothrow__)); extern long int __lrint (double __x) __attribute__ ((__nothrow__));
-extern long long int llrint (double __x) __attribute__ ((__nothrow__)); extern long long int __llrint (double __x) __attribute__ ((__nothrow__));
-
-
-
-extern long int lround (double __x) __attribute__ ((__nothrow__)); extern long int __lround (double __x) __attribute__ ((__nothrow__));
-extern long long int llround (double __x) __attribute__ ((__nothrow__)); extern long long int __llround (double __x) __attribute__ ((__nothrow__));
-
-
-
-extern double fdim (double __x, double __y) __attribute__ ((__nothrow__)); extern double __fdim (double __x, double __y) __attribute__ ((__nothrow__));
-
-
-extern double fmax (double __x, double __y) __attribute__ ((__nothrow__)); extern double __fmax (double __x, double __y) __attribute__ ((__nothrow__));
-
-
-extern double fmin (double __x, double __y) __attribute__ ((__nothrow__)); extern double __fmin (double __x, double __y) __attribute__ ((__nothrow__));
-
-
-
-extern int __fpclassify (double __value) __attribute__ ((__nothrow__))
-     __attribute__ ((__const__));
-
-
-extern int __signbit (double __value) __attribute__ ((__nothrow__))
-     __attribute__ ((__const__));
-
-
-
-extern double fma (double __x, double __y, double __z) __attribute__ ((__nothrow__)); extern double __fma (double __x, double __y, double __z) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-
-
-extern double scalb (double __x, double __n) __attribute__ ((__nothrow__)); extern double __scalb (double __x, double __n) __attribute__ ((__nothrow__));
-# 72 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 2 3 4
-# 94 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
-# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h" 1 3 4
-# 53 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h" 3 4
-
-
-extern float acosf (float __x) __attribute__ ((__nothrow__)); extern float __acosf (float __x) __attribute__ ((__nothrow__));
-
-extern float asinf (float __x) __attribute__ ((__nothrow__)); extern float __asinf (float __x) __attribute__ ((__nothrow__));
-
-extern float atanf (float __x) __attribute__ ((__nothrow__)); extern float __atanf (float __x) __attribute__ ((__nothrow__));
-
-extern float atan2f (float __y, float __x) __attribute__ ((__nothrow__)); extern float __atan2f (float __y, float __x) __attribute__ ((__nothrow__));
-
-
-extern float cosf (float __x) __attribute__ ((__nothrow__)); extern float __cosf (float __x) __attribute__ ((__nothrow__));
-
-extern float sinf (float __x) __attribute__ ((__nothrow__)); extern float __sinf (float __x) __attribute__ ((__nothrow__));
-
-extern float tanf (float __x) __attribute__ ((__nothrow__)); extern float __tanf (float __x) __attribute__ ((__nothrow__));
-
-
-
-
-extern float coshf (float __x) __attribute__ ((__nothrow__)); extern float __coshf (float __x) __attribute__ ((__nothrow__));
-
-extern float sinhf (float __x) __attribute__ ((__nothrow__)); extern float __sinhf (float __x) __attribute__ ((__nothrow__));
-
-extern float tanhf (float __x) __attribute__ ((__nothrow__)); extern float __tanhf (float __x) __attribute__ ((__nothrow__));
-
-# 87 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h" 3 4
-
-
-extern float acoshf (float __x) __attribute__ ((__nothrow__)); extern float __acoshf (float __x) __attribute__ ((__nothrow__));
-
-extern float asinhf (float __x) __attribute__ ((__nothrow__)); extern float __asinhf (float __x) __attribute__ ((__nothrow__));
-
-extern float atanhf (float __x) __attribute__ ((__nothrow__)); extern float __atanhf (float __x) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-
-extern float expf (float __x) __attribute__ ((__nothrow__)); extern float __expf (float __x) __attribute__ ((__nothrow__));
-
-
-extern float frexpf (float __x, int *__exponent) __attribute__ ((__nothrow__)); extern float __frexpf (float __x, int *__exponent) __attribute__ ((__nothrow__));
-
-
-extern float ldexpf (float __x, int __exponent) __attribute__ ((__nothrow__)); extern float __ldexpf (float __x, int __exponent) __attribute__ ((__nothrow__));
-
-
-extern float logf (float __x) __attribute__ ((__nothrow__)); extern float __logf (float __x) __attribute__ ((__nothrow__));
-
-
-extern float log10f (float __x) __attribute__ ((__nothrow__)); extern float __log10f (float __x) __attribute__ ((__nothrow__));
-
-
-extern float modff (float __x, float *__iptr) __attribute__ ((__nothrow__)); extern float __modff (float __x, float *__iptr) __attribute__ ((__nothrow__));
-
-# 127 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h" 3 4
-
-
-extern float expm1f (float __x) __attribute__ ((__nothrow__)); extern float __expm1f (float __x) __attribute__ ((__nothrow__));
-
-
-extern float log1pf (float __x) __attribute__ ((__nothrow__)); extern float __log1pf (float __x) __attribute__ ((__nothrow__));
-
-
-extern float logbf (float __x) __attribute__ ((__nothrow__)); extern float __logbf (float __x) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-extern float exp2f (float __x) __attribute__ ((__nothrow__)); extern float __exp2f (float __x) __attribute__ ((__nothrow__));
-
-
-extern float log2f (float __x) __attribute__ ((__nothrow__)); extern float __log2f (float __x) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-
-
-extern float powf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __powf (float __x, float __y) __attribute__ ((__nothrow__));
-
-
-extern float sqrtf (float __x) __attribute__ ((__nothrow__)); extern float __sqrtf (float __x) __attribute__ ((__nothrow__));
-
-
-
-
-
-extern float hypotf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __hypotf (float __x, float __y) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-extern float cbrtf (float __x) __attribute__ ((__nothrow__)); extern float __cbrtf (float __x) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-
-
-extern float ceilf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __ceilf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern float fabsf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __fabsf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern float floorf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __floorf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern float fmodf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __fmodf (float __x, float __y) __attribute__ ((__nothrow__));
-
-
-
-
-extern int __isinff (float __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern int __finitef (float __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-
-
-extern int isinff (float __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern int finitef (float __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern float dremf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __dremf (float __x, float __y) __attribute__ ((__nothrow__));
-
-
-
-extern float significandf (float __x) __attribute__ ((__nothrow__)); extern float __significandf (float __x) __attribute__ ((__nothrow__));
-
-
-
-
-
-extern float copysignf (float __x, float __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __copysignf (float __x, float __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-
-
-
-extern float nanf (__const char *__tagb) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __nanf (__const char *__tagb) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-
-
-extern int __isnanf (float __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-extern int isnanf (float __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-extern float j0f (float) __attribute__ ((__nothrow__)); extern float __j0f (float) __attribute__ ((__nothrow__));
-extern float j1f (float) __attribute__ ((__nothrow__)); extern float __j1f (float) __attribute__ ((__nothrow__));
-extern float jnf (int, float) __attribute__ ((__nothrow__)); extern float __jnf (int, float) __attribute__ ((__nothrow__));
-extern float y0f (float) __attribute__ ((__nothrow__)); extern float __y0f (float) __attribute__ ((__nothrow__));
-extern float y1f (float) __attribute__ ((__nothrow__)); extern float __y1f (float) __attribute__ ((__nothrow__));
-extern float ynf (int, float) __attribute__ ((__nothrow__)); extern float __ynf (int, float) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-extern float erff (float) __attribute__ ((__nothrow__)); extern float __erff (float) __attribute__ ((__nothrow__));
-extern float erfcf (float) __attribute__ ((__nothrow__)); extern float __erfcf (float) __attribute__ ((__nothrow__));
-extern float lgammaf (float) __attribute__ ((__nothrow__)); extern float __lgammaf (float) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-extern float tgammaf (float) __attribute__ ((__nothrow__)); extern float __tgammaf (float) __attribute__ ((__nothrow__));
-
-
-
-
-
-extern float gammaf (float) __attribute__ ((__nothrow__)); extern float __gammaf (float) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-extern float lgammaf_r (float, int *__signgamp) __attribute__ ((__nothrow__)); extern float __lgammaf_r (float, int *__signgamp) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-
-extern float rintf (float __x) __attribute__ ((__nothrow__)); extern float __rintf (float __x) __attribute__ ((__nothrow__));
-
-
-extern float nextafterf (float __x, float __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __nextafterf (float __x, float __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-extern float nexttowardf (float __x, long double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __nexttowardf (float __x, long double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-extern float remainderf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __remainderf (float __x, float __y) __attribute__ ((__nothrow__));
-
-
-
-extern float scalbnf (float __x, int __n) __attribute__ ((__nothrow__)); extern float __scalbnf (float __x, int __n) __attribute__ ((__nothrow__));
-
-
-
-extern int ilogbf (float __x) __attribute__ ((__nothrow__)); extern int __ilogbf (float __x) __attribute__ ((__nothrow__));
-
-
-
-
-extern float scalblnf (float __x, long int __n) __attribute__ ((__nothrow__)); extern float __scalblnf (float __x, long int __n) __attribute__ ((__nothrow__));
-
-
-
-extern float nearbyintf (float __x) __attribute__ ((__nothrow__)); extern float __nearbyintf (float __x) __attribute__ ((__nothrow__));
-
-
-
-extern float roundf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __roundf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-extern float truncf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __truncf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
-
-
-
-
-extern float remquof (float __x, float __y, int *__quo) __attribute__ ((__nothrow__)); extern float __remquof (float __x, float __y, int *__quo) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-extern long int lrintf (float __x) __attribute__ ((__nothrow__)); extern long int __lrintf (float __x) __attribute__ ((__nothrow__));
-extern long long int llrintf (float __x) __attribute__ ((__nothrow__)); extern long long int __llrintf (float __x) __attribute__ ((__nothrow__));
-
-
-
-extern long int lroundf (float __x) __attribute__ ((__nothrow__)); extern long int __lroundf (float __x) __attribute__ ((__nothrow__));
-extern long long int llroundf (float __x) __attribute__ ((__nothrow__)); extern long long int __llroundf (float __x) __attribute__ ((__nothrow__));
-
-
-
-extern float fdimf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __fdimf (float __x, float __y) __attribute__ ((__nothrow__));
-
-
-extern float fmaxf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __fmaxf (float __x, float __y) __attribute__ ((__nothrow__));
-
-
-extern float fminf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __fminf (float __x, float __y) __attribute__ ((__nothrow__));
-
-
-
-extern int __fpclassifyf (float __value) __attribute__ ((__nothrow__))
-     __attribute__ ((__const__));
-
-
-extern int __signbitf (float __value) __attribute__ ((__nothrow__))
-     __attribute__ ((__const__));
-
-
-
-extern float fmaf (float __x, float __y, float __z) __attribute__ ((__nothrow__)); extern float __fmaf (float __x, float __y, float __z) __attribute__ ((__nothrow__));
-
-
-
-
-
-
-
-
-extern float scalbf (float __x, float __n) __attribute__ ((__nothrow__)); extern float __scalbf (float __x, float __n) __attribute__ ((__nothrow__));
-# 95 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 2 3 4
-# 157 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
-extern int signgam;
-# 198 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
-enum
-  {
-    FP_NAN,
-
-    FP_INFINITE,
-
-    FP_ZERO,
-
-    FP_SUBNORMAL,
-
-    FP_NORMAL
-
-  };
-# 284 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
-typedef enum
-{
-  _IEEE_ = -1,
-  _SVID_,
-  _XOPEN_,
-  _POSIX_,
-  _ISOC_
-} _LIB_VERSION_TYPE;
-
-
-
-
-extern _LIB_VERSION_TYPE _LIB_VERSION;
-# 309 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
-struct exception
-
-  {
-    int type;
-    char *name;
-    double arg1;
-    double arg2;
-    double retval;
-  };
-
-
-
-
-extern int matherr (struct exception *__exc);
-# 465 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
-
-# 24 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/string.h" 1 3 4
 # 28 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/string.h" 3 4
 
@@ -2175,9 +1495,9 @@ extern char *stpncpy (char *__restrict __dest,
      __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
 # 644 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/string.h" 3 4
 
-# 25 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 24 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/float.h" 1 3 4
-# 26 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 25 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 
 
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/stdlib.h" 1 3 4
@@ -3101,7 +2421,7 @@ extern int getloadavg (double __loadavg[], int __nelem)
      __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1)));
 # 912 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/stdlib.h" 3 4
 
-# 29 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 28 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h" 1
 # 51 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h"
 typedef signed char int8_T;
@@ -3190,7 +2510,7 @@ typedef struct {
 } cuint32_T;
 # 152 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h"
 typedef void * pointer_T;
-# 30 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 29 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_continuous.h" 1
 # 17 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_continuous.h"
 # 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h" 1
@@ -3248,7 +2568,7 @@ typedef struct _RTWRTModelMethodsInfo_tag {
 
 
 } RTWRTModelMethodsInfo;
-# 31 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 30 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_solver.h" 1
 # 14 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_solver.h"
 # 1 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_continuous.h" 1
@@ -3355,7 +2675,7 @@ typedef struct _ssSolverInfo_tag {
 
 
 typedef ssSolverInfo RTWSolverInfo;
-# 32 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 31 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "C:/PROGRA~1/MATLAB/R2019b/rtw/c/src/rt_logging.h" 1
 # 10 "C:/PROGRA~1/MATLAB/R2019b/rtw/c/src/rt_logging.h"
         
@@ -3756,7 +3076,7 @@ extern const char_T *rt_UpdateTXXFYLogVars(RTWLogInfo *li, time_T *tPtr, boolean
 extern void rt_StopDataLoggingImpl(const char_T *file, RTWLogInfo *li, boolean_T isRaccel);
 
 extern void rt_StopDataLogging(const char_T *file, RTWLogInfo *li);
-# 33 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 32 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 
 
 # 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_types.h" 1
@@ -3813,12 +3133,12 @@ typedef struct P_HW6_v1_T_ P_HW6_v1_T;
 
 
 typedef struct tag_RTM_HW6_v1_T RT_MODEL_HW6_v1_T;
-# 36 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 35 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 
 
 
 # 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/MW_target_hardware_resources.h" 1
-# 40 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 39 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h" 1
 # 22 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h"
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h" 1 3 4
@@ -3856,8 +3176,8 @@ typedef struct {
     uint32_T wordLuint;
   } wordL;
 } IEEESingle;
-# 41 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
-# 172 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h"
+# 40 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 171 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h"
 typedef struct {
   real_T Product3;
 } B_MeasurementUpdate_HW6_v1_T;
@@ -3881,36 +3201,34 @@ typedef struct {
 typedef struct {
   real_T TmpSignalConversionAtToWork[17];
   real_T Akxhatkk1[2];
-  real_T Add_m[2];
+  real_T Add[2];
   real_T DataTypeConversion1;
   real_T DataTypeConversion2;
   real_T Sum1;
   real_T DataTypeConversion3;
   real_T DataTypeConversion4;
   real_T DataTypeConversion5;
-  real_T Checksignofinput;
-  real_T a_z;
-  real_T a_z_m;
   real_T Integrator;
   real_T Integrator2;
   real_T Integrator4;
   real_T Product2[2];
   real_T Product3[2];
   real_T Reshapey;
-  real_T SquareRoot;
-  real_T Sum;
+  real_T Gain1;
+  real_T Sum1_m;
   real_T rtb_MemoryX_idx_0;
   real_T rtb_MemoryX_idx_1;
   real_T Reshapey_e;
   real_T MemoryX_o;
-  real_T Dkuk;
-  boolean_T AND;
-  B_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f0;
+  real_T Bkuk_e;
+  real_T Reshapey_o;
+  real_T MemoryX_j;
+  B_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f;
   B_MeasurementUpdate_HW6_v1_T MeasurementUpdate_f;
   B_EnabledSubsystem_HW6_v1_T EnabledSubsystem_d;
   B_MeasurementUpdate_HW6_v1_T MeasurementUpdate_h;
-  B_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f;
-  B_MeasurementUpdate_HW6_v1_T MeasurementUpdate_c;
+  B_EnabledSubsystem_HW6_v1_T EnabledSubsystem_e;
+  B_MeasurementUpdate_HW6_v1_T MeasurementUpdate_o;
   B_EnabledSubsystem_HW6_v1_T EnabledSubsystem;
   B_MeasurementUpdate_HW6_v1_T MeasurementUpdate;
 } B_HW6_v1_T;
@@ -3920,8 +3238,8 @@ typedef struct {
   real_T MemoryX_DSTATE[2];
   real_T MemoryX_DSTATE_l;
   real_T MemoryX_DSTATE_f;
-  real_T MemoryX_DSTATE_g;
-  real_T MemoryX_DSTATE_b;
+  real_T MemoryX_DSTATE_j;
+  real_T MemoryX_DSTATE_m;
   struct {
     void *LoggedData;
   } ToWorkspace1_PWORK;
@@ -3950,39 +3268,19 @@ typedef struct {
     void *LoggedData;
   } ToWorkspace7_PWORK;
 
-  struct {
-    void *LoggedData;
-  } ToWorkspace8_PWORK;
-
-  struct {
-    void *LoggedData;
-  } ToWorkspace1_PWORK_j;
-
-  struct {
-    void *LoggedData;
-  } ToWorkspace2_PWORK_n;
-
-  struct {
-    void *LoggedData;
-  } ToWorkspace8_PWORK_a;
-
-  struct {
-    void *LoggedData;
-  } ToWorkspace_PWORK;
-
   uint8_T icLoad;
   uint8_T icLoad_m;
   uint8_T icLoad_l;
-  uint8_T icLoad_d;
-  uint8_T icLoad_e;
+  uint8_T icLoad_h;
+  uint8_T icLoad_l4;
   boolean_T EnabledSubsystem_MODE;
   boolean_T MeasurementUpdate_MODE;
-  DW_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f0;
+  DW_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f;
   DW_MeasurementUpdate_HW6_v1_T MeasurementUpdate_f;
   DW_EnabledSubsystem_HW6_v1_T EnabledSubsystem_d;
   DW_MeasurementUpdate_HW6_v1_T MeasurementUpdate_h;
-  DW_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f;
-  DW_MeasurementUpdate_HW6_v1_T MeasurementUpdate_c;
+  DW_EnabledSubsystem_HW6_v1_T EnabledSubsystem_e;
+  DW_MeasurementUpdate_HW6_v1_T MeasurementUpdate_o;
   DW_EnabledSubsystem_HW6_v1_T EnabledSubsystem;
   DW_MeasurementUpdate_HW6_v1_T MeasurementUpdate;
 } DW_HW6_v1_T;
@@ -4062,21 +3360,6 @@ struct P_EnabledSubsystem_HW6_v1_T_ {
 
 
 struct P_HW6_v1_T_ {
-  real_T IntervalTest_lowlimit;
-
-
-  real_T IntervalTest_lowlimit_n;
-
-
-  real_T IntervalTest_uplimit;
-
-
-  real_T IntervalTest_uplimit_c;
-
-
-  real_T Checksignofinput_Threshold;
-
-
   real_T Lykyhatkk1_Y0;
 
 
@@ -4084,6 +3367,9 @@ struct P_HW6_v1_T_ {
 
 
   real_T Constant_Value;
+
+
+  real_T Gain1_Gain;
 
 
   real_T Integrator11_IC;
@@ -4137,70 +3423,52 @@ struct P_HW6_v1_T_ {
   real_T X0_Value_l;
 
 
-  real_T KalmanGainM_Value_l;
+  real_T KalmanGainM_Value_a;
 
 
-  real_T C_Value_h;
+  real_T C_Value_ag;
 
 
-  real_T Constant3_Value;
-
-
-  real_T Constant4_Value;
-
-
-  real_T Checksignofinput_Threshold_b;
+  real_T Constant1_Value;
 
 
   real_T X0_Value_g;
 
 
-  real_T KalmanGainM_Value_n;
+  real_T KalmanGainM_Value_j;
 
 
-  real_T C_Value_b;
+  real_T C_Value_h;
 
 
-  real_T Gain_Gain;
-
-
-  real_T Constant3_Value_f;
-
-
-  real_T Constant4_Value_n;
+  real_T Constant_Value_n;
 
 
   real_T X0_Value_p;
 
 
-  real_T Integrator_IC;
+  real_T Constant6_Value_e;
 
 
-  real_T Integrator2_IC;
+  real_T A_Value[4];
 
 
-  real_T Integrator4_IC;
+  real_T B_Value[2];
 
 
-  real_T A_Value;
-
-
-  real_T B_Value;
-
-
-  real_T KalmanGainL_Value;
+  real_T KalmanGainL_Value[2];
 
 
   real_T D_Value;
 
 
-  real_T A_Value_c;
+  real_T A_Value_k;
 
 
-  real_T B_Value_l;
+  real_T B_Value_h;
 
 
-  real_T KalmanGainL_Value_o;
+  real_T KalmanGainL_Value_b;
 
 
   real_T D_Value_i;
@@ -4218,6 +3486,18 @@ struct P_HW6_v1_T_ {
   real_T D_Value_h;
 
 
+  real_T A_Value_e;
+
+
+  real_T B_Value_o;
+
+
+  real_T KalmanGainL_Value_m;
+
+
+  real_T D_Value_a;
+
+
   real_T A_Value_mn;
 
 
@@ -4230,16 +3510,13 @@ struct P_HW6_v1_T_ {
   real_T D_Value_e;
 
 
-  real_T A_Value_b[4];
+  real_T Integrator_IC;
 
 
-  real_T B_Value_n[2];
+  real_T Integrator2_IC;
 
 
-  real_T KalmanGainL_Value_n[2];
-
-
-  real_T D_Value_d;
+  real_T Integrator4_IC;
 
 
   real32_T Saturation1_UpperSat;
@@ -4260,10 +3537,10 @@ struct P_HW6_v1_T_ {
   boolean_T Enable_Value_i;
 
 
-  boolean_T Enable_Value_gd;
+  boolean_T Enable_Value_ir;
 
 
-  uint8_T Constant1_Value;
+  uint8_T Constant1_Value_d;
 
 
   uint8_T Constant2_Value;
@@ -4273,12 +3550,12 @@ struct P_HW6_v1_T_ {
 
 
 
-  P_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f0;
+  P_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f;
   P_MeasurementUpdate_HW6_v1_T MeasurementUpdate_f;
   P_EnabledSubsystem_HW6_v1_T EnabledSubsystem_d;
   P_MeasurementUpdate_HW6_v1_T MeasurementUpdate_h;
-  P_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f;
-  P_MeasurementUpdate_HW6_v1_T MeasurementUpdate_c;
+  P_EnabledSubsystem_HW6_v1_T EnabledSubsystem_e;
+  P_MeasurementUpdate_HW6_v1_T MeasurementUpdate_o;
   P_EnabledSubsystem_HW6_v1_T EnabledSubsystem;
   P_MeasurementUpdate_HW6_v1_T MeasurementUpdate;
 };
@@ -4343,7 +3620,7 @@ extern DW_HW6_v1_T HW6_v1_DW;
 
 
 extern ExtY_HW6_v1_T HW6_v1_Y;
-# 666 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h"
+# 622 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h"
 extern CommandBus cmd_inport;
 extern SensorsBus sensor_inport;
 extern real32_T motors_outport[4];
@@ -4387,7 +3664,686 @@ extern void HW6_v1_derivatives(void);
 # 26 "C:/PROGRA~3/MATLAB/SUPPOR~1/R2019b/toolbox/target/SUPPOR~1/parrot/include/rsedu_control.h" 2
 
 
+# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 1 3 4
+# 30 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
 
+
+
+
+# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/huge_val.h" 1 3 4
+# 35 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 2 3 4
+
+# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/huge_valf.h" 1 3 4
+# 37 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 2 3 4
+# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/huge_vall.h" 1 3 4
+# 38 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 2 3 4
+
+
+# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/inf.h" 1 3 4
+# 41 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 2 3 4
+
+
+# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/nan.h" 1 3 4
+# 44 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 2 3 4
+
+
+
+# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathdef.h" 1 3 4
+# 28 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathdef.h" 3 4
+typedef float float_t;
+
+typedef double double_t;
+# 48 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 2 3 4
+# 71 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
+# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h" 1 3 4
+# 53 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h" 3 4
+
+
+extern double acos (double __x) __attribute__ ((__nothrow__)); extern double __acos (double __x) __attribute__ ((__nothrow__));
+
+extern double asin (double __x) __attribute__ ((__nothrow__)); extern double __asin (double __x) __attribute__ ((__nothrow__));
+
+extern double atan (double __x) __attribute__ ((__nothrow__)); extern double __atan (double __x) __attribute__ ((__nothrow__));
+
+extern double atan2 (double __y, double __x) __attribute__ ((__nothrow__)); extern double __atan2 (double __y, double __x) __attribute__ ((__nothrow__));
+
+
+extern double cos (double __x) __attribute__ ((__nothrow__)); extern double __cos (double __x) __attribute__ ((__nothrow__));
+
+extern double sin (double __x) __attribute__ ((__nothrow__)); extern double __sin (double __x) __attribute__ ((__nothrow__));
+
+extern double tan (double __x) __attribute__ ((__nothrow__)); extern double __tan (double __x) __attribute__ ((__nothrow__));
+
+
+
+
+extern double cosh (double __x) __attribute__ ((__nothrow__)); extern double __cosh (double __x) __attribute__ ((__nothrow__));
+
+extern double sinh (double __x) __attribute__ ((__nothrow__)); extern double __sinh (double __x) __attribute__ ((__nothrow__));
+
+extern double tanh (double __x) __attribute__ ((__nothrow__)); extern double __tanh (double __x) __attribute__ ((__nothrow__));
+
+# 87 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h" 3 4
+
+
+extern double acosh (double __x) __attribute__ ((__nothrow__)); extern double __acosh (double __x) __attribute__ ((__nothrow__));
+
+extern double asinh (double __x) __attribute__ ((__nothrow__)); extern double __asinh (double __x) __attribute__ ((__nothrow__));
+
+extern double atanh (double __x) __attribute__ ((__nothrow__)); extern double __atanh (double __x) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+
+extern double exp (double __x) __attribute__ ((__nothrow__)); extern double __exp (double __x) __attribute__ ((__nothrow__));
+
+
+extern double frexp (double __x, int *__exponent) __attribute__ ((__nothrow__)); extern double __frexp (double __x, int *__exponent) __attribute__ ((__nothrow__));
+
+
+extern double ldexp (double __x, int __exponent) __attribute__ ((__nothrow__)); extern double __ldexp (double __x, int __exponent) __attribute__ ((__nothrow__));
+
+
+extern double log (double __x) __attribute__ ((__nothrow__)); extern double __log (double __x) __attribute__ ((__nothrow__));
+
+
+extern double log10 (double __x) __attribute__ ((__nothrow__)); extern double __log10 (double __x) __attribute__ ((__nothrow__));
+
+
+extern double modf (double __x, double *__iptr) __attribute__ ((__nothrow__)); extern double __modf (double __x, double *__iptr) __attribute__ ((__nothrow__));
+
+# 127 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h" 3 4
+
+
+extern double expm1 (double __x) __attribute__ ((__nothrow__)); extern double __expm1 (double __x) __attribute__ ((__nothrow__));
+
+
+extern double log1p (double __x) __attribute__ ((__nothrow__)); extern double __log1p (double __x) __attribute__ ((__nothrow__));
+
+
+extern double logb (double __x) __attribute__ ((__nothrow__)); extern double __logb (double __x) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+extern double exp2 (double __x) __attribute__ ((__nothrow__)); extern double __exp2 (double __x) __attribute__ ((__nothrow__));
+
+
+extern double log2 (double __x) __attribute__ ((__nothrow__)); extern double __log2 (double __x) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+
+
+extern double pow (double __x, double __y) __attribute__ ((__nothrow__)); extern double __pow (double __x, double __y) __attribute__ ((__nothrow__));
+
+
+extern double sqrt (double __x) __attribute__ ((__nothrow__)); extern double __sqrt (double __x) __attribute__ ((__nothrow__));
+
+
+
+
+
+extern double hypot (double __x, double __y) __attribute__ ((__nothrow__)); extern double __hypot (double __x, double __y) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+extern double cbrt (double __x) __attribute__ ((__nothrow__)); extern double __cbrt (double __x) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+
+
+extern double ceil (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __ceil (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+extern double fabs (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __fabs (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+extern double floor (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __floor (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+extern double fmod (double __x, double __y) __attribute__ ((__nothrow__)); extern double __fmod (double __x, double __y) __attribute__ ((__nothrow__));
+
+
+
+
+extern int __isinf (double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+extern int __finite (double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+
+
+extern int isinf (double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+extern int finite (double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+extern double drem (double __x, double __y) __attribute__ ((__nothrow__)); extern double __drem (double __x, double __y) __attribute__ ((__nothrow__));
+
+
+
+extern double significand (double __x) __attribute__ ((__nothrow__)); extern double __significand (double __x) __attribute__ ((__nothrow__));
+
+
+
+
+
+extern double copysign (double __x, double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __copysign (double __x, double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+
+
+
+extern double nan (__const char *__tagb) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __nan (__const char *__tagb) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+
+
+extern int __isnan (double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+extern int isnan (double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+extern double j0 (double) __attribute__ ((__nothrow__)); extern double __j0 (double) __attribute__ ((__nothrow__));
+extern double j1 (double) __attribute__ ((__nothrow__)); extern double __j1 (double) __attribute__ ((__nothrow__));
+extern double jn (int, double) __attribute__ ((__nothrow__)); extern double __jn (int, double) __attribute__ ((__nothrow__));
+extern double y0 (double) __attribute__ ((__nothrow__)); extern double __y0 (double) __attribute__ ((__nothrow__));
+extern double y1 (double) __attribute__ ((__nothrow__)); extern double __y1 (double) __attribute__ ((__nothrow__));
+extern double yn (int, double) __attribute__ ((__nothrow__)); extern double __yn (int, double) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+extern double erf (double) __attribute__ ((__nothrow__)); extern double __erf (double) __attribute__ ((__nothrow__));
+extern double erfc (double) __attribute__ ((__nothrow__)); extern double __erfc (double) __attribute__ ((__nothrow__));
+extern double lgamma (double) __attribute__ ((__nothrow__)); extern double __lgamma (double) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+extern double tgamma (double) __attribute__ ((__nothrow__)); extern double __tgamma (double) __attribute__ ((__nothrow__));
+
+
+
+
+
+extern double gamma (double) __attribute__ ((__nothrow__)); extern double __gamma (double) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+extern double lgamma_r (double, int *__signgamp) __attribute__ ((__nothrow__)); extern double __lgamma_r (double, int *__signgamp) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+
+extern double rint (double __x) __attribute__ ((__nothrow__)); extern double __rint (double __x) __attribute__ ((__nothrow__));
+
+
+extern double nextafter (double __x, double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __nextafter (double __x, double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+extern double nexttoward (double __x, long double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __nexttoward (double __x, long double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+extern double remainder (double __x, double __y) __attribute__ ((__nothrow__)); extern double __remainder (double __x, double __y) __attribute__ ((__nothrow__));
+
+
+
+extern double scalbn (double __x, int __n) __attribute__ ((__nothrow__)); extern double __scalbn (double __x, int __n) __attribute__ ((__nothrow__));
+
+
+
+extern int ilogb (double __x) __attribute__ ((__nothrow__)); extern int __ilogb (double __x) __attribute__ ((__nothrow__));
+
+
+
+
+extern double scalbln (double __x, long int __n) __attribute__ ((__nothrow__)); extern double __scalbln (double __x, long int __n) __attribute__ ((__nothrow__));
+
+
+
+extern double nearbyint (double __x) __attribute__ ((__nothrow__)); extern double __nearbyint (double __x) __attribute__ ((__nothrow__));
+
+
+
+extern double round (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __round (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+extern double trunc (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __trunc (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+
+extern double remquo (double __x, double __y, int *__quo) __attribute__ ((__nothrow__)); extern double __remquo (double __x, double __y, int *__quo) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+extern long int lrint (double __x) __attribute__ ((__nothrow__)); extern long int __lrint (double __x) __attribute__ ((__nothrow__));
+extern long long int llrint (double __x) __attribute__ ((__nothrow__)); extern long long int __llrint (double __x) __attribute__ ((__nothrow__));
+
+
+
+extern long int lround (double __x) __attribute__ ((__nothrow__)); extern long int __lround (double __x) __attribute__ ((__nothrow__));
+extern long long int llround (double __x) __attribute__ ((__nothrow__)); extern long long int __llround (double __x) __attribute__ ((__nothrow__));
+
+
+
+extern double fdim (double __x, double __y) __attribute__ ((__nothrow__)); extern double __fdim (double __x, double __y) __attribute__ ((__nothrow__));
+
+
+extern double fmax (double __x, double __y) __attribute__ ((__nothrow__)); extern double __fmax (double __x, double __y) __attribute__ ((__nothrow__));
+
+
+extern double fmin (double __x, double __y) __attribute__ ((__nothrow__)); extern double __fmin (double __x, double __y) __attribute__ ((__nothrow__));
+
+
+
+extern int __fpclassify (double __value) __attribute__ ((__nothrow__))
+     __attribute__ ((__const__));
+
+
+extern int __signbit (double __value) __attribute__ ((__nothrow__))
+     __attribute__ ((__const__));
+
+
+
+extern double fma (double __x, double __y, double __z) __attribute__ ((__nothrow__)); extern double __fma (double __x, double __y, double __z) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+
+
+extern double scalb (double __x, double __n) __attribute__ ((__nothrow__)); extern double __scalb (double __x, double __n) __attribute__ ((__nothrow__));
+# 72 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 2 3 4
+# 94 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
+# 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h" 1 3 4
+# 53 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h" 3 4
+
+
+extern float acosf (float __x) __attribute__ ((__nothrow__)); extern float __acosf (float __x) __attribute__ ((__nothrow__));
+
+extern float asinf (float __x) __attribute__ ((__nothrow__)); extern float __asinf (float __x) __attribute__ ((__nothrow__));
+
+extern float atanf (float __x) __attribute__ ((__nothrow__)); extern float __atanf (float __x) __attribute__ ((__nothrow__));
+
+extern float atan2f (float __y, float __x) __attribute__ ((__nothrow__)); extern float __atan2f (float __y, float __x) __attribute__ ((__nothrow__));
+
+
+extern float cosf (float __x) __attribute__ ((__nothrow__)); extern float __cosf (float __x) __attribute__ ((__nothrow__));
+
+extern float sinf (float __x) __attribute__ ((__nothrow__)); extern float __sinf (float __x) __attribute__ ((__nothrow__));
+
+extern float tanf (float __x) __attribute__ ((__nothrow__)); extern float __tanf (float __x) __attribute__ ((__nothrow__));
+
+
+
+
+extern float coshf (float __x) __attribute__ ((__nothrow__)); extern float __coshf (float __x) __attribute__ ((__nothrow__));
+
+extern float sinhf (float __x) __attribute__ ((__nothrow__)); extern float __sinhf (float __x) __attribute__ ((__nothrow__));
+
+extern float tanhf (float __x) __attribute__ ((__nothrow__)); extern float __tanhf (float __x) __attribute__ ((__nothrow__));
+
+# 87 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h" 3 4
+
+
+extern float acoshf (float __x) __attribute__ ((__nothrow__)); extern float __acoshf (float __x) __attribute__ ((__nothrow__));
+
+extern float asinhf (float __x) __attribute__ ((__nothrow__)); extern float __asinhf (float __x) __attribute__ ((__nothrow__));
+
+extern float atanhf (float __x) __attribute__ ((__nothrow__)); extern float __atanhf (float __x) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+
+extern float expf (float __x) __attribute__ ((__nothrow__)); extern float __expf (float __x) __attribute__ ((__nothrow__));
+
+
+extern float frexpf (float __x, int *__exponent) __attribute__ ((__nothrow__)); extern float __frexpf (float __x, int *__exponent) __attribute__ ((__nothrow__));
+
+
+extern float ldexpf (float __x, int __exponent) __attribute__ ((__nothrow__)); extern float __ldexpf (float __x, int __exponent) __attribute__ ((__nothrow__));
+
+
+extern float logf (float __x) __attribute__ ((__nothrow__)); extern float __logf (float __x) __attribute__ ((__nothrow__));
+
+
+extern float log10f (float __x) __attribute__ ((__nothrow__)); extern float __log10f (float __x) __attribute__ ((__nothrow__));
+
+
+extern float modff (float __x, float *__iptr) __attribute__ ((__nothrow__)); extern float __modff (float __x, float *__iptr) __attribute__ ((__nothrow__));
+
+# 127 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h" 3 4
+
+
+extern float expm1f (float __x) __attribute__ ((__nothrow__)); extern float __expm1f (float __x) __attribute__ ((__nothrow__));
+
+
+extern float log1pf (float __x) __attribute__ ((__nothrow__)); extern float __log1pf (float __x) __attribute__ ((__nothrow__));
+
+
+extern float logbf (float __x) __attribute__ ((__nothrow__)); extern float __logbf (float __x) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+extern float exp2f (float __x) __attribute__ ((__nothrow__)); extern float __exp2f (float __x) __attribute__ ((__nothrow__));
+
+
+extern float log2f (float __x) __attribute__ ((__nothrow__)); extern float __log2f (float __x) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+
+
+extern float powf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __powf (float __x, float __y) __attribute__ ((__nothrow__));
+
+
+extern float sqrtf (float __x) __attribute__ ((__nothrow__)); extern float __sqrtf (float __x) __attribute__ ((__nothrow__));
+
+
+
+
+
+extern float hypotf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __hypotf (float __x, float __y) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+extern float cbrtf (float __x) __attribute__ ((__nothrow__)); extern float __cbrtf (float __x) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+
+
+extern float ceilf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __ceilf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+extern float fabsf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __fabsf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+extern float floorf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __floorf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+extern float fmodf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __fmodf (float __x, float __y) __attribute__ ((__nothrow__));
+
+
+
+
+extern int __isinff (float __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+extern int __finitef (float __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+
+
+extern int isinff (float __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+extern int finitef (float __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+extern float dremf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __dremf (float __x, float __y) __attribute__ ((__nothrow__));
+
+
+
+extern float significandf (float __x) __attribute__ ((__nothrow__)); extern float __significandf (float __x) __attribute__ ((__nothrow__));
+
+
+
+
+
+extern float copysignf (float __x, float __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __copysignf (float __x, float __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+
+
+
+extern float nanf (__const char *__tagb) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __nanf (__const char *__tagb) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+
+
+extern int __isnanf (float __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+extern int isnanf (float __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+extern float j0f (float) __attribute__ ((__nothrow__)); extern float __j0f (float) __attribute__ ((__nothrow__));
+extern float j1f (float) __attribute__ ((__nothrow__)); extern float __j1f (float) __attribute__ ((__nothrow__));
+extern float jnf (int, float) __attribute__ ((__nothrow__)); extern float __jnf (int, float) __attribute__ ((__nothrow__));
+extern float y0f (float) __attribute__ ((__nothrow__)); extern float __y0f (float) __attribute__ ((__nothrow__));
+extern float y1f (float) __attribute__ ((__nothrow__)); extern float __y1f (float) __attribute__ ((__nothrow__));
+extern float ynf (int, float) __attribute__ ((__nothrow__)); extern float __ynf (int, float) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+extern float erff (float) __attribute__ ((__nothrow__)); extern float __erff (float) __attribute__ ((__nothrow__));
+extern float erfcf (float) __attribute__ ((__nothrow__)); extern float __erfcf (float) __attribute__ ((__nothrow__));
+extern float lgammaf (float) __attribute__ ((__nothrow__)); extern float __lgammaf (float) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+extern float tgammaf (float) __attribute__ ((__nothrow__)); extern float __tgammaf (float) __attribute__ ((__nothrow__));
+
+
+
+
+
+extern float gammaf (float) __attribute__ ((__nothrow__)); extern float __gammaf (float) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+extern float lgammaf_r (float, int *__signgamp) __attribute__ ((__nothrow__)); extern float __lgammaf_r (float, int *__signgamp) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+
+extern float rintf (float __x) __attribute__ ((__nothrow__)); extern float __rintf (float __x) __attribute__ ((__nothrow__));
+
+
+extern float nextafterf (float __x, float __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __nextafterf (float __x, float __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+extern float nexttowardf (float __x, long double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __nexttowardf (float __x, long double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+extern float remainderf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __remainderf (float __x, float __y) __attribute__ ((__nothrow__));
+
+
+
+extern float scalbnf (float __x, int __n) __attribute__ ((__nothrow__)); extern float __scalbnf (float __x, int __n) __attribute__ ((__nothrow__));
+
+
+
+extern int ilogbf (float __x) __attribute__ ((__nothrow__)); extern int __ilogbf (float __x) __attribute__ ((__nothrow__));
+
+
+
+
+extern float scalblnf (float __x, long int __n) __attribute__ ((__nothrow__)); extern float __scalblnf (float __x, long int __n) __attribute__ ((__nothrow__));
+
+
+
+extern float nearbyintf (float __x) __attribute__ ((__nothrow__)); extern float __nearbyintf (float __x) __attribute__ ((__nothrow__));
+
+
+
+extern float roundf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __roundf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+extern float truncf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __truncf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+
+extern float remquof (float __x, float __y, int *__quo) __attribute__ ((__nothrow__)); extern float __remquof (float __x, float __y, int *__quo) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+extern long int lrintf (float __x) __attribute__ ((__nothrow__)); extern long int __lrintf (float __x) __attribute__ ((__nothrow__));
+extern long long int llrintf (float __x) __attribute__ ((__nothrow__)); extern long long int __llrintf (float __x) __attribute__ ((__nothrow__));
+
+
+
+extern long int lroundf (float __x) __attribute__ ((__nothrow__)); extern long int __lroundf (float __x) __attribute__ ((__nothrow__));
+extern long long int llroundf (float __x) __attribute__ ((__nothrow__)); extern long long int __llroundf (float __x) __attribute__ ((__nothrow__));
+
+
+
+extern float fdimf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __fdimf (float __x, float __y) __attribute__ ((__nothrow__));
+
+
+extern float fmaxf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __fmaxf (float __x, float __y) __attribute__ ((__nothrow__));
+
+
+extern float fminf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __fminf (float __x, float __y) __attribute__ ((__nothrow__));
+
+
+
+extern int __fpclassifyf (float __value) __attribute__ ((__nothrow__))
+     __attribute__ ((__const__));
+
+
+extern int __signbitf (float __value) __attribute__ ((__nothrow__))
+     __attribute__ ((__const__));
+
+
+
+extern float fmaf (float __x, float __y, float __z) __attribute__ ((__nothrow__)); extern float __fmaf (float __x, float __y, float __z) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+
+
+extern float scalbf (float __x, float __n) __attribute__ ((__nothrow__)); extern float __scalbf (float __x, float __n) __attribute__ ((__nothrow__));
+# 95 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 2 3 4
+# 157 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
+extern int signgam;
+# 198 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
+enum
+  {
+    FP_NAN,
+
+    FP_INFINITE,
+
+    FP_ZERO,
+
+    FP_SUBNORMAL,
+
+    FP_NORMAL
+
+  };
+# 284 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
+typedef enum
+{
+  _IEEE_ = -1,
+  _SVID_,
+  _XOPEN_,
+  _POSIX_,
+  _ISOC_
+} _LIB_VERSION_TYPE;
+
+
+
+
+extern _LIB_VERSION_TYPE _LIB_VERSION;
+# 309 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
+struct exception
+
+  {
+    int type;
+    char *name;
+    double arg1;
+    double arg2;
+    double retval;
+  };
+
+
+
+
+extern int matherr (struct exception *__exc);
+# 465 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/math.h" 3 4
+
+# 29 "C:/PROGRA~3/MATLAB/SUPPOR~1/R2019b/toolbox/target/SUPPOR~1/parrot/include/rsedu_control.h" 2
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/inttypes.h" 1 3 4
 # 35 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../arm-none-linux-gnueabi/libc/usr/include/inttypes.h" 3 4
 typedef unsigned int __gwchar_t;

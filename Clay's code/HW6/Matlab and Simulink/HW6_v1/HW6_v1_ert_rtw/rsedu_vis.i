@@ -5801,9 +5801,8 @@ typedef struct _HAL_command_t
 typedef int ptrdiff_t;
 # 23 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 
-
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/float.h" 1 3 4
-# 26 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 25 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 
 
 
@@ -5895,7 +5894,7 @@ typedef struct {
 } cuint32_T;
 # 152 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h"
 typedef void * pointer_T;
-# 30 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 29 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_continuous.h" 1
 # 17 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_continuous.h"
 # 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rtwtypes.h" 1
@@ -5953,7 +5952,7 @@ typedef struct _RTWRTModelMethodsInfo_tag {
 
 
 } RTWRTModelMethodsInfo;
-# 31 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 30 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_solver.h" 1
 # 14 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_solver.h"
 # 1 "C:/PROGRA~1/MATLAB/R2019b/simulink/include/rtw_continuous.h" 1
@@ -6060,7 +6059,7 @@ typedef struct _ssSolverInfo_tag {
 
 
 typedef ssSolverInfo RTWSolverInfo;
-# 32 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 31 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "C:/PROGRA~1/MATLAB/R2019b/rtw/c/src/rt_logging.h" 1
 # 10 "C:/PROGRA~1/MATLAB/R2019b/rtw/c/src/rt_logging.h"
         
@@ -6461,7 +6460,7 @@ extern const char_T *rt_UpdateTXXFYLogVars(RTWLogInfo *li, time_T *tPtr, boolean
 extern void rt_StopDataLoggingImpl(const char_T *file, RTWLogInfo *li, boolean_T isRaccel);
 
 extern void rt_StopDataLogging(const char_T *file, RTWLogInfo *li);
-# 33 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 32 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 
 
 # 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1_types.h" 1
@@ -6518,12 +6517,12 @@ typedef struct P_HW6_v1_T_ P_HW6_v1_T;
 
 
 typedef struct tag_RTM_HW6_v1_T RT_MODEL_HW6_v1_T;
-# 36 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 35 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 
 
 
 # 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/MW_target_hardware_resources.h" 1
-# 40 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 39 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
 # 1 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h" 1
 # 22 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/rt_nonfinite.h"
 # 1 "c:\\programdata\\matlab\\supportpackages\\r2019b\\3p.instrset\\ev3sourcerylite.instrset\\codesourcery\\bin\\../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h" 1 3 4
@@ -6561,8 +6560,8 @@ typedef struct {
     uint32_T wordLuint;
   } wordL;
 } IEEESingle;
-# 41 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
-# 172 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h"
+# 40 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h" 2
+# 171 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h"
 typedef struct {
   real_T Product3;
 } B_MeasurementUpdate_HW6_v1_T;
@@ -6586,36 +6585,34 @@ typedef struct {
 typedef struct {
   real_T TmpSignalConversionAtToWork[17];
   real_T Akxhatkk1[2];
-  real_T Add_m[2];
+  real_T Add[2];
   real_T DataTypeConversion1;
   real_T DataTypeConversion2;
   real_T Sum1;
   real_T DataTypeConversion3;
   real_T DataTypeConversion4;
   real_T DataTypeConversion5;
-  real_T Checksignofinput;
-  real_T a_z;
-  real_T a_z_m;
   real_T Integrator;
   real_T Integrator2;
   real_T Integrator4;
   real_T Product2[2];
   real_T Product3[2];
   real_T Reshapey;
-  real_T SquareRoot;
-  real_T Sum;
+  real_T Gain1;
+  real_T Sum1_m;
   real_T rtb_MemoryX_idx_0;
   real_T rtb_MemoryX_idx_1;
   real_T Reshapey_e;
   real_T MemoryX_o;
-  real_T Dkuk;
-  boolean_T AND;
-  B_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f0;
+  real_T Bkuk_e;
+  real_T Reshapey_o;
+  real_T MemoryX_j;
+  B_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f;
   B_MeasurementUpdate_HW6_v1_T MeasurementUpdate_f;
   B_EnabledSubsystem_HW6_v1_T EnabledSubsystem_d;
   B_MeasurementUpdate_HW6_v1_T MeasurementUpdate_h;
-  B_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f;
-  B_MeasurementUpdate_HW6_v1_T MeasurementUpdate_c;
+  B_EnabledSubsystem_HW6_v1_T EnabledSubsystem_e;
+  B_MeasurementUpdate_HW6_v1_T MeasurementUpdate_o;
   B_EnabledSubsystem_HW6_v1_T EnabledSubsystem;
   B_MeasurementUpdate_HW6_v1_T MeasurementUpdate;
 } B_HW6_v1_T;
@@ -6625,8 +6622,8 @@ typedef struct {
   real_T MemoryX_DSTATE[2];
   real_T MemoryX_DSTATE_l;
   real_T MemoryX_DSTATE_f;
-  real_T MemoryX_DSTATE_g;
-  real_T MemoryX_DSTATE_b;
+  real_T MemoryX_DSTATE_j;
+  real_T MemoryX_DSTATE_m;
   struct {
     void *LoggedData;
   } ToWorkspace1_PWORK;
@@ -6655,39 +6652,19 @@ typedef struct {
     void *LoggedData;
   } ToWorkspace7_PWORK;
 
-  struct {
-    void *LoggedData;
-  } ToWorkspace8_PWORK;
-
-  struct {
-    void *LoggedData;
-  } ToWorkspace1_PWORK_j;
-
-  struct {
-    void *LoggedData;
-  } ToWorkspace2_PWORK_n;
-
-  struct {
-    void *LoggedData;
-  } ToWorkspace8_PWORK_a;
-
-  struct {
-    void *LoggedData;
-  } ToWorkspace_PWORK;
-
   uint8_T icLoad;
   uint8_T icLoad_m;
   uint8_T icLoad_l;
-  uint8_T icLoad_d;
-  uint8_T icLoad_e;
+  uint8_T icLoad_h;
+  uint8_T icLoad_l4;
   boolean_T EnabledSubsystem_MODE;
   boolean_T MeasurementUpdate_MODE;
-  DW_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f0;
+  DW_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f;
   DW_MeasurementUpdate_HW6_v1_T MeasurementUpdate_f;
   DW_EnabledSubsystem_HW6_v1_T EnabledSubsystem_d;
   DW_MeasurementUpdate_HW6_v1_T MeasurementUpdate_h;
-  DW_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f;
-  DW_MeasurementUpdate_HW6_v1_T MeasurementUpdate_c;
+  DW_EnabledSubsystem_HW6_v1_T EnabledSubsystem_e;
+  DW_MeasurementUpdate_HW6_v1_T MeasurementUpdate_o;
   DW_EnabledSubsystem_HW6_v1_T EnabledSubsystem;
   DW_MeasurementUpdate_HW6_v1_T MeasurementUpdate;
 } DW_HW6_v1_T;
@@ -6767,21 +6744,6 @@ struct P_EnabledSubsystem_HW6_v1_T_ {
 
 
 struct P_HW6_v1_T_ {
-  real_T IntervalTest_lowlimit;
-
-
-  real_T IntervalTest_lowlimit_n;
-
-
-  real_T IntervalTest_uplimit;
-
-
-  real_T IntervalTest_uplimit_c;
-
-
-  real_T Checksignofinput_Threshold;
-
-
   real_T Lykyhatkk1_Y0;
 
 
@@ -6789,6 +6751,9 @@ struct P_HW6_v1_T_ {
 
 
   real_T Constant_Value;
+
+
+  real_T Gain1_Gain;
 
 
   real_T Integrator11_IC;
@@ -6842,70 +6807,52 @@ struct P_HW6_v1_T_ {
   real_T X0_Value_l;
 
 
-  real_T KalmanGainM_Value_l;
+  real_T KalmanGainM_Value_a;
 
 
-  real_T C_Value_h;
+  real_T C_Value_ag;
 
 
-  real_T Constant3_Value;
-
-
-  real_T Constant4_Value;
-
-
-  real_T Checksignofinput_Threshold_b;
+  real_T Constant1_Value;
 
 
   real_T X0_Value_g;
 
 
-  real_T KalmanGainM_Value_n;
+  real_T KalmanGainM_Value_j;
 
 
-  real_T C_Value_b;
+  real_T C_Value_h;
 
 
-  real_T Gain_Gain;
-
-
-  real_T Constant3_Value_f;
-
-
-  real_T Constant4_Value_n;
+  real_T Constant_Value_n;
 
 
   real_T X0_Value_p;
 
 
-  real_T Integrator_IC;
+  real_T Constant6_Value_e;
 
 
-  real_T Integrator2_IC;
+  real_T A_Value[4];
 
 
-  real_T Integrator4_IC;
+  real_T B_Value[2];
 
 
-  real_T A_Value;
-
-
-  real_T B_Value;
-
-
-  real_T KalmanGainL_Value;
+  real_T KalmanGainL_Value[2];
 
 
   real_T D_Value;
 
 
-  real_T A_Value_c;
+  real_T A_Value_k;
 
 
-  real_T B_Value_l;
+  real_T B_Value_h;
 
 
-  real_T KalmanGainL_Value_o;
+  real_T KalmanGainL_Value_b;
 
 
   real_T D_Value_i;
@@ -6923,6 +6870,18 @@ struct P_HW6_v1_T_ {
   real_T D_Value_h;
 
 
+  real_T A_Value_e;
+
+
+  real_T B_Value_o;
+
+
+  real_T KalmanGainL_Value_m;
+
+
+  real_T D_Value_a;
+
+
   real_T A_Value_mn;
 
 
@@ -6935,16 +6894,13 @@ struct P_HW6_v1_T_ {
   real_T D_Value_e;
 
 
-  real_T A_Value_b[4];
+  real_T Integrator_IC;
 
 
-  real_T B_Value_n[2];
+  real_T Integrator2_IC;
 
 
-  real_T KalmanGainL_Value_n[2];
-
-
-  real_T D_Value_d;
+  real_T Integrator4_IC;
 
 
   real32_T Saturation1_UpperSat;
@@ -6965,10 +6921,10 @@ struct P_HW6_v1_T_ {
   boolean_T Enable_Value_i;
 
 
-  boolean_T Enable_Value_gd;
+  boolean_T Enable_Value_ir;
 
 
-  uint8_T Constant1_Value;
+  uint8_T Constant1_Value_d;
 
 
   uint8_T Constant2_Value;
@@ -6978,12 +6934,12 @@ struct P_HW6_v1_T_ {
 
 
 
-  P_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f0;
+  P_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f;
   P_MeasurementUpdate_HW6_v1_T MeasurementUpdate_f;
   P_EnabledSubsystem_HW6_v1_T EnabledSubsystem_d;
   P_MeasurementUpdate_HW6_v1_T MeasurementUpdate_h;
-  P_EnabledSubsystem_HW6_v1_T EnabledSubsystem_f;
-  P_MeasurementUpdate_HW6_v1_T MeasurementUpdate_c;
+  P_EnabledSubsystem_HW6_v1_T EnabledSubsystem_e;
+  P_MeasurementUpdate_HW6_v1_T MeasurementUpdate_o;
   P_EnabledSubsystem_HW6_v1_T EnabledSubsystem;
   P_MeasurementUpdate_HW6_v1_T MeasurementUpdate;
 };
@@ -7048,7 +7004,7 @@ extern DW_HW6_v1_T HW6_v1_DW;
 
 
 extern ExtY_HW6_v1_T HW6_v1_Y;
-# 666 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h"
+# 622 "C:/Users/cwhipp/Desktop/DRONEL~1/HW/DRONEC~1/CLAY'S~1/HW6/MATLAB~1/HW6_v1/HW6_v1_ert_rtw/HW6_v1.h"
 extern CommandBus cmd_inport;
 extern SensorsBus sensor_inport;
 extern real32_T motors_outport[4];

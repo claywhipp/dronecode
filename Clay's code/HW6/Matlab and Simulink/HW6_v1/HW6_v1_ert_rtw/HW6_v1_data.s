@@ -13,24 +13,16 @@
 	.data
 	.align	3
 	.type	HW6_v1_P, %object
-	.size	HW6_v1_P, 624
+	.size	HW6_v1_P, 568
 HW6_v1_P:
 	.word	0
-	.word	-1075838976
-	.word	0
-	.word	-1075838976
-	.word	0
-	.word	1071644672
-	.word	0
-	.word	1071644672
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
-	.word	0
-	.word	0
+	.word	-1074790400
 	.word	0
 	.word	0
 	.word	0
@@ -47,10 +39,10 @@ HW6_v1_P:
 	.word	0
 	.word	0
 	.word	0
-	.word	198606031
-	.word	1068868784
-	.word	1743314245
-	.word	1072161243
+	.word	-293694788
+	.word	1067442223
+	.word	-1878477501
+	.word	1069101770
 	.word	0
 	.word	1072693248
 	.word	0
@@ -71,68 +63,24 @@ HW6_v1_P:
 	.word	1072693248
 	.word	0
 	.word	0
-	.word	1558711666
+	.word	1558711692
 	.word	1069046299
 	.word	0
 	.word	1072693248
-	.word	0
-	.word	1071644672
-	.word	0
-	.word	-1075838976
+	.word	1374389535
+	.word	-1071407432
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	-1935797913
-	.word	1072517254
-	.word	0
-	.word	1072693248
-	.word	0
-	.word	-1074790400
-	.word	0
-	.word	1071644672
-	.word	0
-	.word	-1075838976
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	1072693248
-	.word	1202590843
-	.word	1064598241
-	.word	1558711668
+	.word	1558711692
 	.word	1069046299
 	.word	0
-	.word	0
-	.word	0
 	.word	1072693248
-	.word	1202590843
-	.word	1064598241
-	.word	-1935797915
-	.word	1072517254
+	.word	1374389535
+	.word	1076076216
 	.word	0
 	.word	0
-	.word	0
-	.word	1072693248
-	.word	1202590843
-	.word	1064598241
-	.word	1558711689
-	.word	1069046299
-	.word	0
-	.word	0
-	.word	0
-	.word	1072693248
-	.word	1202590843
-	.word	1064598241
-	.word	1558711689
-	.word	1069046299
-	.word	0
-	.word	0
+	.word	1834810029
+	.word	-1071456571
 	.word	0
 	.word	1072693248
 	.word	0
@@ -145,10 +93,48 @@ HW6_v1_P:
 	.word	1055536866
 	.word	1202590843
 	.word	1064598241
-	.word	-247057475
-	.word	1068931389
-	.word	1743314269
-	.word	1072161243
+	.word	-36783150
+	.word	1067462809
+	.word	-1878477585
+	.word	1069101770
+	.word	0
+	.word	0
+	.word	0
+	.word	1072693248
+	.word	1202590843
+	.word	1064598241
+	.word	1558711689
+	.word	1069046299
+	.word	0
+	.word	0
+	.word	0
+	.word	1072693248
+	.word	1202590843
+	.word	1064598241
+	.word	1558711689
+	.word	1069046299
+	.word	0
+	.word	0
+	.word	0
+	.word	1072693248
+	.word	1202590843
+	.word	1064598241
+	.word	1558711689
+	.word	1069046299
+	.word	0
+	.word	0
+	.word	0
+	.word	1072693248
+	.word	1202590843
+	.word	1064598241
+	.word	1558711689
+	.word	1069046299
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
 	.word	0
 	.word	0
 	.word	1140457472

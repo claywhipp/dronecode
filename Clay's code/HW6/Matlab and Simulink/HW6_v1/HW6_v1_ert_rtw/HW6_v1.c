@@ -7,9 +7,9 @@
  *
  * Code generation for model "HW6_v1".
  *
- * Model version              : 1.134
+ * Model version              : 1.140
  * Simulink Coder version : 9.2 (R2019b) 18-Jul-2019
- * C source code generated on : Mon Apr  6 19:08:02 2020
+ * C source code generated on : Wed May  6 14:58:41 2020
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM 9
@@ -125,47 +125,47 @@ static void rt_ertODEUpdateContinuousStates(RTWSolverInfo *si )
 
 /*
  * System initialize for enable system:
- *    '<S32>/MeasurementUpdate'
- *    '<S84>/MeasurementUpdate'
- *    '<S136>/MeasurementUpdate'
- *    '<S188>/MeasurementUpdate'
+ *    '<S29>/MeasurementUpdate'
+ *    '<S81>/MeasurementUpdate'
+ *    '<S133>/MeasurementUpdate'
+ *    '<S185>/MeasurementUpdate'
  */
 void HW6_v1_MeasurementUpdate_Init(B_MeasurementUpdate_HW6_v1_T *localB,
   P_MeasurementUpdate_HW6_v1_T *localP)
 {
-  /* SystemInitialize for Outport: '<S61>/L*(y[k]-yhat[k|k-1])' */
+  /* SystemInitialize for Outport: '<S58>/L*(y[k]-yhat[k|k-1])' */
   localB->Product3 = localP->Lykyhatkk1_Y0;
 }
 
 /*
  * Disable for enable system:
- *    '<S32>/MeasurementUpdate'
- *    '<S84>/MeasurementUpdate'
- *    '<S136>/MeasurementUpdate'
- *    '<S188>/MeasurementUpdate'
+ *    '<S29>/MeasurementUpdate'
+ *    '<S81>/MeasurementUpdate'
+ *    '<S133>/MeasurementUpdate'
+ *    '<S185>/MeasurementUpdate'
  */
 void HW6_v_MeasurementUpdate_Disable(B_MeasurementUpdate_HW6_v1_T *localB,
   DW_MeasurementUpdate_HW6_v1_T *localDW, P_MeasurementUpdate_HW6_v1_T *localP)
 {
-  /* Disable for Outport: '<S61>/L*(y[k]-yhat[k|k-1])' */
+  /* Disable for Outport: '<S58>/L*(y[k]-yhat[k|k-1])' */
   localB->Product3 = localP->Lykyhatkk1_Y0;
   localDW->MeasurementUpdate_MODE = false;
 }
 
 /*
  * Output and update for enable system:
- *    '<S32>/MeasurementUpdate'
- *    '<S84>/MeasurementUpdate'
- *    '<S136>/MeasurementUpdate'
- *    '<S188>/MeasurementUpdate'
+ *    '<S29>/MeasurementUpdate'
+ *    '<S81>/MeasurementUpdate'
+ *    '<S133>/MeasurementUpdate'
+ *    '<S185>/MeasurementUpdate'
  */
 void HW6_v1_MeasurementUpdate(RT_MODEL_HW6_v1_T * const HW6_v1_M, boolean_T
   rtu_Enable, real_T rtu_Lk, real_T rtu_yk, real_T rtu_Ck, real_T rtu_xhatkk1,
   real_T rtu_Dk, real_T rtu_uk, B_MeasurementUpdate_HW6_v1_T *localB,
   DW_MeasurementUpdate_HW6_v1_T *localDW, P_MeasurementUpdate_HW6_v1_T *localP)
 {
-  /* Outputs for Enabled SubSystem: '<S32>/MeasurementUpdate' incorporates:
-   *  EnablePort: '<S61>/Enable'
+  /* Outputs for Enabled SubSystem: '<S29>/MeasurementUpdate' incorporates:
+   *  EnablePort: '<S58>/Enable'
    */
   if (rtmIsMajorTimeStep(HW6_v1_M)) {
     if (rtu_Enable) {
@@ -178,62 +178,62 @@ void HW6_v1_MeasurementUpdate(RT_MODEL_HW6_v1_T * const HW6_v1_M, boolean_T
   }
 
   if (localDW->MeasurementUpdate_MODE) {
-    /* Product: '<S61>/Product3' incorporates:
-     *  Product: '<S61>/C[k]*xhat[k|k-1]'
-     *  Product: '<S61>/D[k]*u[k]'
-     *  Sum: '<S61>/Add1'
-     *  Sum: '<S61>/Sum'
+    /* Product: '<S58>/Product3' incorporates:
+     *  Product: '<S58>/C[k]*xhat[k|k-1]'
+     *  Product: '<S58>/D[k]*u[k]'
+     *  Sum: '<S58>/Add1'
+     *  Sum: '<S58>/Sum'
      */
     localB->Product3 = (rtu_yk - (rtu_Ck * rtu_xhatkk1 + rtu_Dk * rtu_uk)) *
       rtu_Lk;
   }
 
-  /* End of Outputs for SubSystem: '<S32>/MeasurementUpdate' */
+  /* End of Outputs for SubSystem: '<S29>/MeasurementUpdate' */
 }
 
 /*
  * System initialize for enable system:
- *    '<S39>/Enabled Subsystem'
- *    '<S91>/Enabled Subsystem'
- *    '<S143>/Enabled Subsystem'
- *    '<S195>/Enabled Subsystem'
+ *    '<S36>/Enabled Subsystem'
+ *    '<S88>/Enabled Subsystem'
+ *    '<S140>/Enabled Subsystem'
+ *    '<S192>/Enabled Subsystem'
  */
 void HW6_v1_EnabledSubsystem_Init(B_EnabledSubsystem_HW6_v1_T *localB,
   P_EnabledSubsystem_HW6_v1_T *localP)
 {
-  /* SystemInitialize for Outport: '<S63>/deltax' */
+  /* SystemInitialize for Outport: '<S60>/deltax' */
   localB->Product2 = localP->deltax_Y0;
 }
 
 /*
  * Disable for enable system:
- *    '<S39>/Enabled Subsystem'
- *    '<S91>/Enabled Subsystem'
- *    '<S143>/Enabled Subsystem'
- *    '<S195>/Enabled Subsystem'
+ *    '<S36>/Enabled Subsystem'
+ *    '<S88>/Enabled Subsystem'
+ *    '<S140>/Enabled Subsystem'
+ *    '<S192>/Enabled Subsystem'
  */
 void HW6_v1_EnabledSubsystem_Disable(B_EnabledSubsystem_HW6_v1_T *localB,
   DW_EnabledSubsystem_HW6_v1_T *localDW, P_EnabledSubsystem_HW6_v1_T *localP)
 {
-  /* Disable for Outport: '<S63>/deltax' */
+  /* Disable for Outport: '<S60>/deltax' */
   localB->Product2 = localP->deltax_Y0;
   localDW->EnabledSubsystem_MODE = false;
 }
 
 /*
  * Output and update for enable system:
- *    '<S39>/Enabled Subsystem'
- *    '<S91>/Enabled Subsystem'
- *    '<S143>/Enabled Subsystem'
- *    '<S195>/Enabled Subsystem'
+ *    '<S36>/Enabled Subsystem'
+ *    '<S88>/Enabled Subsystem'
+ *    '<S140>/Enabled Subsystem'
+ *    '<S192>/Enabled Subsystem'
  */
 void HW6_v1_EnabledSubsystem(RT_MODEL_HW6_v1_T * const HW6_v1_M, boolean_T
   rtu_Enable, real_T rtu_Mk, real_T rtu_Ck, real_T rtu_yk, real_T rtu_xhatkk1,
   B_EnabledSubsystem_HW6_v1_T *localB, DW_EnabledSubsystem_HW6_v1_T *localDW,
   P_EnabledSubsystem_HW6_v1_T *localP)
 {
-  /* Outputs for Enabled SubSystem: '<S39>/Enabled Subsystem' incorporates:
-   *  EnablePort: '<S63>/Enable'
+  /* Outputs for Enabled SubSystem: '<S36>/Enabled Subsystem' incorporates:
+   *  EnablePort: '<S60>/Enable'
    */
   if (rtmIsMajorTimeStep(HW6_v1_M)) {
     if (rtu_Enable) {
@@ -246,28 +246,28 @@ void HW6_v1_EnabledSubsystem(RT_MODEL_HW6_v1_T * const HW6_v1_M, boolean_T
   }
 
   if (localDW->EnabledSubsystem_MODE) {
-    /* Product: '<S63>/Product2' incorporates:
-     *  Product: '<S63>/Product'
-     *  Sum: '<S63>/Add1'
+    /* Product: '<S60>/Product2' incorporates:
+     *  Product: '<S60>/Product'
+     *  Sum: '<S60>/Add1'
      */
     localB->Product2 = (rtu_yk - rtu_Ck * rtu_xhatkk1) * rtu_Mk;
   }
 
-  /* End of Outputs for SubSystem: '<S39>/Enabled Subsystem' */
+  /* End of Outputs for SubSystem: '<S36>/Enabled Subsystem' */
 }
 
 /* Model step function */
 void HW6_v1_step(void)
 {
   /* local block i/o variables */
-  real_T rtb_Reshapey_o;
-  real_T rtb_MemoryX_j;
-  real_T rtb_MemoryX_m;
-  real_T rtb_MemoryX_i;
-  real_T rtb_Add;
-  real_T rtb_Add_l;
-  real_T rtb_Add_h;
+  real_T rtb_Reshapey_p;
+  real_T rtb_MemoryX_c;
+  real_T rtb_Reshapey_c;
+  real_T rtb_MemoryX_k;
   real_T rtb_Add_c;
+  real_T rtb_Add_h;
+  real_T rtb_Add_cc;
+  real_T rtb_Add_ck;
   if (rtmIsMajorTimeStep(HW6_v1_M)) {
     /* set solver stop time */
     rtsiSetSolverStopTime(&HW6_v1_M->solverInfo,((HW6_v1_M->Timing.clockTick0+1)*
@@ -278,6 +278,13 @@ void HW6_v1_step(void)
   if (rtmIsMinorTimeStep(HW6_v1_M)) {
     HW6_v1_M->Timing.t[0] = rtsiGetT(&HW6_v1_M->solverInfo);
   }
+
+  /* Gain: '<S1>/Gain1' incorporates:
+   *  DataTypeConversion: '<S1>/Data Type Conversion8'
+   *  Inport: '<Root>/Sensors'
+   */
+  HW6_v1_B.Gain1 = HW6_v1_P.Gain1_Gain *
+    sensor_inport.HALSensors.HAL_ultrasound_SI.altitude;
 
   /* DataTypeConversion: '<S1>/Data Type Conversion1' incorporates:
    *  Inport: '<Root>/Sensors'
@@ -375,7 +382,7 @@ void HW6_v1_step(void)
     if (HW6_v1_P.ManualSwitch_CurrentSetting == 1) {
       flag_outport = HW6_v1_P.Constant2_Value;
     } else {
-      flag_outport = HW6_v1_P.Constant1_Value;
+      flag_outport = HW6_v1_P.Constant1_Value_d;
     }
 
     /* End of ManualSwitch: '<S1>/Manual Switch' */
@@ -386,7 +393,6 @@ void HW6_v1_step(void)
     /* SignalConversion generated from: '<S1>/To Workspace1' incorporates:
      *  DataTypeConversion: '<S1>/Data Type Conversion6'
      *  DataTypeConversion: '<S1>/Data Type Conversion7'
-     *  DataTypeConversion: '<S1>/Data Type Conversion8'
      *  DataTypeConversion: '<S1>/Data Type Conversion9'
      *  Inport: '<Root>/Sensors'
      *  Integrator: '<S1>/Integrator1'
@@ -397,8 +403,7 @@ void HW6_v1_step(void)
      *  Integrator: '<S1>/Integrator7'
      *  Integrator: '<S1>/Integrator8'
      */
-    HW6_v1_B.TmpSignalConversionAtToWork[0] =
-      sensor_inport.HALSensors.HAL_ultrasound_SI.altitude;
+    HW6_v1_B.TmpSignalConversionAtToWork[0] = HW6_v1_B.Gain1;
     HW6_v1_B.TmpSignalConversionAtToWork[1] = HW6_v1_X.Integrator11_CSTATE;
     HW6_v1_B.TmpSignalConversionAtToWork[2] = HW6_v1_X.Integrator5_CSTATE;
     HW6_v1_B.TmpSignalConversionAtToWork[3] =
@@ -430,14 +435,11 @@ void HW6_v1_step(void)
       }
     }
 
-    /* Reshape: '<S9>/Reshapey' incorporates:
-     *  DataTypeConversion: '<S1>/Data Type Conversion8'
-     *  Inport: '<Root>/Sensors'
-     */
-    HW6_v1_B.Reshapey = sensor_inport.HALSensors.HAL_ultrasound_SI.altitude;
+    /* Reshape: '<S8>/Reshapey' */
+    HW6_v1_B.Reshapey = HW6_v1_B.Gain1;
 
-    /* Delay: '<S9>/MemoryX' incorporates:
-     *  Constant: '<S9>/X0'
+    /* Delay: '<S8>/MemoryX' incorporates:
+     *  Constant: '<S8>/X0'
      */
     if (HW6_v1_DW.icLoad != 0) {
       HW6_v1_DW.MemoryX_DSTATE[0] = HW6_v1_P.X0_Value[0];
@@ -447,16 +449,16 @@ void HW6_v1_step(void)
     HW6_v1_B.rtb_MemoryX_idx_0 = HW6_v1_DW.MemoryX_DSTATE[0];
     HW6_v1_B.rtb_MemoryX_idx_1 = HW6_v1_DW.MemoryX_DSTATE[1];
 
-    /* Outputs for Enabled SubSystem: '<S247>/Enabled Subsystem' incorporates:
-     *  EnablePort: '<S271>/Enable'
+    /* Outputs for Enabled SubSystem: '<S244>/Enabled Subsystem' incorporates:
+     *  EnablePort: '<S268>/Enable'
      */
     if (rtmIsMajorTimeStep(HW6_v1_M)) {
-      /* Constant: '<S9>/Enable' */
+      /* Constant: '<S8>/Enable' */
       if (HW6_v1_P.Enable_Value) {
         HW6_v1_DW.EnabledSubsystem_MODE = true;
       } else {
         if (HW6_v1_DW.EnabledSubsystem_MODE) {
-          /* Disable for Outport: '<S271>/deltax' */
+          /* Disable for Outport: '<S268>/deltax' */
           HW6_v1_B.Product2[0] = HW6_v1_P.deltax_Y0;
           HW6_v1_B.Product2[1] = HW6_v1_P.deltax_Y0;
           HW6_v1_DW.EnabledSubsystem_MODE = false;
@@ -465,28 +467,26 @@ void HW6_v1_step(void)
     }
 
     if (HW6_v1_DW.EnabledSubsystem_MODE) {
-      /* Sum: '<S271>/Add1' incorporates:
-       *  Constant: '<S9>/C'
-       *  DataTypeConversion: '<S1>/Data Type Conversion8'
-       *  Delay: '<S9>/MemoryX'
-       *  Inport: '<Root>/Sensors'
-       *  Product: '<S271>/Product'
+      /* Sum: '<S268>/Add1' incorporates:
+       *  Constant: '<S8>/C'
+       *  Delay: '<S8>/MemoryX'
+       *  Product: '<S268>/Product'
+       *  Reshape: '<S8>/Reshapey'
        */
-      HW6_v1_B.Sum = sensor_inport.HALSensors.HAL_ultrasound_SI.altitude -
-        (HW6_v1_P.C_Value[0] * HW6_v1_DW.MemoryX_DSTATE[0] + HW6_v1_P.C_Value[1]
-         * HW6_v1_DW.MemoryX_DSTATE[1]);
+      HW6_v1_B.Gain1 -= HW6_v1_P.C_Value[0] * HW6_v1_DW.MemoryX_DSTATE[0] +
+        HW6_v1_P.C_Value[1] * HW6_v1_DW.MemoryX_DSTATE[1];
 
-      /* Product: '<S271>/Product2' incorporates:
-       *  Constant: '<S220>/KalmanGainM'
+      /* Product: '<S268>/Product2' incorporates:
+       *  Constant: '<S217>/KalmanGainM'
        */
-      HW6_v1_B.Product2[0] = HW6_v1_P.KalmanGainM_Value[0] * HW6_v1_B.Sum;
-      HW6_v1_B.Product2[1] = HW6_v1_P.KalmanGainM_Value[1] * HW6_v1_B.Sum;
+      HW6_v1_B.Product2[0] = HW6_v1_P.KalmanGainM_Value[0] * HW6_v1_B.Gain1;
+      HW6_v1_B.Product2[1] = HW6_v1_P.KalmanGainM_Value[1] * HW6_v1_B.Gain1;
     }
 
-    /* End of Outputs for SubSystem: '<S247>/Enabled Subsystem' */
+    /* End of Outputs for SubSystem: '<S244>/Enabled Subsystem' */
 
-    /* Sum: '<S247>/Add' incorporates:
-     *  Delay: '<S9>/MemoryX'
+    /* Sum: '<S244>/Add' incorporates:
+     *  Delay: '<S8>/MemoryX'
      */
     HW6_v1_B.Akxhatkk1[0] = HW6_v1_B.Product2[0] + HW6_v1_DW.MemoryX_DSTATE[0];
     HW6_v1_B.Akxhatkk1[1] = HW6_v1_B.Product2[1] + HW6_v1_DW.MemoryX_DSTATE[1];
@@ -513,14 +513,14 @@ void HW6_v1_step(void)
       }
     }
 
-    /* Reshape: '<S7>/Reshapey' incorporates:
+    /* Reshape: '<S6>/Reshapey' incorporates:
      *  DataTypeConversion: '<S1>/Data Type Conversion6'
      *  Inport: '<Root>/Sensors'
      */
     HW6_v1_B.Reshapey_e = sensor_inport.VisionSensors.opticalFlow_data[0];
 
-    /* Delay: '<S7>/MemoryX' incorporates:
-     *  Constant: '<S7>/X0'
+    /* Delay: '<S6>/MemoryX' incorporates:
+     *  Constant: '<S6>/X0'
      */
     if (HW6_v1_DW.icLoad_m != 0) {
       HW6_v1_DW.MemoryX_DSTATE_l = HW6_v1_P.X0_Value_h;
@@ -528,22 +528,22 @@ void HW6_v1_step(void)
 
     HW6_v1_B.MemoryX_o = HW6_v1_DW.MemoryX_DSTATE_l;
 
-    /* End of Delay: '<S7>/MemoryX' */
+    /* End of Delay: '<S6>/MemoryX' */
 
-    /* Outputs for Enabled SubSystem: '<S143>/Enabled Subsystem' */
-    /* Constant: '<S7>/Enable' incorporates:
-     *  Constant: '<S116>/KalmanGainM'
-     *  Constant: '<S7>/C'
+    /* Outputs for Enabled SubSystem: '<S140>/Enabled Subsystem' */
+    /* Constant: '<S6>/Enable' incorporates:
+     *  Constant: '<S113>/KalmanGainM'
+     *  Constant: '<S6>/C'
      */
     HW6_v1_EnabledSubsystem(HW6_v1_M, HW6_v1_P.Enable_Value_g,
       HW6_v1_P.KalmanGainM_Value_c, HW6_v1_P.C_Value_a, HW6_v1_B.Reshapey_e,
       HW6_v1_B.MemoryX_o, &HW6_v1_B.EnabledSubsystem_d,
       &HW6_v1_DW.EnabledSubsystem_d, &HW6_v1_P.EnabledSubsystem_d);
 
-    /* End of Outputs for SubSystem: '<S143>/Enabled Subsystem' */
+    /* End of Outputs for SubSystem: '<S140>/Enabled Subsystem' */
 
-    /* Sum: '<S143>/Add' */
-    HW6_v1_B.Dkuk = HW6_v1_B.EnabledSubsystem_d.Product2 + HW6_v1_B.MemoryX_o;
+    /* Sum: '<S140>/Add' */
+    HW6_v1_B.Bkuk_e = HW6_v1_B.EnabledSubsystem_d.Product2 + HW6_v1_B.MemoryX_o;
 
     /* ToWorkspace: '<S1>/To Workspace4' */
     {
@@ -552,41 +552,41 @@ void HW6_v1_step(void)
       if (rtmIsMajorTimeStep(HW6_v1_M)) {
         rt_UpdateStructLogVar((StructLogVar *)
                               HW6_v1_DW.ToWorkspace4_PWORK.LoggedData, &locTime,
-                              &HW6_v1_B.Dkuk);
+                              &HW6_v1_B.Bkuk_e);
       }
     }
 
-    /* Reshape: '<S8>/Reshapey' incorporates:
+    /* Reshape: '<S7>/Reshapey' incorporates:
      *  DataTypeConversion: '<S1>/Data Type Conversion7'
      *  Inport: '<Root>/Sensors'
      */
-    rtb_Reshapey_o = sensor_inport.VisionSensors.opticalFlow_data[1];
+    HW6_v1_B.Reshapey_o = sensor_inport.VisionSensors.opticalFlow_data[1];
 
-    /* Delay: '<S8>/MemoryX' incorporates:
-     *  Constant: '<S8>/X0'
+    /* Delay: '<S7>/MemoryX' incorporates:
+     *  Constant: '<S7>/X0'
      */
     if (HW6_v1_DW.icLoad_l != 0) {
       HW6_v1_DW.MemoryX_DSTATE_f = HW6_v1_P.X0_Value_l;
     }
 
-    rtb_MemoryX_j = HW6_v1_DW.MemoryX_DSTATE_f;
+    HW6_v1_B.MemoryX_j = HW6_v1_DW.MemoryX_DSTATE_f;
 
-    /* End of Delay: '<S8>/MemoryX' */
+    /* End of Delay: '<S7>/MemoryX' */
 
-    /* Outputs for Enabled SubSystem: '<S195>/Enabled Subsystem' */
-    /* Constant: '<S8>/Enable' incorporates:
-     *  Constant: '<S168>/KalmanGainM'
-     *  Constant: '<S8>/C'
+    /* Outputs for Enabled SubSystem: '<S192>/Enabled Subsystem' */
+    /* Constant: '<S7>/Enable' incorporates:
+     *  Constant: '<S165>/KalmanGainM'
+     *  Constant: '<S7>/C'
      */
     HW6_v1_EnabledSubsystem(HW6_v1_M, HW6_v1_P.Enable_Value_m,
-      HW6_v1_P.KalmanGainM_Value_i, HW6_v1_P.C_Value_d, rtb_Reshapey_o,
-      rtb_MemoryX_j, &HW6_v1_B.EnabledSubsystem_f0,
-      &HW6_v1_DW.EnabledSubsystem_f0, &HW6_v1_P.EnabledSubsystem_f0);
+      HW6_v1_P.KalmanGainM_Value_i, HW6_v1_P.C_Value_d, HW6_v1_B.Reshapey_o,
+      HW6_v1_B.MemoryX_j, &HW6_v1_B.EnabledSubsystem_f,
+      &HW6_v1_DW.EnabledSubsystem_f, &HW6_v1_P.EnabledSubsystem_f);
 
-    /* End of Outputs for SubSystem: '<S195>/Enabled Subsystem' */
+    /* End of Outputs for SubSystem: '<S192>/Enabled Subsystem' */
 
-    /* Sum: '<S195>/Add' */
-    HW6_v1_B.Dkuk = HW6_v1_B.EnabledSubsystem_f0.Product2 + rtb_MemoryX_j;
+    /* Sum: '<S192>/Add' */
+    HW6_v1_B.Bkuk_e = HW6_v1_B.EnabledSubsystem_f.Product2 + HW6_v1_B.MemoryX_j;
 
     /* ToWorkspace: '<S1>/To Workspace5' */
     {
@@ -595,79 +595,41 @@ void HW6_v1_step(void)
       if (rtmIsMajorTimeStep(HW6_v1_M)) {
         rt_UpdateStructLogVar((StructLogVar *)
                               HW6_v1_DW.ToWorkspace5_PWORK.LoggedData, &locTime,
-                              &HW6_v1_B.Dkuk);
+                              &HW6_v1_B.Bkuk_e);
       }
     }
-  }
 
-  /* Switch: '<S2>/Check sign of input' incorporates:
-   *  Constant: '<S2>/Constant3'
-   *  Constant: '<S2>/Constant4'
-   *  DataTypeConversion: '<S1>/Data Type Conversion9'
-   *  Inport: '<Root>/Sensors'
-   */
-  if (sensor_inport.HALSensors.HAL_acc_SI.z >
-      HW6_v1_P.Checksignofinput_Threshold_b) {
-    HW6_v1_B.Checksignofinput = HW6_v1_P.Constant3_Value;
-  } else {
-    HW6_v1_B.Checksignofinput = HW6_v1_P.Constant4_Value;
-  }
+    /* Reshape: '<S4>/Reshapey' incorporates:
+     *  Constant: '<S2>/Constant1'
+     *  Product: '<S2>/Divide3'
+     */
+    rtb_Reshapey_p = HW6_v1_B.DataTypeConversion2 / HW6_v1_P.Constant1_Value;
 
-  /* End of Switch: '<S2>/Check sign of input' */
-
-  /* Logic: '<S10>/AND' incorporates:
-   *  Constant: '<S10>/Lower Limit'
-   *  Constant: '<S10>/Upper Limit'
-   *  DataTypeConversion: '<S1>/Data Type Conversion9'
-   *  Inport: '<Root>/Sensors'
-   *  RelationalOperator: '<S10>/Lower Test'
-   *  RelationalOperator: '<S10>/Upper Test'
-   */
-  HW6_v1_B.AND = ((HW6_v1_P.IntervalTest_lowlimit <=
-                   sensor_inport.HALSensors.HAL_acc_SI.z) &&
-                  (sensor_inport.HALSensors.HAL_acc_SI.z <=
-                   HW6_v1_P.IntervalTest_uplimit));
-
-  /* Switch: '<S2>/Decide what to input' incorporates:
-   *  DataTypeConversion: '<S1>/Data Type Conversion9'
-   *  Inport: '<Root>/Sensors'
-   */
-  if (HW6_v1_B.AND) {
-    HW6_v1_B.a_z = HW6_v1_B.Checksignofinput;
-  } else {
-    HW6_v1_B.a_z = sensor_inport.HALSensors.HAL_acc_SI.z;
-  }
-
-  /* End of Switch: '<S2>/Decide what to input' */
-
-  /* Product: '<S1>/Divide' */
-  HW6_v1_B.Sum = HW6_v1_B.DataTypeConversion2 / HW6_v1_B.a_z;
-  if (rtmIsMajorTimeStep(HW6_v1_M)) {
     /* Delay: '<S4>/MemoryX' incorporates:
      *  Constant: '<S4>/X0'
      */
-    if (HW6_v1_DW.icLoad_d != 0) {
-      HW6_v1_DW.MemoryX_DSTATE_g = HW6_v1_P.X0_Value_g;
+    if (HW6_v1_DW.icLoad_h != 0) {
+      HW6_v1_DW.MemoryX_DSTATE_j = HW6_v1_P.X0_Value_g;
     }
 
-    rtb_MemoryX_m = HW6_v1_DW.MemoryX_DSTATE_g;
+    rtb_MemoryX_c = HW6_v1_DW.MemoryX_DSTATE_j;
 
     /* End of Delay: '<S4>/MemoryX' */
 
-    /* Outputs for Enabled SubSystem: '<S39>/Enabled Subsystem' */
+    /* Outputs for Enabled SubSystem: '<S36>/Enabled Subsystem' */
     /* Constant: '<S4>/Enable' incorporates:
-     *  Constant: '<S12>/KalmanGainM'
      *  Constant: '<S4>/C'
+     *  Constant: '<S9>/KalmanGainM'
      */
     HW6_v1_EnabledSubsystem(HW6_v1_M, HW6_v1_P.Enable_Value_i,
-      HW6_v1_P.KalmanGainM_Value_l, HW6_v1_P.C_Value_h, HW6_v1_B.Sum,
-      rtb_MemoryX_m, &HW6_v1_B.EnabledSubsystem, &HW6_v1_DW.EnabledSubsystem,
+      HW6_v1_P.KalmanGainM_Value_a, HW6_v1_P.C_Value_ag, rtb_Reshapey_p,
+      rtb_MemoryX_c, &HW6_v1_B.EnabledSubsystem, &HW6_v1_DW.EnabledSubsystem,
       &HW6_v1_P.EnabledSubsystem);
 
-    /* End of Outputs for SubSystem: '<S39>/Enabled Subsystem' */
+    /* End of Outputs for SubSystem: '<S36>/Enabled Subsystem' */
 
-    /* Sum: '<S39>/Add' */
-    HW6_v1_B.Dkuk = HW6_v1_B.EnabledSubsystem.Product2 + rtb_MemoryX_m;
+    /* Sum: '<S36>/Add' */
+    HW6_v1_B.Bkuk_e = HW6_v1_B.EnabledSubsystem.Product2 + rtb_MemoryX_c;
 
     /* ToWorkspace: '<S1>/To Workspace6' */
     {
@@ -676,79 +638,41 @@ void HW6_v1_step(void)
       if (rtmIsMajorTimeStep(HW6_v1_M)) {
         rt_UpdateStructLogVar((StructLogVar *)
                               HW6_v1_DW.ToWorkspace6_PWORK.LoggedData, &locTime,
-                              &HW6_v1_B.Dkuk);
+                              &HW6_v1_B.Bkuk_e);
       }
     }
-  }
 
-  /* Sqrt: '<S1>/Square Root' incorporates:
-   *  DataTypeConversion: '<S1>/Data Type Conversion9'
-   *  Inport: '<Root>/Sensors'
-   *  Math: '<S1>/Square'
-   *  Math: '<S1>/Square1'
-   *  Sum: '<S1>/Sum2'
-   */
-  HW6_v1_B.SquareRoot = sqrt(HW6_v1_B.DataTypeConversion2 *
-    HW6_v1_B.DataTypeConversion2 + (real_T)sensor_inport.HALSensors.HAL_acc_SI.z
-    * sensor_inport.HALSensors.HAL_acc_SI.z);
-
-  /* Switch: '<S3>/Decide what to input' incorporates:
-   *  Constant: '<S11>/Lower Limit'
-   *  Constant: '<S11>/Upper Limit'
-   *  Logic: '<S11>/AND'
-   *  RelationalOperator: '<S11>/Lower Test'
-   *  RelationalOperator: '<S11>/Upper Test'
-   */
-  if ((HW6_v1_P.IntervalTest_lowlimit_n <= HW6_v1_B.SquareRoot) &&
-      (HW6_v1_B.SquareRoot <= HW6_v1_P.IntervalTest_uplimit_c)) {
-    /* Switch: '<S3>/Check sign of input' incorporates:
-     *  Constant: '<S3>/Constant3'
-     *  Constant: '<S3>/Constant4'
+    /* Reshape: '<S5>/Reshapey' incorporates:
+     *  Constant: '<S2>/Constant'
+     *  Product: '<S2>/Divide2'
      */
-    if (HW6_v1_B.SquareRoot > HW6_v1_P.Checksignofinput_Threshold) {
-      HW6_v1_B.a_z_m = HW6_v1_P.Constant3_Value_f;
-    } else {
-      HW6_v1_B.a_z_m = HW6_v1_P.Constant4_Value_n;
-    }
+    rtb_Reshapey_c = HW6_v1_B.DataTypeConversion1 / HW6_v1_P.Constant_Value_n;
 
-    /* End of Switch: '<S3>/Check sign of input' */
-  } else {
-    HW6_v1_B.a_z_m = HW6_v1_B.SquareRoot;
-  }
-
-  /* End of Switch: '<S3>/Decide what to input' */
-
-  /* Product: '<S1>/Divide1' incorporates:
-   *  Gain: '<S1>/Gain'
-   */
-  HW6_v1_B.SquareRoot = HW6_v1_P.Gain_Gain * HW6_v1_B.DataTypeConversion1 /
-    HW6_v1_B.a_z_m;
-  if (rtmIsMajorTimeStep(HW6_v1_M)) {
     /* Delay: '<S5>/MemoryX' incorporates:
      *  Constant: '<S5>/X0'
      */
-    if (HW6_v1_DW.icLoad_e != 0) {
-      HW6_v1_DW.MemoryX_DSTATE_b = HW6_v1_P.X0_Value_p;
+    if (HW6_v1_DW.icLoad_l4 != 0) {
+      HW6_v1_DW.MemoryX_DSTATE_m = HW6_v1_P.X0_Value_p;
     }
 
-    rtb_MemoryX_i = HW6_v1_DW.MemoryX_DSTATE_b;
+    rtb_MemoryX_k = HW6_v1_DW.MemoryX_DSTATE_m;
 
     /* End of Delay: '<S5>/MemoryX' */
 
-    /* Outputs for Enabled SubSystem: '<S91>/Enabled Subsystem' */
+    /* Outputs for Enabled SubSystem: '<S88>/Enabled Subsystem' */
     /* Constant: '<S5>/Enable' incorporates:
      *  Constant: '<S5>/C'
-     *  Constant: '<S64>/KalmanGainM'
+     *  Constant: '<S61>/KalmanGainM'
      */
-    HW6_v1_EnabledSubsystem(HW6_v1_M, HW6_v1_P.Enable_Value_gd,
-      HW6_v1_P.KalmanGainM_Value_n, HW6_v1_P.C_Value_b, HW6_v1_B.SquareRoot,
-      rtb_MemoryX_i, &HW6_v1_B.EnabledSubsystem_f, &HW6_v1_DW.EnabledSubsystem_f,
-      &HW6_v1_P.EnabledSubsystem_f);
+    HW6_v1_EnabledSubsystem(HW6_v1_M, HW6_v1_P.Enable_Value_ir,
+      HW6_v1_P.KalmanGainM_Value_j, HW6_v1_P.C_Value_h, rtb_Reshapey_c,
+      rtb_MemoryX_k, &HW6_v1_B.EnabledSubsystem_e, &HW6_v1_DW.EnabledSubsystem_e,
+      &HW6_v1_P.EnabledSubsystem_e);
 
-    /* End of Outputs for SubSystem: '<S91>/Enabled Subsystem' */
+    /* End of Outputs for SubSystem: '<S88>/Enabled Subsystem' */
 
-    /* Sum: '<S91>/Add' */
-    HW6_v1_B.Dkuk = HW6_v1_B.EnabledSubsystem_f.Product2 + rtb_MemoryX_i;
+    /* Sum: '<S88>/Add' */
+    HW6_v1_B.Bkuk_e = HW6_v1_B.EnabledSubsystem_e.Product2 + rtb_MemoryX_k;
 
     /* ToWorkspace: '<S1>/To Workspace7' */
     {
@@ -757,64 +681,192 @@ void HW6_v1_step(void)
       if (rtmIsMajorTimeStep(HW6_v1_M)) {
         rt_UpdateStructLogVar((StructLogVar *)
                               HW6_v1_DW.ToWorkspace7_PWORK.LoggedData, &locTime,
-                              &HW6_v1_B.Dkuk);
+                              &HW6_v1_B.Bkuk_e);
+      }
+    }
+  }
+
+  /* Sum: '<S2>/Sum1' incorporates:
+   *  Constant: '<S2>/Constant6'
+   *  DataTypeConversion: '<S1>/Data Type Conversion9'
+   *  Inport: '<Root>/Sensors'
+   */
+  HW6_v1_B.Sum1_m = sensor_inport.HALSensors.HAL_acc_SI.z -
+    HW6_v1_P.Constant6_Value_e;
+  if (rtmIsMajorTimeStep(HW6_v1_M)) {
+    /* Product: '<S237>/A[k]*xhat[k|k-1]' incorporates:
+     *  Constant: '<S8>/A'
+     */
+    HW6_v1_B.Akxhatkk1[0] = 0.0;
+    HW6_v1_B.Akxhatkk1[0] += HW6_v1_P.A_Value[0] * HW6_v1_B.rtb_MemoryX_idx_0;
+    HW6_v1_B.Akxhatkk1[0] += HW6_v1_P.A_Value[2] * HW6_v1_B.rtb_MemoryX_idx_1;
+    HW6_v1_B.Akxhatkk1[1] = 0.0;
+    HW6_v1_B.Akxhatkk1[1] += HW6_v1_P.A_Value[1] * HW6_v1_B.rtb_MemoryX_idx_0;
+    HW6_v1_B.Akxhatkk1[1] += HW6_v1_P.A_Value[3] * HW6_v1_B.rtb_MemoryX_idx_1;
+
+    /* Outputs for Enabled SubSystem: '<S237>/MeasurementUpdate' incorporates:
+     *  EnablePort: '<S266>/Enable'
+     */
+    if (rtmIsMajorTimeStep(HW6_v1_M)) {
+      /* Constant: '<S8>/Enable' */
+      if (HW6_v1_P.Enable_Value) {
+        HW6_v1_DW.MeasurementUpdate_MODE = true;
+      } else {
+        if (HW6_v1_DW.MeasurementUpdate_MODE) {
+          /* Disable for Outport: '<S266>/L*(y[k]-yhat[k|k-1])' */
+          HW6_v1_B.Product3[0] = HW6_v1_P.Lykyhatkk1_Y0;
+          HW6_v1_B.Product3[1] = HW6_v1_P.Lykyhatkk1_Y0;
+          HW6_v1_DW.MeasurementUpdate_MODE = false;
+        }
       }
     }
 
-    /* ToWorkspace: '<S1>/To Workspace8' */
-    {
-      double locTime = ((HW6_v1_M->Timing.clockTick1) * 0.005);
-      ;
-      if (rtmIsMajorTimeStep(HW6_v1_M)) {
-        rt_UpdateStructLogVar((StructLogVar *)
-                              HW6_v1_DW.ToWorkspace8_PWORK.LoggedData, &locTime,
-                              &HW6_v1_B.a_z);
-      }
+    if (HW6_v1_DW.MeasurementUpdate_MODE) {
+      /* Product: '<S266>/D[k]*u[k]' incorporates:
+       *  Constant: '<S8>/D'
+       *  Reshape: '<S8>/Reshapeu'
+       */
+      HW6_v1_B.Bkuk_e = HW6_v1_P.D_Value * HW6_v1_B.Sum1_m;
+
+      /* Sum: '<S266>/Sum' incorporates:
+       *  Constant: '<S8>/C'
+       *  Product: '<S266>/C[k]*xhat[k|k-1]'
+       *  Sum: '<S266>/Add1'
+       */
+      HW6_v1_B.Gain1 = HW6_v1_B.Reshapey - ((HW6_v1_P.C_Value[0] *
+        HW6_v1_B.rtb_MemoryX_idx_0 + HW6_v1_P.C_Value[1] *
+        HW6_v1_B.rtb_MemoryX_idx_1) + HW6_v1_B.Bkuk_e);
+
+      /* Product: '<S266>/Product3' incorporates:
+       *  Constant: '<S217>/KalmanGainL'
+       */
+      HW6_v1_B.Product3[0] = HW6_v1_P.KalmanGainL_Value[0] * HW6_v1_B.Gain1;
+      HW6_v1_B.Product3[1] = HW6_v1_P.KalmanGainL_Value[1] * HW6_v1_B.Gain1;
     }
 
-    /* ToWorkspace: '<S2>/To Workspace1' */
-    {
-      double locTime = ((HW6_v1_M->Timing.clockTick1) * 0.005);
-      ;
-      if (rtmIsMajorTimeStep(HW6_v1_M)) {
-        rt_UpdateStructLogVar((StructLogVar *)
-                              HW6_v1_DW.ToWorkspace1_PWORK_j.LoggedData,
-                              &locTime, &HW6_v1_B.Checksignofinput);
-      }
-    }
+    /* End of Outputs for SubSystem: '<S237>/MeasurementUpdate' */
 
-    /* ToWorkspace: '<S2>/To Workspace2' */
-    {
-      double locTime = ((HW6_v1_M->Timing.clockTick1) * 0.005);
-      ;
-      if (rtmIsMajorTimeStep(HW6_v1_M)) {
-        rt_UpdateStructLogVar((StructLogVar *)
-                              HW6_v1_DW.ToWorkspace2_PWORK_n.LoggedData,
-                              &locTime, &HW6_v1_B.a_z);
-      }
-    }
+    /* Sum: '<S237>/Add' incorporates:
+     *  Constant: '<S8>/B'
+     *  Product: '<S237>/B[k]*u[k]'
+     *  Reshape: '<S8>/Reshapeu'
+     */
+    HW6_v1_B.Add[0] = (HW6_v1_P.B_Value[0] * HW6_v1_B.Sum1_m +
+                       HW6_v1_B.Akxhatkk1[0]) + HW6_v1_B.Product3[0];
+    HW6_v1_B.Add[1] = (HW6_v1_P.B_Value[1] * HW6_v1_B.Sum1_m +
+                       HW6_v1_B.Akxhatkk1[1]) + HW6_v1_B.Product3[1];
 
-    /* ToWorkspace: '<S2>/To Workspace8' */
-    {
-      double locTime = ((HW6_v1_M->Timing.clockTick1) * 0.005);
-      ;
-      if (rtmIsMajorTimeStep(HW6_v1_M)) {
-        rt_UpdateStructLogVar((StructLogVar *)
-                              HW6_v1_DW.ToWorkspace8_PWORK_a.LoggedData,
-                              &locTime, &HW6_v1_B.AND);
-      }
-    }
+    /* Product: '<S81>/A[k]*xhat[k|k-1]' incorporates:
+     *  Constant: '<S5>/A'
+     */
+    HW6_v1_B.Bkuk_e = HW6_v1_P.A_Value_k * rtb_MemoryX_k;
 
-    /* ToWorkspace: '<S3>/To Workspace' */
-    {
-      double locTime = ((HW6_v1_M->Timing.clockTick1) * 0.005);
-      ;
-      if (rtmIsMajorTimeStep(HW6_v1_M)) {
-        rt_UpdateStructLogVar((StructLogVar *)
-                              HW6_v1_DW.ToWorkspace_PWORK.LoggedData, &locTime,
-                              &HW6_v1_B.a_z_m);
-      }
-    }
+    /* Outputs for Enabled SubSystem: '<S81>/MeasurementUpdate' */
+    /* Constant: '<S5>/Enable' incorporates:
+     *  Constant: '<S5>/C'
+     *  Constant: '<S5>/D'
+     *  Constant: '<S61>/KalmanGainL'
+     *  Reshape: '<S5>/Reshapeu'
+     */
+    HW6_v1_MeasurementUpdate(HW6_v1_M, HW6_v1_P.Enable_Value_ir,
+      HW6_v1_P.KalmanGainL_Value_b, rtb_Reshapey_c, HW6_v1_P.C_Value_h,
+      rtb_MemoryX_k, HW6_v1_P.D_Value_i, HW6_v1_B.DataTypeConversion4,
+      &HW6_v1_B.MeasurementUpdate_o, &HW6_v1_DW.MeasurementUpdate_o,
+      &HW6_v1_P.MeasurementUpdate_o);
+
+    /* End of Outputs for SubSystem: '<S81>/MeasurementUpdate' */
+
+    /* Sum: '<S81>/Add' incorporates:
+     *  Constant: '<S5>/B'
+     *  Product: '<S81>/B[k]*u[k]'
+     *  Reshape: '<S5>/Reshapeu'
+     */
+    rtb_Add_c = (HW6_v1_P.B_Value_h * HW6_v1_B.DataTypeConversion4 +
+                 HW6_v1_B.Bkuk_e) + HW6_v1_B.MeasurementUpdate_o.Product3;
+
+    /* Product: '<S133>/B[k]*u[k]' incorporates:
+     *  Constant: '<S6>/B'
+     *  Reshape: '<S6>/Reshapeu'
+     */
+    HW6_v1_B.Bkuk_e = HW6_v1_P.B_Value_g * HW6_v1_B.DataTypeConversion1;
+
+    /* Outputs for Enabled SubSystem: '<S133>/MeasurementUpdate' */
+    /* Constant: '<S6>/Enable' incorporates:
+     *  Constant: '<S113>/KalmanGainL'
+     *  Constant: '<S6>/C'
+     *  Constant: '<S6>/D'
+     *  Reshape: '<S6>/Reshapeu'
+     */
+    HW6_v1_MeasurementUpdate(HW6_v1_M, HW6_v1_P.Enable_Value_g,
+      HW6_v1_P.KalmanGainL_Value_j, HW6_v1_B.Reshapey_e, HW6_v1_P.C_Value_a,
+      HW6_v1_B.MemoryX_o, HW6_v1_P.D_Value_h, HW6_v1_B.DataTypeConversion1,
+      &HW6_v1_B.MeasurementUpdate_h, &HW6_v1_DW.MeasurementUpdate_h,
+      &HW6_v1_P.MeasurementUpdate_h);
+
+    /* End of Outputs for SubSystem: '<S133>/MeasurementUpdate' */
+
+    /* Sum: '<S133>/Add' incorporates:
+     *  Constant: '<S6>/A'
+     *  Product: '<S133>/A[k]*xhat[k|k-1]'
+     */
+    rtb_Add_h = (HW6_v1_P.A_Value_m * HW6_v1_B.MemoryX_o + HW6_v1_B.Bkuk_e) +
+      HW6_v1_B.MeasurementUpdate_h.Product3;
+
+    /* Product: '<S29>/B[k]*u[k]' incorporates:
+     *  Constant: '<S4>/B'
+     *  Reshape: '<S4>/Reshapeu'
+     */
+    HW6_v1_B.Bkuk_e = HW6_v1_P.B_Value_o * HW6_v1_B.DataTypeConversion3;
+
+    /* Outputs for Enabled SubSystem: '<S29>/MeasurementUpdate' */
+    /* Constant: '<S4>/Enable' incorporates:
+     *  Constant: '<S4>/C'
+     *  Constant: '<S4>/D'
+     *  Constant: '<S9>/KalmanGainL'
+     *  Reshape: '<S4>/Reshapeu'
+     */
+    HW6_v1_MeasurementUpdate(HW6_v1_M, HW6_v1_P.Enable_Value_i,
+      HW6_v1_P.KalmanGainL_Value_m, rtb_Reshapey_p, HW6_v1_P.C_Value_ag,
+      rtb_MemoryX_c, HW6_v1_P.D_Value_a, HW6_v1_B.DataTypeConversion3,
+      &HW6_v1_B.MeasurementUpdate, &HW6_v1_DW.MeasurementUpdate,
+      &HW6_v1_P.MeasurementUpdate);
+
+    /* End of Outputs for SubSystem: '<S29>/MeasurementUpdate' */
+
+    /* Sum: '<S29>/Add' incorporates:
+     *  Constant: '<S4>/A'
+     *  Product: '<S29>/A[k]*xhat[k|k-1]'
+     */
+    rtb_Add_cc = (HW6_v1_P.A_Value_e * rtb_MemoryX_c + HW6_v1_B.Bkuk_e) +
+      HW6_v1_B.MeasurementUpdate.Product3;
+
+    /* Product: '<S185>/B[k]*u[k]' incorporates:
+     *  Constant: '<S7>/B'
+     *  Reshape: '<S7>/Reshapeu'
+     */
+    HW6_v1_B.Bkuk_e = HW6_v1_P.B_Value_p * HW6_v1_B.DataTypeConversion2;
+
+    /* Outputs for Enabled SubSystem: '<S185>/MeasurementUpdate' */
+    /* Constant: '<S7>/Enable' incorporates:
+     *  Constant: '<S165>/KalmanGainL'
+     *  Constant: '<S7>/C'
+     *  Constant: '<S7>/D'
+     *  Reshape: '<S7>/Reshapeu'
+     */
+    HW6_v1_MeasurementUpdate(HW6_v1_M, HW6_v1_P.Enable_Value_m,
+      HW6_v1_P.KalmanGainL_Value_g, HW6_v1_B.Reshapey_o, HW6_v1_P.C_Value_d,
+      HW6_v1_B.MemoryX_j, HW6_v1_P.D_Value_e, HW6_v1_B.DataTypeConversion2,
+      &HW6_v1_B.MeasurementUpdate_f, &HW6_v1_DW.MeasurementUpdate_f,
+      &HW6_v1_P.MeasurementUpdate_f);
+
+    /* End of Outputs for SubSystem: '<S185>/MeasurementUpdate' */
+
+    /* Sum: '<S185>/Add' incorporates:
+     *  Constant: '<S7>/A'
+     *  Product: '<S185>/A[k]*xhat[k|k-1]'
+     */
+    rtb_Add_ck = (HW6_v1_P.A_Value_mn * HW6_v1_B.MemoryX_j + HW6_v1_B.Bkuk_e) +
+      HW6_v1_B.MeasurementUpdate_f.Product3;
   }
 
   /* Integrator: '<S1>/Integrator' */
@@ -826,204 +878,32 @@ void HW6_v1_step(void)
   /* Integrator: '<S1>/Integrator4' */
   HW6_v1_B.Integrator4 = HW6_v1_X.Integrator4_CSTATE;
   if (rtmIsMajorTimeStep(HW6_v1_M)) {
-    /* Product: '<S32>/A[k]*xhat[k|k-1]' incorporates:
-     *  Constant: '<S4>/A'
-     */
-    HW6_v1_B.Dkuk = HW6_v1_P.A_Value * rtb_MemoryX_m;
-
-    /* Outputs for Enabled SubSystem: '<S32>/MeasurementUpdate' */
-    /* Constant: '<S4>/Enable' incorporates:
-     *  Constant: '<S12>/KalmanGainL'
-     *  Constant: '<S4>/C'
-     *  Constant: '<S4>/D'
-     */
-    HW6_v1_MeasurementUpdate(HW6_v1_M, HW6_v1_P.Enable_Value_i,
-      HW6_v1_P.KalmanGainL_Value, HW6_v1_B.Sum, HW6_v1_P.C_Value_h,
-      rtb_MemoryX_m, HW6_v1_P.D_Value, HW6_v1_B.DataTypeConversion3,
-      &HW6_v1_B.MeasurementUpdate, &HW6_v1_DW.MeasurementUpdate,
-      &HW6_v1_P.MeasurementUpdate);
-
-    /* End of Outputs for SubSystem: '<S32>/MeasurementUpdate' */
-
-    /* Sum: '<S32>/Add' incorporates:
-     *  Constant: '<S4>/B'
-     *  Product: '<S32>/B[k]*u[k]'
-     */
-    rtb_Add = (HW6_v1_P.B_Value * HW6_v1_B.DataTypeConversion3 + HW6_v1_B.Dkuk)
-      + HW6_v1_B.MeasurementUpdate.Product3;
-
-    /* Product: '<S84>/B[k]*u[k]' incorporates:
-     *  Constant: '<S5>/B'
-     */
-    HW6_v1_B.Dkuk = HW6_v1_P.B_Value_l * HW6_v1_B.DataTypeConversion4;
-
-    /* Outputs for Enabled SubSystem: '<S84>/MeasurementUpdate' */
-    /* Constant: '<S5>/Enable' incorporates:
-     *  Constant: '<S5>/C'
-     *  Constant: '<S5>/D'
-     *  Constant: '<S64>/KalmanGainL'
-     */
-    HW6_v1_MeasurementUpdate(HW6_v1_M, HW6_v1_P.Enable_Value_gd,
-      HW6_v1_P.KalmanGainL_Value_o, HW6_v1_B.SquareRoot, HW6_v1_P.C_Value_b,
-      rtb_MemoryX_i, HW6_v1_P.D_Value_i, HW6_v1_B.DataTypeConversion4,
-      &HW6_v1_B.MeasurementUpdate_c, &HW6_v1_DW.MeasurementUpdate_c,
-      &HW6_v1_P.MeasurementUpdate_c);
-
-    /* End of Outputs for SubSystem: '<S84>/MeasurementUpdate' */
-
-    /* Sum: '<S84>/Add' incorporates:
-     *  Constant: '<S5>/A'
-     *  Product: '<S84>/A[k]*xhat[k|k-1]'
-     */
-    rtb_Add_l = (HW6_v1_P.A_Value_c * rtb_MemoryX_i + HW6_v1_B.Dkuk) +
-      HW6_v1_B.MeasurementUpdate_c.Product3;
-
-    /* Product: '<S136>/B[k]*u[k]' incorporates:
-     *  Constant: '<S7>/B'
-     *  Reshape: '<S7>/Reshapeu'
-     */
-    HW6_v1_B.Dkuk = HW6_v1_P.B_Value_g * HW6_v1_B.DataTypeConversion1;
-
-    /* Outputs for Enabled SubSystem: '<S136>/MeasurementUpdate' */
-    /* Constant: '<S7>/Enable' incorporates:
-     *  Constant: '<S116>/KalmanGainL'
-     *  Constant: '<S7>/C'
-     *  Constant: '<S7>/D'
-     *  Reshape: '<S7>/Reshapeu'
-     */
-    HW6_v1_MeasurementUpdate(HW6_v1_M, HW6_v1_P.Enable_Value_g,
-      HW6_v1_P.KalmanGainL_Value_j, HW6_v1_B.Reshapey_e, HW6_v1_P.C_Value_a,
-      HW6_v1_B.MemoryX_o, HW6_v1_P.D_Value_h, HW6_v1_B.DataTypeConversion1,
-      &HW6_v1_B.MeasurementUpdate_h, &HW6_v1_DW.MeasurementUpdate_h,
-      &HW6_v1_P.MeasurementUpdate_h);
-
-    /* End of Outputs for SubSystem: '<S136>/MeasurementUpdate' */
-
-    /* Sum: '<S136>/Add' incorporates:
-     *  Constant: '<S7>/A'
-     *  Product: '<S136>/A[k]*xhat[k|k-1]'
-     */
-    rtb_Add_h = (HW6_v1_P.A_Value_m * HW6_v1_B.MemoryX_o + HW6_v1_B.Dkuk) +
-      HW6_v1_B.MeasurementUpdate_h.Product3;
-
-    /* Product: '<S188>/B[k]*u[k]' incorporates:
-     *  Constant: '<S8>/B'
-     *  Reshape: '<S8>/Reshapeu'
-     */
-    HW6_v1_B.Dkuk = HW6_v1_P.B_Value_p * HW6_v1_B.DataTypeConversion2;
-
-    /* Outputs for Enabled SubSystem: '<S188>/MeasurementUpdate' */
-    /* Constant: '<S8>/Enable' incorporates:
-     *  Constant: '<S168>/KalmanGainL'
-     *  Constant: '<S8>/C'
-     *  Constant: '<S8>/D'
-     *  Reshape: '<S8>/Reshapeu'
-     */
-    HW6_v1_MeasurementUpdate(HW6_v1_M, HW6_v1_P.Enable_Value_m,
-      HW6_v1_P.KalmanGainL_Value_g, rtb_Reshapey_o, HW6_v1_P.C_Value_d,
-      rtb_MemoryX_j, HW6_v1_P.D_Value_e, HW6_v1_B.DataTypeConversion2,
-      &HW6_v1_B.MeasurementUpdate_f, &HW6_v1_DW.MeasurementUpdate_f,
-      &HW6_v1_P.MeasurementUpdate_f);
-
-    /* End of Outputs for SubSystem: '<S188>/MeasurementUpdate' */
-
-    /* Sum: '<S188>/Add' incorporates:
-     *  Constant: '<S8>/A'
-     *  Product: '<S188>/A[k]*xhat[k|k-1]'
-     */
-    rtb_Add_c = (HW6_v1_P.A_Value_mn * rtb_MemoryX_j + HW6_v1_B.Dkuk) +
-      HW6_v1_B.MeasurementUpdate_f.Product3;
-
-    /* Product: '<S240>/A[k]*xhat[k|k-1]' incorporates:
-     *  Constant: '<S9>/A'
-     */
-    HW6_v1_B.Akxhatkk1[0] = 0.0;
-    HW6_v1_B.Akxhatkk1[0] += HW6_v1_P.A_Value_b[0] * HW6_v1_B.rtb_MemoryX_idx_0;
-    HW6_v1_B.Akxhatkk1[0] += HW6_v1_P.A_Value_b[2] * HW6_v1_B.rtb_MemoryX_idx_1;
-    HW6_v1_B.Akxhatkk1[1] = 0.0;
-    HW6_v1_B.Akxhatkk1[1] += HW6_v1_P.A_Value_b[1] * HW6_v1_B.rtb_MemoryX_idx_0;
-    HW6_v1_B.Akxhatkk1[1] += HW6_v1_P.A_Value_b[3] * HW6_v1_B.rtb_MemoryX_idx_1;
-
-    /* Outputs for Enabled SubSystem: '<S240>/MeasurementUpdate' incorporates:
-     *  EnablePort: '<S269>/Enable'
-     */
-    if (rtmIsMajorTimeStep(HW6_v1_M)) {
-      /* Constant: '<S9>/Enable' */
-      if (HW6_v1_P.Enable_Value) {
-        HW6_v1_DW.MeasurementUpdate_MODE = true;
-      } else {
-        if (HW6_v1_DW.MeasurementUpdate_MODE) {
-          /* Disable for Outport: '<S269>/L*(y[k]-yhat[k|k-1])' */
-          HW6_v1_B.Product3[0] = HW6_v1_P.Lykyhatkk1_Y0;
-          HW6_v1_B.Product3[1] = HW6_v1_P.Lykyhatkk1_Y0;
-          HW6_v1_DW.MeasurementUpdate_MODE = false;
-        }
-      }
-    }
-
-    if (HW6_v1_DW.MeasurementUpdate_MODE) {
-      /* Product: '<S269>/D[k]*u[k]' incorporates:
-       *  Constant: '<S9>/D'
-       *  Reshape: '<S9>/Reshapeu'
-       */
-      HW6_v1_B.Dkuk = HW6_v1_P.D_Value_d * HW6_v1_B.Sum1;
-
-      /* Sum: '<S269>/Sum' incorporates:
-       *  Constant: '<S9>/C'
-       *  Product: '<S269>/C[k]*xhat[k|k-1]'
-       *  Sum: '<S269>/Add1'
-       */
-      HW6_v1_B.Sum = HW6_v1_B.Reshapey - ((HW6_v1_P.C_Value[0] *
-        HW6_v1_B.rtb_MemoryX_idx_0 + HW6_v1_P.C_Value[1] *
-        HW6_v1_B.rtb_MemoryX_idx_1) + HW6_v1_B.Dkuk);
-
-      /* Product: '<S269>/Product3' incorporates:
-       *  Constant: '<S220>/KalmanGainL'
-       */
-      HW6_v1_B.Product3[0] = HW6_v1_P.KalmanGainL_Value_n[0] * HW6_v1_B.Sum;
-      HW6_v1_B.Product3[1] = HW6_v1_P.KalmanGainL_Value_n[1] * HW6_v1_B.Sum;
-    }
-
-    /* End of Outputs for SubSystem: '<S240>/MeasurementUpdate' */
-
-    /* Sum: '<S240>/Add' incorporates:
-     *  Constant: '<S9>/B'
-     *  Product: '<S240>/B[k]*u[k]'
-     *  Reshape: '<S9>/Reshapeu'
-     */
-    HW6_v1_B.Add_m[0] = (HW6_v1_P.B_Value_n[0] * HW6_v1_B.Sum1 +
-                         HW6_v1_B.Akxhatkk1[0]) + HW6_v1_B.Product3[0];
-    HW6_v1_B.Add_m[1] = (HW6_v1_P.B_Value_n[1] * HW6_v1_B.Sum1 +
-                         HW6_v1_B.Akxhatkk1[1]) + HW6_v1_B.Product3[1];
-  }
-
-  if (rtmIsMajorTimeStep(HW6_v1_M)) {
     /* Matfile logging */
     rt_UpdateTXYLogVars(HW6_v1_M->rtwLogInfo, (HW6_v1_M->Timing.t));
   }                                    /* end MajorTimeStep */
 
   if (rtmIsMajorTimeStep(HW6_v1_M)) {
     if (rtmIsMajorTimeStep(HW6_v1_M)) {
-      /* Update for Delay: '<S9>/MemoryX' */
+      /* Update for Delay: '<S8>/MemoryX' */
       HW6_v1_DW.icLoad = 0U;
-      HW6_v1_DW.MemoryX_DSTATE[0] = HW6_v1_B.Add_m[0];
-      HW6_v1_DW.MemoryX_DSTATE[1] = HW6_v1_B.Add_m[1];
+      HW6_v1_DW.MemoryX_DSTATE[0] = HW6_v1_B.Add[0];
+      HW6_v1_DW.MemoryX_DSTATE[1] = HW6_v1_B.Add[1];
 
-      /* Update for Delay: '<S7>/MemoryX' */
+      /* Update for Delay: '<S6>/MemoryX' */
       HW6_v1_DW.icLoad_m = 0U;
       HW6_v1_DW.MemoryX_DSTATE_l = rtb_Add_h;
 
-      /* Update for Delay: '<S8>/MemoryX' */
+      /* Update for Delay: '<S7>/MemoryX' */
       HW6_v1_DW.icLoad_l = 0U;
-      HW6_v1_DW.MemoryX_DSTATE_f = rtb_Add_c;
+      HW6_v1_DW.MemoryX_DSTATE_f = rtb_Add_ck;
 
       /* Update for Delay: '<S4>/MemoryX' */
-      HW6_v1_DW.icLoad_d = 0U;
-      HW6_v1_DW.MemoryX_DSTATE_g = rtb_Add;
+      HW6_v1_DW.icLoad_h = 0U;
+      HW6_v1_DW.MemoryX_DSTATE_j = rtb_Add_cc;
 
       /* Update for Delay: '<S5>/MemoryX' */
-      HW6_v1_DW.icLoad_e = 0U;
-      HW6_v1_DW.MemoryX_DSTATE_b = rtb_Add_l;
+      HW6_v1_DW.icLoad_l4 = 0U;
+      HW6_v1_DW.MemoryX_DSTATE_m = rtb_Add_c;
     }
   }                                    /* end MajorTimeStep */
 
@@ -1291,7 +1171,7 @@ void HW6_v1_initialize(void)
       (NULL)
     };
 
-    static const char_T *rt_ToWksLabels[] = { "z" };
+    static const char_T *rt_ToWksLabels[] = { "" };
 
     static RTWLogSignalInfo rt_ToWksSignalInfo = {
       1,
@@ -1361,7 +1241,7 @@ void HW6_v1_initialize(void)
       (NULL)
     };
 
-    static const char_T *rt_ToWksLabels[] = { "w" };
+    static const char_T *rt_ToWksLabels[] = { "" };
 
     static RTWLogSignalInfo rt_ToWksSignalInfo = {
       1,
@@ -1431,7 +1311,7 @@ void HW6_v1_initialize(void)
       (NULL)
     };
 
-    static const char_T *rt_ToWksLabels[] = { "z" };
+    static const char_T *rt_ToWksLabels[] = { "" };
 
     static RTWLogSignalInfo rt_ToWksSignalInfo = {
       1,
@@ -1501,7 +1381,7 @@ void HW6_v1_initialize(void)
       (NULL)
     };
 
-    static const char_T *rt_ToWksLabels[] = { "z" };
+    static const char_T *rt_ToWksLabels[] = { "" };
 
     static RTWLogSignalInfo rt_ToWksSignalInfo = {
       1,
@@ -1571,7 +1451,7 @@ void HW6_v1_initialize(void)
       (NULL)
     };
 
-    static const char_T *rt_ToWksLabels[] = { "z" };
+    static const char_T *rt_ToWksLabels[] = { "" };
 
     static RTWLogSignalInfo rt_ToWksSignalInfo = {
       1,
@@ -1641,7 +1521,7 @@ void HW6_v1_initialize(void)
       (NULL)
     };
 
-    static const char_T *rt_ToWksLabels[] = { "z" };
+    static const char_T *rt_ToWksLabels[] = { "" };
 
     static RTWLogSignalInfo rt_ToWksSignalInfo = {
       1,
@@ -1687,356 +1567,6 @@ void HW6_v1_initialize(void)
       return;
   }
 
-  /* SetupRuntimeResources for ToWorkspace: '<S1>/To Workspace8' */
-  {
-    static int_T rt_ToWksWidths[] = { 1 };
-
-    static int_T rt_ToWksNumDimensions[] = { 1 };
-
-    static int_T rt_ToWksDimensions[] = { 1 };
-
-    static boolean_T rt_ToWksIsVarDims[] = { 0 };
-
-    static void *rt_ToWksCurrSigDims[] = { (NULL) };
-
-    static int_T rt_ToWksCurrSigDimsSize[] = { 4 };
-
-    static BuiltInDTypeId rt_ToWksDataTypeIds[] = { SS_DOUBLE };
-
-    static int_T rt_ToWksComplexSignals[] = { 0 };
-
-    static int_T rt_ToWksFrameData[] = { 0 };
-
-    static RTWPreprocessingFcnPtr rt_ToWksLoggingPreprocessingFcnPtrs[] = {
-      (NULL)
-    };
-
-    static const char_T *rt_ToWksLabels[] = { "" };
-
-    static RTWLogSignalInfo rt_ToWksSignalInfo = {
-      1,
-      rt_ToWksWidths,
-      rt_ToWksNumDimensions,
-      rt_ToWksDimensions,
-      rt_ToWksIsVarDims,
-      rt_ToWksCurrSigDims,
-      rt_ToWksCurrSigDimsSize,
-      rt_ToWksDataTypeIds,
-      rt_ToWksComplexSignals,
-      rt_ToWksFrameData,
-      rt_ToWksLoggingPreprocessingFcnPtrs,
-
-      { rt_ToWksLabels },
-      (NULL),
-      (NULL),
-      (NULL),
-
-      { (NULL) },
-
-      { (NULL) },
-      (NULL),
-      (NULL)
-    };
-
-    static const char_T rt_ToWksBlockName[] =
-      "HW6_v1/Flight_Control_System/To Workspace8";
-    HW6_v1_DW.ToWorkspace8_PWORK.LoggedData = rt_CreateStructLogVar(
-      HW6_v1_M->rtwLogInfo,
-      0.0,
-      rtmGetTFinal(HW6_v1_M),
-      HW6_v1_M->Timing.stepSize0,
-      (&rtmGetErrorStatus(HW6_v1_M)),
-      "possiblezero1",
-      1,
-      0,
-      1,
-      0.005,
-      &rt_ToWksSignalInfo,
-      rt_ToWksBlockName);
-    if (HW6_v1_DW.ToWorkspace8_PWORK.LoggedData == (NULL))
-      return;
-  }
-
-  /* SetupRuntimeResources for ToWorkspace: '<S2>/To Workspace1' */
-  {
-    static int_T rt_ToWksWidths[] = { 1 };
-
-    static int_T rt_ToWksNumDimensions[] = { 1 };
-
-    static int_T rt_ToWksDimensions[] = { 1 };
-
-    static boolean_T rt_ToWksIsVarDims[] = { 0 };
-
-    static void *rt_ToWksCurrSigDims[] = { (NULL) };
-
-    static int_T rt_ToWksCurrSigDimsSize[] = { 4 };
-
-    static BuiltInDTypeId rt_ToWksDataTypeIds[] = { SS_DOUBLE };
-
-    static int_T rt_ToWksComplexSignals[] = { 0 };
-
-    static int_T rt_ToWksFrameData[] = { 0 };
-
-    static RTWPreprocessingFcnPtr rt_ToWksLoggingPreprocessingFcnPtrs[] = {
-      (NULL)
-    };
-
-    static const char_T *rt_ToWksLabels[] = { "" };
-
-    static RTWLogSignalInfo rt_ToWksSignalInfo = {
-      1,
-      rt_ToWksWidths,
-      rt_ToWksNumDimensions,
-      rt_ToWksDimensions,
-      rt_ToWksIsVarDims,
-      rt_ToWksCurrSigDims,
-      rt_ToWksCurrSigDimsSize,
-      rt_ToWksDataTypeIds,
-      rt_ToWksComplexSignals,
-      rt_ToWksFrameData,
-      rt_ToWksLoggingPreprocessingFcnPtrs,
-
-      { rt_ToWksLabels },
-      (NULL),
-      (NULL),
-      (NULL),
-
-      { (NULL) },
-
-      { (NULL) },
-      (NULL),
-      (NULL)
-    };
-
-    static const char_T rt_ToWksBlockName[] =
-      "HW6_v1/Flight_Control_System/Check if near zero/To Workspace1";
-    HW6_v1_DW.ToWorkspace1_PWORK_j.LoggedData = rt_CreateStructLogVar(
-      HW6_v1_M->rtwLogInfo,
-      0.0,
-      rtmGetTFinal(HW6_v1_M),
-      HW6_v1_M->Timing.stepSize0,
-      (&rtmGetErrorStatus(HW6_v1_M)),
-      "checksign",
-      1,
-      0,
-      1,
-      0.005,
-      &rt_ToWksSignalInfo,
-      rt_ToWksBlockName);
-    if (HW6_v1_DW.ToWorkspace1_PWORK_j.LoggedData == (NULL))
-      return;
-  }
-
-  /* SetupRuntimeResources for ToWorkspace: '<S2>/To Workspace2' */
-  {
-    static int_T rt_ToWksWidths[] = { 1 };
-
-    static int_T rt_ToWksNumDimensions[] = { 1 };
-
-    static int_T rt_ToWksDimensions[] = { 1 };
-
-    static boolean_T rt_ToWksIsVarDims[] = { 0 };
-
-    static void *rt_ToWksCurrSigDims[] = { (NULL) };
-
-    static int_T rt_ToWksCurrSigDimsSize[] = { 4 };
-
-    static BuiltInDTypeId rt_ToWksDataTypeIds[] = { SS_DOUBLE };
-
-    static int_T rt_ToWksComplexSignals[] = { 0 };
-
-    static int_T rt_ToWksFrameData[] = { 0 };
-
-    static RTWPreprocessingFcnPtr rt_ToWksLoggingPreprocessingFcnPtrs[] = {
-      (NULL)
-    };
-
-    static const char_T *rt_ToWksLabels[] = { "a_z" };
-
-    static RTWLogSignalInfo rt_ToWksSignalInfo = {
-      1,
-      rt_ToWksWidths,
-      rt_ToWksNumDimensions,
-      rt_ToWksDimensions,
-      rt_ToWksIsVarDims,
-      rt_ToWksCurrSigDims,
-      rt_ToWksCurrSigDimsSize,
-      rt_ToWksDataTypeIds,
-      rt_ToWksComplexSignals,
-      rt_ToWksFrameData,
-      rt_ToWksLoggingPreprocessingFcnPtrs,
-
-      { rt_ToWksLabels },
-      (NULL),
-      (NULL),
-      (NULL),
-
-      { (NULL) },
-
-      { (NULL) },
-      (NULL),
-      (NULL)
-    };
-
-    static const char_T rt_ToWksBlockName[] =
-      "HW6_v1/Flight_Control_System/Check if near zero/To Workspace2";
-    HW6_v1_DW.ToWorkspace2_PWORK_n.LoggedData = rt_CreateStructLogVar(
-      HW6_v1_M->rtwLogInfo,
-      0.0,
-      rtmGetTFinal(HW6_v1_M),
-      HW6_v1_M->Timing.stepSize0,
-      (&rtmGetErrorStatus(HW6_v1_M)),
-      "booleanoutput1",
-      1,
-      0,
-      1,
-      0.005,
-      &rt_ToWksSignalInfo,
-      rt_ToWksBlockName);
-    if (HW6_v1_DW.ToWorkspace2_PWORK_n.LoggedData == (NULL))
-      return;
-  }
-
-  /* SetupRuntimeResources for ToWorkspace: '<S2>/To Workspace8' */
-  {
-    static int_T rt_ToWksWidths[] = { 1 };
-
-    static int_T rt_ToWksNumDimensions[] = { 1 };
-
-    static int_T rt_ToWksDimensions[] = { 1 };
-
-    static boolean_T rt_ToWksIsVarDims[] = { 0 };
-
-    static void *rt_ToWksCurrSigDims[] = { (NULL) };
-
-    static int_T rt_ToWksCurrSigDimsSize[] = { 4 };
-
-    static BuiltInDTypeId rt_ToWksDataTypeIds[] = { SS_BOOLEAN };
-
-    static int_T rt_ToWksComplexSignals[] = { 0 };
-
-    static int_T rt_ToWksFrameData[] = { 0 };
-
-    static RTWPreprocessingFcnPtr rt_ToWksLoggingPreprocessingFcnPtrs[] = {
-      (NULL)
-    };
-
-    static const char_T *rt_ToWksLabels[] = { "" };
-
-    static RTWLogSignalInfo rt_ToWksSignalInfo = {
-      1,
-      rt_ToWksWidths,
-      rt_ToWksNumDimensions,
-      rt_ToWksDimensions,
-      rt_ToWksIsVarDims,
-      rt_ToWksCurrSigDims,
-      rt_ToWksCurrSigDimsSize,
-      rt_ToWksDataTypeIds,
-      rt_ToWksComplexSignals,
-      rt_ToWksFrameData,
-      rt_ToWksLoggingPreprocessingFcnPtrs,
-
-      { rt_ToWksLabels },
-      (NULL),
-      (NULL),
-      (NULL),
-
-      { (NULL) },
-
-      { (NULL) },
-      (NULL),
-      (NULL)
-    };
-
-    static const char_T rt_ToWksBlockName[] =
-      "HW6_v1/Flight_Control_System/Check if near zero/To Workspace8";
-    HW6_v1_DW.ToWorkspace8_PWORK_a.LoggedData = rt_CreateStructLogVar(
-      HW6_v1_M->rtwLogInfo,
-      0.0,
-      rtmGetTFinal(HW6_v1_M),
-      HW6_v1_M->Timing.stepSize0,
-      (&rtmGetErrorStatus(HW6_v1_M)),
-      "booleanoutput",
-      1,
-      0,
-      1,
-      0.005,
-      &rt_ToWksSignalInfo,
-      rt_ToWksBlockName);
-    if (HW6_v1_DW.ToWorkspace8_PWORK_a.LoggedData == (NULL))
-      return;
-  }
-
-  /* SetupRuntimeResources for ToWorkspace: '<S3>/To Workspace' */
-  {
-    static int_T rt_ToWksWidths[] = { 1 };
-
-    static int_T rt_ToWksNumDimensions[] = { 1 };
-
-    static int_T rt_ToWksDimensions[] = { 1 };
-
-    static boolean_T rt_ToWksIsVarDims[] = { 0 };
-
-    static void *rt_ToWksCurrSigDims[] = { (NULL) };
-
-    static int_T rt_ToWksCurrSigDimsSize[] = { 4 };
-
-    static BuiltInDTypeId rt_ToWksDataTypeIds[] = { SS_DOUBLE };
-
-    static int_T rt_ToWksComplexSignals[] = { 0 };
-
-    static int_T rt_ToWksFrameData[] = { 0 };
-
-    static RTWPreprocessingFcnPtr rt_ToWksLoggingPreprocessingFcnPtrs[] = {
-      (NULL)
-    };
-
-    static const char_T *rt_ToWksLabels[] = { "a_z" };
-
-    static RTWLogSignalInfo rt_ToWksSignalInfo = {
-      1,
-      rt_ToWksWidths,
-      rt_ToWksNumDimensions,
-      rt_ToWksDimensions,
-      rt_ToWksIsVarDims,
-      rt_ToWksCurrSigDims,
-      rt_ToWksCurrSigDimsSize,
-      rt_ToWksDataTypeIds,
-      rt_ToWksComplexSignals,
-      rt_ToWksFrameData,
-      rt_ToWksLoggingPreprocessingFcnPtrs,
-
-      { rt_ToWksLabels },
-      (NULL),
-      (NULL),
-      (NULL),
-
-      { (NULL) },
-
-      { (NULL) },
-      (NULL),
-      (NULL)
-    };
-
-    static const char_T rt_ToWksBlockName[] =
-      "HW6_v1/Flight_Control_System/Check if near zero1/To Workspace";
-    HW6_v1_DW.ToWorkspace_PWORK.LoggedData = rt_CreateStructLogVar(
-      HW6_v1_M->rtwLogInfo,
-      0.0,
-      rtmGetTFinal(HW6_v1_M),
-      HW6_v1_M->Timing.stepSize0,
-      (&rtmGetErrorStatus(HW6_v1_M)),
-      "possiblezero2",
-      1,
-      0,
-      1,
-      0.005,
-      &rt_ToWksSignalInfo,
-      rt_ToWksBlockName);
-    if (HW6_v1_DW.ToWorkspace_PWORK.LoggedData == (NULL))
-      return;
-  }
-
   /* InitializeConditions for Integrator: '<S1>/Integrator11' */
   HW6_v1_X.Integrator11_CSTATE = HW6_v1_P.Integrator11_IC;
 
@@ -2058,20 +1588,20 @@ void HW6_v1_initialize(void)
   /* InitializeConditions for Integrator: '<S1>/Integrator3' */
   HW6_v1_X.Integrator3_CSTATE = HW6_v1_P.Integrator3_IC;
 
-  /* InitializeConditions for Delay: '<S9>/MemoryX' */
+  /* InitializeConditions for Delay: '<S8>/MemoryX' */
   HW6_v1_DW.icLoad = 1U;
 
-  /* InitializeConditions for Delay: '<S7>/MemoryX' */
+  /* InitializeConditions for Delay: '<S6>/MemoryX' */
   HW6_v1_DW.icLoad_m = 1U;
 
-  /* InitializeConditions for Delay: '<S8>/MemoryX' */
+  /* InitializeConditions for Delay: '<S7>/MemoryX' */
   HW6_v1_DW.icLoad_l = 1U;
 
   /* InitializeConditions for Delay: '<S4>/MemoryX' */
-  HW6_v1_DW.icLoad_d = 1U;
+  HW6_v1_DW.icLoad_h = 1U;
 
   /* InitializeConditions for Delay: '<S5>/MemoryX' */
-  HW6_v1_DW.icLoad_e = 1U;
+  HW6_v1_DW.icLoad_l4 = 1U;
 
   /* InitializeConditions for Integrator: '<S1>/Integrator' */
   HW6_v1_X.Integrator_CSTATE = HW6_v1_P.Integrator_IC;
@@ -2082,67 +1612,67 @@ void HW6_v1_initialize(void)
   /* InitializeConditions for Integrator: '<S1>/Integrator4' */
   HW6_v1_X.Integrator4_CSTATE = HW6_v1_P.Integrator4_IC;
 
-  /* SystemInitialize for Enabled SubSystem: '<S247>/Enabled Subsystem' */
-  /* SystemInitialize for Outport: '<S271>/deltax' */
+  /* SystemInitialize for Enabled SubSystem: '<S244>/Enabled Subsystem' */
+  /* SystemInitialize for Outport: '<S268>/deltax' */
   HW6_v1_B.Product2[0] = HW6_v1_P.deltax_Y0;
   HW6_v1_B.Product2[1] = HW6_v1_P.deltax_Y0;
 
-  /* End of SystemInitialize for SubSystem: '<S247>/Enabled Subsystem' */
+  /* End of SystemInitialize for SubSystem: '<S244>/Enabled Subsystem' */
 
-  /* SystemInitialize for Enabled SubSystem: '<S143>/Enabled Subsystem' */
+  /* SystemInitialize for Enabled SubSystem: '<S140>/Enabled Subsystem' */
   HW6_v1_EnabledSubsystem_Init(&HW6_v1_B.EnabledSubsystem_d,
     &HW6_v1_P.EnabledSubsystem_d);
 
-  /* End of SystemInitialize for SubSystem: '<S143>/Enabled Subsystem' */
+  /* End of SystemInitialize for SubSystem: '<S140>/Enabled Subsystem' */
 
-  /* SystemInitialize for Enabled SubSystem: '<S195>/Enabled Subsystem' */
-  HW6_v1_EnabledSubsystem_Init(&HW6_v1_B.EnabledSubsystem_f0,
-    &HW6_v1_P.EnabledSubsystem_f0);
-
-  /* End of SystemInitialize for SubSystem: '<S195>/Enabled Subsystem' */
-
-  /* SystemInitialize for Enabled SubSystem: '<S39>/Enabled Subsystem' */
-  HW6_v1_EnabledSubsystem_Init(&HW6_v1_B.EnabledSubsystem,
-    &HW6_v1_P.EnabledSubsystem);
-
-  /* End of SystemInitialize for SubSystem: '<S39>/Enabled Subsystem' */
-
-  /* SystemInitialize for Enabled SubSystem: '<S91>/Enabled Subsystem' */
+  /* SystemInitialize for Enabled SubSystem: '<S192>/Enabled Subsystem' */
   HW6_v1_EnabledSubsystem_Init(&HW6_v1_B.EnabledSubsystem_f,
     &HW6_v1_P.EnabledSubsystem_f);
 
-  /* End of SystemInitialize for SubSystem: '<S91>/Enabled Subsystem' */
+  /* End of SystemInitialize for SubSystem: '<S192>/Enabled Subsystem' */
 
-  /* SystemInitialize for Enabled SubSystem: '<S32>/MeasurementUpdate' */
-  HW6_v1_MeasurementUpdate_Init(&HW6_v1_B.MeasurementUpdate,
-    &HW6_v1_P.MeasurementUpdate);
+  /* SystemInitialize for Enabled SubSystem: '<S36>/Enabled Subsystem' */
+  HW6_v1_EnabledSubsystem_Init(&HW6_v1_B.EnabledSubsystem,
+    &HW6_v1_P.EnabledSubsystem);
 
-  /* End of SystemInitialize for SubSystem: '<S32>/MeasurementUpdate' */
+  /* End of SystemInitialize for SubSystem: '<S36>/Enabled Subsystem' */
 
-  /* SystemInitialize for Enabled SubSystem: '<S84>/MeasurementUpdate' */
-  HW6_v1_MeasurementUpdate_Init(&HW6_v1_B.MeasurementUpdate_c,
-    &HW6_v1_P.MeasurementUpdate_c);
+  /* SystemInitialize for Enabled SubSystem: '<S88>/Enabled Subsystem' */
+  HW6_v1_EnabledSubsystem_Init(&HW6_v1_B.EnabledSubsystem_e,
+    &HW6_v1_P.EnabledSubsystem_e);
 
-  /* End of SystemInitialize for SubSystem: '<S84>/MeasurementUpdate' */
+  /* End of SystemInitialize for SubSystem: '<S88>/Enabled Subsystem' */
 
-  /* SystemInitialize for Enabled SubSystem: '<S136>/MeasurementUpdate' */
-  HW6_v1_MeasurementUpdate_Init(&HW6_v1_B.MeasurementUpdate_h,
-    &HW6_v1_P.MeasurementUpdate_h);
-
-  /* End of SystemInitialize for SubSystem: '<S136>/MeasurementUpdate' */
-
-  /* SystemInitialize for Enabled SubSystem: '<S188>/MeasurementUpdate' */
-  HW6_v1_MeasurementUpdate_Init(&HW6_v1_B.MeasurementUpdate_f,
-    &HW6_v1_P.MeasurementUpdate_f);
-
-  /* End of SystemInitialize for SubSystem: '<S188>/MeasurementUpdate' */
-
-  /* SystemInitialize for Enabled SubSystem: '<S240>/MeasurementUpdate' */
-  /* SystemInitialize for Outport: '<S269>/L*(y[k]-yhat[k|k-1])' */
+  /* SystemInitialize for Enabled SubSystem: '<S237>/MeasurementUpdate' */
+  /* SystemInitialize for Outport: '<S266>/L*(y[k]-yhat[k|k-1])' */
   HW6_v1_B.Product3[0] = HW6_v1_P.Lykyhatkk1_Y0;
   HW6_v1_B.Product3[1] = HW6_v1_P.Lykyhatkk1_Y0;
 
-  /* End of SystemInitialize for SubSystem: '<S240>/MeasurementUpdate' */
+  /* End of SystemInitialize for SubSystem: '<S237>/MeasurementUpdate' */
+
+  /* SystemInitialize for Enabled SubSystem: '<S81>/MeasurementUpdate' */
+  HW6_v1_MeasurementUpdate_Init(&HW6_v1_B.MeasurementUpdate_o,
+    &HW6_v1_P.MeasurementUpdate_o);
+
+  /* End of SystemInitialize for SubSystem: '<S81>/MeasurementUpdate' */
+
+  /* SystemInitialize for Enabled SubSystem: '<S133>/MeasurementUpdate' */
+  HW6_v1_MeasurementUpdate_Init(&HW6_v1_B.MeasurementUpdate_h,
+    &HW6_v1_P.MeasurementUpdate_h);
+
+  /* End of SystemInitialize for SubSystem: '<S133>/MeasurementUpdate' */
+
+  /* SystemInitialize for Enabled SubSystem: '<S29>/MeasurementUpdate' */
+  HW6_v1_MeasurementUpdate_Init(&HW6_v1_B.MeasurementUpdate,
+    &HW6_v1_P.MeasurementUpdate);
+
+  /* End of SystemInitialize for SubSystem: '<S29>/MeasurementUpdate' */
+
+  /* SystemInitialize for Enabled SubSystem: '<S185>/MeasurementUpdate' */
+  HW6_v1_MeasurementUpdate_Init(&HW6_v1_B.MeasurementUpdate_f,
+    &HW6_v1_P.MeasurementUpdate_f);
+
+  /* End of SystemInitialize for SubSystem: '<S185>/MeasurementUpdate' */
 }
 
 /* Model terminate function */

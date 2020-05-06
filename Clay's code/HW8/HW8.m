@@ -9,9 +9,22 @@ M_inv = inv(M_motor); %used to go from n1,...,n4 to TEAR
 
 %% (1)
 % Load in data
+
 load('systemID_data_zip\bang_bang_T\state_est_dataT.mat')
 load('systemID_data_zip\bang_bang_T\motor_speed_dataT.mat')
 load('systemID_data_zip\bang_bang_T\sensor_dataT.mat')
+
+% load('systemID_data_zip\bang_bang_E\state_est_dataE.mat')
+% load('systemID_data_zip\bang_bang_E\motor_speed_dataE.mat')
+% load('systemID_data_zip\bang_bang_E\sensor_dataE.mat')
+
+% load('systemID_data_zip\bang_bang_A\state_est_dataA.mat')
+% load('systemID_data_zip\bang_bang_A\motor_speed_dataA.mat')
+% load('systemID_data_zip\bang_bang_A\sensor_dataA.mat')
+
+% load('systemID_data_zip\bang_bang_R\state_est_dataR.mat')
+% load('systemID_data_zip\bang_bang_R\motor_speed_dataR.mat')
+% load('systemID_data_zip\bang_bang_R\sensor_dataR.mat')
 
 % Constants
 matrixsize = size(state_est_data);
@@ -46,28 +59,21 @@ az = sensor_data(:,3);
 az_corrected = detrend(az);
 
 % Throttle (z, w)
-w_i = w_corrected(bangbang_start:bangbang_end-1-delay);
-%w_iplus1 = w_corrected(bangbang_start+1+delay:bangbang_end);
-az_i = az_corrected(bangbang_start:bangbang_end-1-delay);
-T_i = T_corrected(bangbang_start+delay:bangbang_end-1);
-
-%[1+2:4]
-%[3:6-2]
+w_i = w_corrected(bangbang_start+delay:bangbang_end-1);
+w_iplus1 = w_corrected(bangbang_start+1+delay:bangbang_end);
+az_i = az_corrected(bangbang_start+delay:bangbang_end-1);
+T_i = T_corrected(bangbang_start:bangbang_end-1-delay);
 
 Phi_T= [w_i T_i]; % could also use sensor_state_dataT
 Phi_T_inv = pinv(Phi_T);
 
-% bc_T = Phi_T_inv*(w_iplus1 - w_i)/dT;
-bc_T = Phi_T_inv*az_i;
-b_T = bc_T(1); % 1.7261
-c_T = bc_T(2); % -0.0381
+anotherc = pinv(T_i)*w_i;
+bc_T = Phi_T_inv*(w_iplus1 - w_i)/dT;
+% bc_T = Phi_T_inv*az_i;
+b_T = bc_T(1); % 0.4972
+c_T = bc_T(2); % -0.0411
 
 % Elevator (theta, q)
-
-% Load in data
-load('systemID_data_zip\bang_bang_E\state_est_dataE.mat')
-load('systemID_data_zip\bang_bang_E\motor_speed_dataE.mat')
-load('systemID_data_zip\bang_bang_E\sensor_dataE.mat')
 q = state_est_data(:,12);
 q_corrected = detrend(q);
 E = TEAR(:,2);
@@ -96,31 +102,32 @@ b_A = bc_A(1);
 c_A = bc_A(2);
 
 % Rudder (psi, r)
-r_i = state_est_data(1:datasize-1,13);
-r_iplus1 = state_est_data(2:datasize,13);
-R_i = TEAR(1:datasize-1,4);
-Phi_R= [r_i R_i]; % could also use sensor_state_dataT
+r = state_est_data(:,13);
+r_corrected = detrend(r);
+R = TEAR(:,4);
+
+r_i = r_corrected(bangbang_start+delay:bangbang_end-1);
+r_iplus1 = r_corrected(bangbang_start+1+delay:bangbang_end);
+R_i = R(bangbang_start:bangbang_end-1-delay);
+Phi_R= [r_i R_i];
 Phi_R_inv = pinv(Phi_R);
 bc_R = Phi_R_inv*(r_iplus1 - r_i)/dT;
-b_R = bc_R(1); % -0.4500
-c_R = bc_R(2); % 2.7482
+b_R = bc_R(1);
+c_R = bc_R(2);
 
 % figures
 
-%figure
-%plot(time, w, time, w_corrected);
-%legend('w', 'w detrended');
+% figure
+% plot(time, w, time, w_corrected);
+% legend('w', 'w detrended');
 
 %figure
 %plot(T_corrected);
 
 % figure
-% plotyy(sampletime, T_corrected, sampletime, w_corrected);
-% legend('Throttle', 'w');
-% 
+% plotyy((1:191), T_i,(1:191), w_i);
 % figure
-% plotyy(sampletime, T_corrected, sampletime, az_corrected);
-% legend('Throttle', 'az');
+% plotyy((1:191), T_i, (1:191), az_i);
 
 %% (2) Finding motor transfer function
 % load('log_chirp_data\log_chirp_50Hz.mat')
